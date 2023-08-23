@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-@use "./variable" as v;
+@use "variable" as v;
 
 html {
   font-size: 62.5%;
@@ -10,11 +10,16 @@ img {
 }
 body {
   font-family: v.$fontNoto;
-  letter-spacing: 0.1em;
-  color: #333;
+  color: v.$mainColor;
+  position: relative;
 }
 .inner {
-  max-width: 1280px;
+  max-width: 1260px;
   margin: 0 auto;
-  padding: 0 4%;
+  padding: 0 50px;
+}
+.sec-ttl {
+  font-family: v.$fontUnbounded;
+  font-size: 60px;
+  text-align: center;
 }

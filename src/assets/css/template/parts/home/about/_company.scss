@@ -1,0 +1,33 @@
+@use "../../../../base/variable" as v;
+
+.company {
+  margin: 75px 0 0;
+  &-lead {
+    margin: 23px 0 0;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #2e2e2e;
+  }
+  .history {
+    margin: 50px 0 0;
+    padding: 100px 17px 64.8px 0;
+    background: #e9e9e9;
+    &__ttl {
+      margin: 0 0 0 60px;
+      font-weight: 700;
+      font-size: 4rem;
+      line-height: 2;
+      color: #000;
+      &-accent {
+        color: v.$accentColor;
+      }
+      &-strong {
+        padding: 0 5px;
+        font-weight: 900;
+        font-size: 6.6rem;
+        line-height: 1.21;
+      }
+    }
+  }
+}

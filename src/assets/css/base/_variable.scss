@@ -4,8 +4,10 @@ $lg: 992px;
 $xl: 1200px;
 $xxl: 1440px;
 $fontNoto: "Noto Sans JP", sans-serif;
-$fontOswald: "Oswald", sans-serif;
-$accentColor: #23afb7;
+$fontArial: "Arial Black", sans-serif;
+$fontUnbounded: "Unbounded", cursive;
+$mainColor: #2a3f51;
+$accentColor: #38b8ef;
 // 1440px以下
 @mixin xxl {
   @media (max-width: ($xxl)) {

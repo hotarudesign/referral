@@ -3,7 +3,7 @@ function add_link_files()
 {
 
     // CSSの読み込み
-    wp_enqueue_style('base', get_stylesheet_directory_uri() . '/assets/css/base/reset.css');
+    wp_enqueue_style('reset', get_stylesheet_directory_uri() . '/assets/css/base/reset.css');
     wp_enqueue_style('base', get_stylesheet_directory_uri() . '/assets/css/base/base.css');
     if (is_front_page())
         wp_enqueue_style('home', get_stylesheet_directory_uri() . '/assets/css/template/index.css');

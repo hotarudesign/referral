@@ -9,12 +9,18 @@ img {
 
 body {
   font-family: "Noto Sans JP", sans-serif;
-  letter-spacing: 0.1em;
-  color: #333;
+  color: #2a3f51;
+  position: relative;
 }
 
 .inner {
-  max-width: 1280px;
+  max-width: 1260px;
   margin: 0 auto;
-  padding: 0 4%;
+  padding: 0 50px;
+}
+
+.sec-ttl {
+  font-family: "Unbounded", cursive;
+  font-size: 60px;
+  text-align: center;
 }

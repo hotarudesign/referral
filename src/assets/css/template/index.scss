@@ -2,4 +2,7 @@
 
 @use "../util/header";
 @use "parts/home/mv";
+@use "parts/home/fix-link";
+@use "parts/home/message";
+@use "parts/home/about";
 @use "../util/footer";

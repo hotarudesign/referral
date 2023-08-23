@@ -1,0 +1,71 @@
+@use "../../../../base/variable" as v;
+
+.future {
+  margin: 75px 0 0;
+  padding: 0 0 203px;
+  &-lead {
+    margin: 23px 0 0;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #2e2e2e;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 7.7%;
+    margin: 50px auto 0;
+    padding: 0 34px;
+    max-width: 906px;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+  }
+  &__item {
+    padding: 23px 0 20px;
+    &__head {
+      display: flex;
+      flex-direction: column-reverse;
+      font-weight: 500;
+      text-align: center;
+      color: #166594;
+      &-ttl {
+        margin: 12.4px 0 0;
+        font-size: 1.6rem;
+      }
+      &-label {
+        font-size: 1.4rem;
+      }
+      &-icon {
+        display: block;
+        margin: 17.4px auto 0;
+      }
+    }
+    &:first-child {
+      .future__item__head-icon {
+        margin: 17.4px auto 0;
+        width: 35.33px;
+      }
+    }
+    &:nth-child(2) {
+      .future__item__head-icon {
+        // margin: 23.3px auto 0;
+        width: 49.32px;
+      }
+    }
+    &:last-child {
+      .future__item__head-icon {
+        // margin: 22.68px auto 0;
+        width: 30px;
+      }
+    }
+    &-desc {
+      margin: 8px 0 0;
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 1.42;
+      color: #2e2e2e;
+    }
+  }
+}

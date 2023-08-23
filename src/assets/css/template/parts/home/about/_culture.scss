@@ -1,0 +1,74 @@
+@use "../../../../base/variable" as v;
+
+.culture {
+  padding: 161px 0 87px;
+  background: rgba($color: #38b8ef, $alpha: 0.11);
+  &__head {
+    margin: 68px 0 0;
+    text-align: center;
+    &-ttl {
+      font-weight: 700;
+      font-size: 3.2rem;
+      color: #2e2e2e;
+    }
+    &-lead {
+      margin: 29px 0 0;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2;
+      color: #2e2e2e;
+    }
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 21px 0 0;
+  }
+  &__item {
+    margin: 25px 0 0;
+    padding: 18px 0 0;
+    width: calc((100% - 8.52%) / 3);
+    border-top: 1px solid #2a3f51;
+    &__head {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: row-reverse;
+      gap: 0 13.5px;
+      &-ttl {
+        font-weight: 700;
+        font-size: 2.3rem;
+      }
+      &-num {
+        margin: 0 0 0 7px;
+        font-weight: 700;
+        font-size: 1.8rem;
+        color: #fff;
+        border-radius: 50%;
+        position: relative;
+        z-index: 2;
+        &:before {
+          content: "";
+          display: inline-block;
+          width: 35px;
+          height: 35px;
+          background: v.$mainColor;
+          position: absolute;
+          top: 52%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          border-radius: 50%;
+          z-index: -1;
+        }
+      }
+    }
+    &-desc {
+      margin: 18px 0 0;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 1.78;
+      color: #2e2e2e;
+    }
+  }
+}

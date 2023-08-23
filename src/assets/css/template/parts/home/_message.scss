@@ -1,0 +1,32 @@
+@use "../../../base/variable" as v;
+.message {
+  &__bg {
+    padding: 98px 0 186px;
+    background: url(../../images/webp/message_bg.webp) no-repeat center / cover;
+  }
+  &__main {
+    margin: 48px 0 0;
+    text-align: center;
+    &__ttl {
+      font-weight: 700;
+      font-size: 5.6rem;
+      letter-spacing: 0.015em;
+      color: #000;
+      &-small {
+        padding: 0 5px;
+        font-size: 4rem;
+      }
+    }
+
+    &__desc {
+      margin: 27px 0 0;
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 1.5;
+      color: #000;
+      &-strong {
+        font-weight: 700;
+      }
+    }
+  }
+}

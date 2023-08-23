@@ -1,0 +1,62 @@
+@use "../../../../base/variable" as v;
+
+.business {
+  padding: 152px 0 169px;
+  background: url(../../images/webp/about_business-bg.webp) no-repeat
+    center/cover;
+  &-lead {
+    margin: 23px 0 0;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #2e2e2e;
+  }
+  .circle {
+    max-width: 835px;
+    width: 100%;
+  }
+  &__foot {
+    margin: 169px 0 0;
+    text-align: center;
+    &-ttl {
+      display: inline-block;
+      font-weight: 500;
+      font-size: 3.2rem;
+      color: v.$mainColor;
+      position: relative;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 3.5px;
+        background: linear-gradient(90deg, #2a3f51 50%, #38b8ef 50%);
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+      }
+    }
+    &-document {
+      margin: 65px auto 0;
+      max-width: 840px;
+      width: 100%;
+    }
+    &-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+      gap: 0 21.1px;
+      margin: 37px auto 0;
+      padding: 13px 0;
+      width: 256px;
+      font-weight: 700;
+      font-size: 1.6rem;
+      border: 1px solid v.$mainColor;
+      border-radius: 50px;
+      box-shadow: 3px 3px 10px #ccc;
+    }
+    &-icon {
+      width: 16px;
+    }
+  }
+}

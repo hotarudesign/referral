@@ -1,0 +1,38 @@
+@use "../../../base/variable" as v;
+
+@use "./about/company";
+@use "./about/future";
+@use "./about/business";
+@use "./about/culture";
+@use "./about/interview";
+
+.about {
+  padding: 65px 0 0;
+  background: #f2f2f2;
+  &-ttl {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    &-ruby {
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: v.$accentColor;
+    }
+  }
+  &__sec-ttl {
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #000;
+    position: relative;
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 49px;
+      height: 3.5px;
+      background: v.$accentColor;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@use "../../../../base/variable" as v;
+
+.interview {
+  padding: 136px 0 130px;
+  background: #fff;
+  &__head {
+    margin: 68px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    &-ttl {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 172px;
+      font-family: v.$fontUnbounded;
+      font-weight: 700;
+      font-size: 3rem;
+      color: #2e2e2e;
+      position: relative;
+      z-index: 2;
+    }
+    &-ruby {
+      display: flex;
+      align-items: center;
+      gap: 0 8px;
+      font-weight: 500;
+      font-size: 1.4rem;
+      color: #2e2e2e;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: v.$accentColor;
+        border-radius: 50%;
+      }
+    }
+    &__thumb {
+    }
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 21px 0 0;
+  }
+}
