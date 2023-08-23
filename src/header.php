@@ -9,4 +9,16 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <header class="header"></header>
+    <header class="header">
+        <nav class="g-nav">
+            <?php
+            wp_nav_menu(
+                array(
+                    'theme_location' => 'g-nav',
+                    'container' => '',
+                    'menu_class' => 'g-nav__list',
+                )
+            );
+            ?>
+        </nav>
+    </header>
