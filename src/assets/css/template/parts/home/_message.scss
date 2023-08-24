@@ -1,8 +1,14 @@
 @use "../../../base/variable" as v;
 .message {
+  padding: 0 0 264px;
   &__bg {
-    padding: 98px 0 186px;
-    background: url(../../images/webp/message_bg.webp) no-repeat center / cover;
+  }
+  &-ttl {
+    color: #fff;
+    text-shadow: 0 3px 6px #999;
+  }
+  &__inner {
+    margin: -600px auto 0;
   }
   &__main {
     margin: 48px 0 0;
@@ -11,11 +17,8 @@
       font-weight: 700;
       font-size: 5.6rem;
       letter-spacing: 0.015em;
-      color: #000;
-      &-small {
-        padding: 0 5px;
-        font-size: 4rem;
-      }
+      color: #fff;
+      text-shadow: 0 3px 6px #999;
     }
 
     &__desc {
@@ -23,7 +26,8 @@
       font-weight: 500;
       font-size: 2rem;
       line-height: 1.5;
-      color: #000;
+      color: #fff;
+      text-shadow: 0 3px 6px #999;
       &-strong {
         font-weight: 700;
       }

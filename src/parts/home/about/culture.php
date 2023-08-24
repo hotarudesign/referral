@@ -1,4 +1,4 @@
-<section class="culture">
+<section class="culture" id="culture">
     <div class="culture__inner inner">
         <h3 class="culture-ttl about__sec-ttl">文化を知る</h3>
         <div class="culture__head">

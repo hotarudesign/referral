@@ -8,29 +8,31 @@
   &_logo {
     width: 159.04px;
   }
-  &__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 0 0 auto;
-    width: 50%;
-  }
-  &__item {
-    display: flex;
-    align-items: center;
-    gap: 0 4.5px;
-    width: 50%;
-    font-weight: 500;
-    font-size: 1.6rem;
-    color: #222222;
-    &:not(:first-child, :nth-child(2)) {
-      margin: 16px 0 0;
+  .f-nav {
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 0 0 auto;
+      width: 50%;
     }
-    &:before {
-      content: "";
-      display: inline-block;
-      width: 8px;
-      height: 1.5px;
-      background: v.$accentColor;
+    &__item {
+      display: flex;
+      align-items: center;
+      gap: 0 4.5px;
+      width: 50%;
+      font-weight: 500;
+      font-size: 1.6rem;
+      color: #222222;
+      &:not(:first-child, :nth-child(2)) {
+        margin: 16px 0 0;
+      }
+      &:before {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 1.5px;
+        background: v.$accentColor;
+      }
     }
   }
   &__copy {

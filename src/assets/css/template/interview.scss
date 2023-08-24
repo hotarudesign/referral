@@ -1,27 +1,48 @@
-@use "../../../base/variable" as v;
+@charset 'UTF-8';
+@use "../base/variable" as v;
+@use "../util/header";
+@use "../util/contact";
+@use "../util/footer";
 
-.news {
-  padding: 0 0 64.7px;
+.interview {
+  padding: 205px 0 133px;
   &-ttl {
     display: flex;
-    flex-direction: column;
-    text-align: left;
-    color: #000;
-    &-ruby {
-      font-weight: 700;
-      font-size: 1.4rem;
-      color: v.$accentColor;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    font-family: v.$fontUnbounded;
+    font-size: 6rem;
+    color: #2e2e2e;
+  }
+  &-ruby {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+    font-family: v.$fontNoto;
+    font-weight: 500;
+    font-size: 1.4rem;
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: v.$accentColor;
+      border-radius: 50%;
     }
   }
   &__list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 65px 0 0;
+    gap: 32px 0;
   }
   &__item {
-    display: flex;
-    flex-direction: column-reverse;
     width: calc((100% - 52px) / 3);
+    &-link {
+      display: flex;
+      flex-direction: column-reverse;
+    }
     box-shadow: 0 3px 6px #e7e7e7;
     &__body {
       display: flex;
@@ -37,28 +58,21 @@
         }
         &-desc {
           margin: 5px 0 0;
-          font-weight: 500;
-          font-size: 1.6rem;
-          line-height: 1.5;
+          font-weight: 400;
+          font-size: 1.4rem;
+          line-height: 1.71;
           color: #2e2e2e;
         }
       }
     }
     &__head {
       display: flex;
-      justify-content: flex-end;
       align-items: center;
-      flex-direction: row-reverse;
       gap: 0 10px;
       &-label {
-        padding: 3px 0 4px;
-        width: 113px;
-        font-weight: 700;
-        font-size: 1.4rem;
-        text-align: center;
-        background: #d7e5f9;
-        color: #62a2ea;
-        border-radius: 5px;
+        font-weight: 500;
+        font-size: 1.6rem;
+        color: v.$accentColor;
       }
       &-date {
         font-weight: 500;

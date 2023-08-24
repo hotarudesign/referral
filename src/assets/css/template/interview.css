@@ -1,0 +1,223 @@
+.header {
+  padding: 12.4px 0;
+  width: 100%;
+  background: #e4eff9;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+.header__logo {
+  width: 159px;
+}
+.header .g-nav {
+  margin: 0 30px 0 auto;
+}
+.header .g-nav__list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0 30px;
+}
+.header .g-nav__item {
+  font-weight: 500;
+  font-size: 1.6rem;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.header .g-nav__item:hover, .header .g-nav__item:focus {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+.header__btn {
+  padding: 8px 0;
+  width: 160px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-align: center;
+  background: linear-gradient(45deg, #a4d8ef, #38b8ef);
+  color: #fff;
+  border-radius: 50px;
+}
+
+.contact {
+  padding: 65px 0;
+  background: #f2f2f2;
+}
+.contact-ttl {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+.contact-ttl-ruby {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #38b8ef;
+}
+.contact__body {
+  margin: 75px auto 0;
+  max-width: 540px;
+  width: 100%;
+  text-align: center;
+}
+.contact__body-desc {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2;
+}
+.contact__body-detail {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+.footer {
+  padding: 65px 0 21px;
+}
+.footer__inner {
+  display: flex;
+}
+.footer_logo {
+  width: 159.04px;
+}
+.footer .f-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 0 auto;
+  width: 50%;
+}
+.footer .f-nav__item {
+  display: flex;
+  align-items: center;
+  gap: 0 4.5px;
+  width: 50%;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #222222;
+}
+.footer .f-nav__item:not(:first-child, :nth-child(2)) {
+  margin: 16px 0 0;
+}
+.footer .f-nav__item:before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 1.5px;
+  background: #38b8ef;
+}
+.footer__copy {
+  margin: 74.9px 0 0;
+  font-weight: 100;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.interview {
+  padding: 205px 0 133px;
+}
+.interview-ttl {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
+  font-family: "Unbounded", cursive;
+  font-size: 6rem;
+  color: #2e2e2e;
+}
+.interview-ruby {
+  display: flex;
+  align-items: center;
+  gap: 0 8px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.interview-ruby::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #38b8ef;
+  border-radius: 50%;
+}
+.interview__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 65px 0 0;
+  gap: 32px 0;
+}
+.interview__item {
+  width: calc((100% - 52px) / 3);
+  box-shadow: 0 3px 6px #e7e7e7;
+}
+.interview__item-link {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.interview__item__body {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 22px 10px;
+}
+.interview__item__body__txt {
+  margin: 5px 0 0;
+}
+.interview__item__body__txt-ttl {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #2e2e2e;
+}
+.interview__item__body__txt-desc {
+  margin: 5px 0 0;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.71;
+  color: #2e2e2e;
+}
+.interview__item__head {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+.interview__item__head-label {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #38b8ef;
+}
+.interview__item__head-date {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #878787;
+}
+.interview__item__thumb {
+  position: relative;
+}
+.interview__item__thumb:before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.interview__item__thumb-caption {
+  font-weight: 700;
+  font-size: 1.5rem;
+  writing-mode: vertical-rl;
+  color: #fff;
+  position: absolute;
+  top: 23px;
+}
+.interview__item__thumb-caption01 {
+  left: 10px;
+}
+.interview__item__thumb-caption02 {
+  right: 12px;
+}

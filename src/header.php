@@ -30,6 +30,7 @@
                 );
                 ?>
             </nav>
+            <a class="header__btn">エントリー</a>
         </div>
     </header>
     <?php get_template_part('parts/home/fix-link'); ?>

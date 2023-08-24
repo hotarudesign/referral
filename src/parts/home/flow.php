@@ -1,4 +1,4 @@
-<section class="flow">
+<section class="flow" id="flow">
     <div class="flow__inner inner">
         <h2 class="flow-ttl sec-ttl">Flow<span class="flow-ttl-ruby sec-ttl-ruby">選考フロー</span></h2>
         <figure class="flow__bg-txt">

@@ -1,4 +1,4 @@
-<section class="business">
+<section class="business" id="business">
     <div class="business__inner inner">
         <h3 class="business-ttl about__sec-ttl">カシワバラのビジネス領域</h3>
         <p class="business-lead">カシワバラは、さまざまな「世界」を作ることができるグループです。<br>
@@ -117,7 +117,7 @@
                 </div>
             </div>
         </div>
-        <div class="business__foot">
+        <div class="business__foot" id="document">
             <h3 class="business__foot-ttl">これを見ればカシワバラグループの過去・現在・未来がわかります。</h3>
             <figure class="business__foot-document">
                 <picture>
