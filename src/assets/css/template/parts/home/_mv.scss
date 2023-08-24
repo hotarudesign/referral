@@ -2,7 +2,22 @@
 .mv {
   padding: 75px 0 0;
   height: calc(100vh - 30px);
-  background: url(../../images/webp/mv01.webp) no-repeat 100% 20% / cover;
+  background: url(../../images/webp/mv01.webp) no-repeat center / cover;
+  animation: mvFade 12s infinite;
+  @keyframes mvFade {
+    0% {
+      background-image: url(../../images/webp/mv01.webp);
+    }
+    33% {
+      background-image: url(../../images/webp/mv02.webp);
+    }
+    66% {
+      background-image: url(../../images/webp/mv03.webp);
+    }
+    100% {
+      background-image: url(../../images/webp/mv01.webp);
+    }
+  }
   &__inner {
     display: flex;
     justify-content: space-between;

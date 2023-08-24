@@ -3,6 +3,17 @@
 .culture {
   padding: 161px 0 87px;
   background: rgba($color: #38b8ef, $alpha: 0.11);
+  &-ttl {
+    position: relative;
+    &::after {
+      content: url(../../images/webp/culture_bg-txt.webp);
+      display: inline-block;
+      transform: scale(0.4);
+      position: absolute;
+      top: -165px;
+      left: -30%;
+    }
+  }
   &__head {
     margin: 68px 0 0;
     text-align: center;

@@ -30,7 +30,22 @@
                 );
                 ?>
             </nav>
-            <a class="header__btn">エントリー</a>
+            <a href="<?php echo esc_url(home_url("/reqruit")); ?>" class="header__btn">エントリー</a>
+            <button class="toggle-btn" id="toggleBtn"><span></span><span></span><span></span></button>
+            <div class="slide-menu" id="slideMenu">
+                <nav class="g-nav-sp">
+                    <?php
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'g-nav',
+                            'container' => '',
+                            'menu_class' => 'g-nav__list',
+                        )
+                    );
+                    ?>
+                </nav>
+                <a href="<?php echo esc_url(home_url("/reqruit")); ?>" class="header__btn-sp">エントリー</a>
+            </div>
         </div>
     </header>
     <?php get_template_part('parts/home/fix-link'); ?>

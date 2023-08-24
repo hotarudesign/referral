@@ -1,11 +1,9 @@
 @use "../../../base/variable" as v;
 .message {
-  padding: 0 0 264px;
-  &__bg {
-  }
+  padding: 0 0 226px;
   &-ttl {
     color: #fff;
-    text-shadow: 0 3px 6px #999;
+    text-shadow: 0 3px 6px #ccc;
   }
   &__inner {
     margin: -600px auto 0;
@@ -14,20 +12,16 @@
     margin: 48px 0 0;
     text-align: center;
     &__ttl {
-      font-weight: 700;
-      font-size: 5.6rem;
-      letter-spacing: 0.015em;
+      margin: 0 auto;
+      max-width: 1064px;
+      width: 100%;
       color: #fff;
-      text-shadow: 0 3px 6px #999;
     }
 
     &__desc {
-      margin: 27px 0 0;
-      font-weight: 500;
-      font-size: 2rem;
-      line-height: 1.5;
-      color: #fff;
-      text-shadow: 0 3px 6px #999;
+      margin: 27px auto 0;
+      max-width: 877.92px;
+      width: 100%;
       &-strong {
         font-weight: 700;
       }

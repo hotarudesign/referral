@@ -47,3 +47,33 @@ document.addEventListener("DOMContentLoaded", function () {
     circle[i].style.top = y + "px";
   }
 });
+
+// splide1
+new Splide(".splide1", {
+  type: "loop",
+  autoplay: true,
+  interval: 5000,
+  perPage: 3,
+  gap: 38,
+  pagination: false,
+  breakpoints: {
+    577: {
+      perPage: 1,
+    },
+  },
+}).mount();
+
+// splide1
+new Splide(".splide2", {
+  type: "loop",
+  autoplay: true,
+  interval: 5000,
+  perPage: 3,
+  gap: 38,
+  pagination: false,
+  breakpoints: {
+    577: {
+      perPage: 1,
+    },
+  },
+}).mount();

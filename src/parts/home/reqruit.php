@@ -1,7 +1,7 @@
 <section class="reqruit">
     <div class="reqruit__inner inner">
         <h2 class="reqruit-ttl sec-ttl">Recruiting info<span class="reqruit-ttl-ruby sec-ttl-ruby">応募方法</span></h2>
-        <a href="" class="reqruit__link">
+        <a href="<?php echo esc_url(home_url('/reqruit')); ?>" class="reqruit__link">
             <p class="reqruit__link-txt">募集職種一覧はこちら</p>
             <div class="reqruit__link-icon">
                 <picture>
