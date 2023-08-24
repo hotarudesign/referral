@@ -1,0 +1,15 @@
+@use "../../../base/variable" as v;
+
+.news {
+  &-ttl {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #000;
+    &-ruby {
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: v.$accentColor;
+    }
+  }
+}

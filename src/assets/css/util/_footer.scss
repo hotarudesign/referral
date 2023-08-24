@@ -1,0 +1,42 @@
+@use "../base/variable" as v;
+
+.footer {
+  padding: 65px 0 21px;
+  &__inner {
+    display: flex;
+  }
+  &_logo {
+    width: 159.04px;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 auto;
+    width: 50%;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 0 4.5px;
+    width: 50%;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #222222;
+    &:not(:first-child, :nth-child(2)) {
+      margin: 16px 0 0;
+    }
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 8px;
+      height: 1.5px;
+      background: v.$accentColor;
+    }
+  }
+  &__copy {
+    margin: 74.9px 0 0;
+    font-weight: 100;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}

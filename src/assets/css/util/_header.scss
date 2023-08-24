@@ -5,6 +5,7 @@
   background: #e4eff9;
   position: fixed;
   top: 0;
+  z-index: 10;
   &__inner {
     display: flex;
     justify-content: space-between;

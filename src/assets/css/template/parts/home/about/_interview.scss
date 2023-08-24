@@ -3,6 +3,7 @@
 .interview {
   padding: 136px 0 130px;
   background: #fff;
+  overflow: hidden;
   &__head {
     margin: 68px 0 0 0;
     display: flex;
@@ -12,13 +13,13 @@
     &-ttl {
       display: flex;
       flex-direction: column-reverse;
+      margin: 0 -26px 0 0;
       width: 172px;
       font-family: v.$fontUnbounded;
       font-weight: 700;
       font-size: 3rem;
       color: #2e2e2e;
       position: relative;
-      z-index: 2;
     }
     &-ruby {
       display: flex;
@@ -37,6 +38,8 @@
       }
     }
     &__thumb {
+      width: 100vw;
+      margin-right: calc(50% - 50vw);
     }
   }
   &__list {

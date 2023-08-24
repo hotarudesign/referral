@@ -1,0 +1,31 @@
+@use "../../../base/variable" as v;
+.reqruit {
+  padding: 130px 0 65px;
+  &-ttl {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    &-ruby {
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: v.$accentColor;
+    }
+  }
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 0 42.3px;
+    margin: 75px auto 0;
+    padding: 43px 0;
+    max-width: 552px;
+    width: 100%;
+    background: v.$accentColor;
+    &-txt {
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: #fff;
+    }
+  }
+}

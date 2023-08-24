@@ -2,8 +2,8 @@
 
 .business {
   padding: 152px 0 169px;
-  background: url(../../images/webp/about_business-bg.webp) no-repeat
-    center/cover;
+  background: #fff;
+  overflow-x: hidden;
   &-lead {
     margin: 23px 0 0;
     font-weight: 400;
@@ -11,12 +11,188 @@
     line-height: 1.5;
     color: #2e2e2e;
   }
+  &__main {
+    padding: 0 0 240px 0;
+    width: 100vw;
+    margin: 131px calc(50% - 50vw) 0;
+    position: relative;
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      background: url(../../images/webp/about_business-bg.webp) no-repeat
+        center/cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
   .circle {
+    margin: 0 auto;
     max-width: 835px;
     width: 100%;
+    position: relative;
+    &__center {
+      text-align: center;
+      position: absolute;
+      &:before {
+        content: "";
+        display: inline-block;
+        width: 243px;
+        height: 328.2px;
+        background: url(../../images/webp/circle-center_logo.webp) no-repeat
+          center/cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      &-ttl {
+        font-weight: 700;
+        font-size: 4.6rem;
+        line-height: 1.3;
+        color: v.$mainColor;
+      }
+      &-desc {
+        margin: 18px 0 0;
+        font-weight: 400;
+        font-size: 2.4rem;
+      }
+    }
+    &__line {
+      margin: 0 auto;
+      max-width: 687px;
+      height: 687px;
+      background-image: conic-gradient(v.$mainColor 45deg, transparent 45deg);
+      clip-path: circle();
+      display: grid;
+      place-items: center;
+      &:before {
+        content: "";
+        width: 685px;
+        height: 685px;
+        background: linear-gradient(#feffff, #e9f2fa);
+        clip-path: circle();
+      }
+    }
+    &__list {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 60%;
+      transform: translateX(-50%);
+    }
+    &__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column-reverse;
+      width: 155px;
+      height: 155px;
+      background: #e3f2fd;
+      border-radius: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      &:first-child {
+        .circle__item {
+          &-icon {
+            margin-bottom: 13.9px;
+            width: 51.55px;
+          }
+        }
+      }
+      &:nth-child(2) {
+        .circle__item {
+          &-icon {
+            margin-bottom: 11.3px;
+            width: 50.85px;
+          }
+        }
+      }
+      &:nth-child(3) {
+        .circle__item {
+          &-icon {
+            margin-bottom: 16.2px;
+            width: 52.73px;
+          }
+        }
+      }
+      &:nth-child(4) {
+        .circle__item {
+          &-icon {
+            margin-bottom: 14px;
+            width: 47.18px;
+          }
+        }
+      }
+      &:nth-child(5) {
+        .circle__item {
+          &-icon {
+            margin-bottom: 16.5px;
+            width: 50.45px;
+          }
+        }
+      }
+      &:nth-child(6) {
+        .circle__item {
+          &-icon {
+            margin-bottom: 8px;
+            width: 44.19px;
+          }
+        }
+      }
+      &:nth-child(7) {
+        .circle__item {
+          &-icon {
+            margin-bottom: 12.8px;
+            width: 46.45px;
+          }
+        }
+      }
+      &:nth-child(8) {
+        .circle__item {
+          &-icon {
+            margin-bottom: 17.5px;
+            width: 45.71px;
+          }
+        }
+      }
+      &:nth-child(9) {
+        .circle__item {
+          &-icon {
+            margin-bottom: 22.5px;
+            width: 62px;
+          }
+        }
+      }
+      &:nth-child(10) {
+        .circle__item {
+          &-icon {
+            margin-bottom: 18.5px;
+            width: 46.1px;
+          }
+        }
+      }
+      &:nth-child(11) {
+        .circle__item {
+          &-icon {
+            margin-bottom: 10.5px;
+            width: 37.08px;
+          }
+        }
+      }
+      &-txt {
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.33;
+        text-align: center;
+      }
+    }
   }
   &__foot {
-    margin: 169px 0 0;
+    margin: 353px 0 0;
     text-align: center;
     &-ttl {
       display: inline-block;

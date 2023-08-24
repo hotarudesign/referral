@@ -5,4 +5,8 @@
 @use "parts/home/fix-link";
 @use "parts/home/message";
 @use "parts/home/about";
+@use "parts/home/flow";
+@use "parts/home/reqruit";
+@use "parts/home/news";
+@use "../util/contact";
 @use "../util/footer";

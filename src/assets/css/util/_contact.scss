@@ -1,0 +1,32 @@
+@use "../base/variable" as v;
+
+.contact {
+  padding: 65px 0;
+  background: #f2f2f2;
+  &-ttl {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    &-ruby {
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: v.$accentColor;
+    }
+  }
+  &__body {
+    margin: 75px auto 0;
+    max-width: 540px;
+    width: 100%;
+    text-align: center;
+    &-desc {
+      font-weight: 500;
+      font-size: 1.8rem;
+      line-height: 2;
+    }
+    &-detail {
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2;
+    }
+  }
+}
