@@ -117,8 +117,6 @@
     &__track {
       padding-bottom: 20px;
     }
-    &__list {
-    }
     &__slide {
       box-shadow: 0 3px 6px #e7e7e7;
       &-link {
@@ -162,6 +160,7 @@
         }
       }
       &__thumb {
+        width: 100%;
         position: relative;
         &:before {
           content: "";

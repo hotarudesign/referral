@@ -63,6 +63,7 @@
     width: 27.21px;
     height: 22.35px;
     position: relative;
+    z-index: 10;
   }
 }
 .header .toggle-btn span {
@@ -75,6 +76,7 @@
 .header .toggle-btn span:nth-child(1) {
   top: 0;
   left: 0;
+  transition: ease-in 0.5s;
 }
 .header .toggle-btn span:nth-child(2) {
   top: 50%;
@@ -85,18 +87,19 @@
 .header .toggle-btn span:nth-child(3) {
   bottom: 0;
   left: 0;
+  transition: ease-in 0.5s;
 }
-.header .toggle-btn.is-active:nth-child(1) {
+.header .toggle-btn.is-active span:nth-child(1) {
   top: 50%;
   left: 0;
   transform: translateY(-50%) rotate(45deg);
   transition: ease-in 0.5s;
 }
-.header .toggle-btn.is-active:nth-child(2) {
+.header .toggle-btn.is-active span:nth-child(2) {
   opacity: 0;
   transition: opacity 0.5s;
 }
-.header .toggle-btn.is-active:nth-child(3) {
+.header .toggle-btn.is-active span:nth-child(3) {
   bottom: 50%;
   left: 0;
   transform: translateY(-50%) rotate(-45deg);
@@ -114,10 +117,12 @@
     top: 0;
     right: -100vw;
     background: #000;
+    transition: 0.5s;
   }
 }
 .header .slide-menu.is-show {
   right: 0;
+  transition: 0.5s;
 }
 .mv {
   padding: 75px 0 0;
@@ -985,6 +990,7 @@
   color: #878787;
 }
 .interview .splide__slide__thumb {
+  width: 100%;
   position: relative;
 }
 .interview .splide__slide__thumb:before {

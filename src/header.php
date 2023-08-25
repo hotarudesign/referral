@@ -48,4 +48,6 @@
             </div>
         </div>
     </header>
-    <?php get_template_part('parts/home/fix-link'); ?>
+    <?php
+    if (is_front_page())
+        get_template_part('parts/home/fix-link'); ?>

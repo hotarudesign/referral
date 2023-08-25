@@ -12,6 +12,8 @@ function add_link_files()
         wp_enqueue_style('interview', get_stylesheet_directory_uri() . '/assets/css/template/interview.css');
     if (is_singular('interview'))
         wp_enqueue_style('interview-post', get_stylesheet_directory_uri() . '/assets/css/template/interview.css');
+    if (is_archive('reqruit'))
+        wp_enqueue_style('reqruit', get_stylesheet_directory_uri() . '/assets/css/template/reqruit.css');
     // JavaScriptの読み込み
     wp_enqueue_script('splide', "https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js");
     wp_enqueue_script('g-sap', "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js");

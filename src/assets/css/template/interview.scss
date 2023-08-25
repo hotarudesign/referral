@@ -31,14 +31,12 @@
     }
   }
   &__list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 32px;
     margin: 65px 0 0;
-    gap: 32px 0;
   }
   &__item {
-    width: calc((100% - 52px) / 3);
     &-link {
       display: flex;
       flex-direction: column-reverse;

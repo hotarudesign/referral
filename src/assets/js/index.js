@@ -77,3 +77,11 @@ new Splide(".splide2", {
     },
   },
 }).mount();
+
+const toggleBtn = document.getElementById("toggleBtn");
+const slideMenu = document.getElementById("slideMenu");
+
+toggleBtn.addEventListener("click", () => {
+  toggleBtn.classList.toggle("is-active");
+  slideMenu.classList.toggle("is-show");
+});

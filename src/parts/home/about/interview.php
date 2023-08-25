@@ -30,8 +30,8 @@
                                     <source srcset='<?php echo ImgPath; ?>/webp/interview-item01.webp' type='image/webp'>
                                     <img src="<?php echo ImgPath; ?>/interview-item01.png" alt="">
                                 </picture>
-                                <figcaption class="splide__slide__thumb-caption interview__item__thumb-caption01">Sugimura Taiji</figcaption>
-                                <figcaption class="splide__slide__thumb-caption interview__item__thumb-caption02">Sugimura Taiji</figcaption>
+                                <figcaption class="splide__slide__thumb-caption splide__slide__thumb-caption01">Sugimura Taiji</figcaption>
+                                <figcaption class="splide__slide__thumb-caption splide__slide__thumb-caption02">Sugimura Taiji</figcaption>
                             </figure>
                         </a>
                     </li>
@@ -52,8 +52,8 @@
                                     <source srcset='<?php echo ImgPath; ?>/webp/interview-item02.webp' type='image/webp'>
                                     <img src="<?php echo ImgPath; ?>/interview-item02.png" alt="">
                                 </picture>
-                                <figcaption class="splide__slide__thumb-caption interview__item__thumb-caption01">Sugimura Taiji</figcaption>
-                                <figcaption class="splide__slide__thumb-caption interview__item__thumb-caption02">Sugimura Taiji</figcaption>
+                                <figcaption class="splide__slide__thumb-caption splide__slide__thumb-caption01">Sugimura Taiji</figcaption>
+                                <figcaption class="splide__slide__thumb-caption splide__slide__thumb-caption02">Sugimura Taiji</figcaption>
                             </figure>
                         </a>
                     </li>
@@ -74,8 +74,8 @@
                                     <source srcset='<?php echo ImgPath; ?>/webp/interview-item03.webp' type='image/webp'>
                                     <img src="<?php echo ImgPath; ?>/interview-item03.png" alt="">
                                 </picture>
-                                <figcaption class="splide__slide__thumb-caption interview__item__thumb-caption01">Sugimura Taiji</figcaption>
-                                <figcaption class="splide__slide__thumb-caption interview__item__thumb-caption02">Sugimura Taiji</figcaption>
+                                <figcaption class="splide__slide__thumb-caption splide__slide__thumb-caption01">Sugimura Taiji</figcaption>
+                                <figcaption class="splide__slide__thumb-caption splide__slide__thumb-caption02">Sugimura Taiji</figcaption>
                             </figure>
                         </a>
                     </li>

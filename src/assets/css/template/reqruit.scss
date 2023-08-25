@@ -1,0 +1,66 @@
+@use "../base/variable" as v;
+
+.reqruit {
+  .page-top {
+    height: 70vh;
+    background: url(../../images/webp/reqruit_page-top.webp) no-repeat center /
+      cover;
+  }
+  &__container {
+    padding: 73.4px 0 130px;
+  }
+  &__txt {
+    &-ttl {
+      max-width: 535.74px;
+      width: 100%;
+    }
+    &-desc {
+      margin: 35.1px 0 0;
+      max-width: 1028.58px;
+      width: 100%;
+    }
+  }
+  &__occupation {
+    margin: 77px 0 0;
+    &-ttl {
+      width: 166.12px;
+    }
+    &__list {
+      margin: 43.5px 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    &__item {
+      max-width: 169px;
+      width: 100%;
+      font-weight: 400;
+      font-size: 1.6rem;
+      text-align: center;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 3px 10px #e7e7e7;
+      position: relative;
+      a {
+        display: block;
+        padding: 11px 0;
+      }
+      &:last-child {
+        max-width: 247px;
+        width: 100%;
+      }
+      &:before {
+        content: "";
+        display: inline-block;
+        width: 6.5px;
+        height: 6.5px;
+        border-top: 1px solid v.$mainColor;
+        border-right: 1px solid v.$mainColor;
+        position: absolute;
+        top: 50%;
+        right: 14px;
+        transform: translateY(-50%) rotate(45deg);
+      }
+    }
+  }
+}
