@@ -32,7 +32,7 @@ new Splide(".splide2", {
 }).mount();
 
 // splide3 mv
-const target = ".splide3";
+const target = ".splide";
 const target_options = {
   type: "fade",
   rewind: true,
