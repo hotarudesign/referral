@@ -1,5 +1,30 @@
 <div class="mv">
+    <div class="splide">
+        <div class="splide__track">
+            <div class="splide__list">
+                <div class="splide__slide">
+                    <picture>
+                        <source srcset='<?php echo ImgPath; ?>/webp/mv01.webp' type='image/webp'>
+                        <img src='<?php echo ImgPath; ?>/mv01.jpg' alt=''>
+                    </picture>
+                </div>
+                <div class="splide__slide">
+                    <picture>
+                        <source srcset='<?php echo ImgPath; ?>/webp/mv02.webp' type='image/webp'>
+                        <img src='<?php echo ImgPath; ?>/mv02.jpg' alt=''>
+                    </picture>
+                </div>
+                <div class="splide__slide">
+                    <picture>
+                        <source srcset='<?php echo ImgPath; ?>/webp/mv03.webp' type='image/webp'>
+                        <img src='<?php echo ImgPath; ?>/mv03.jpg' alt=''>
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="mv__inner inner">
+        <p class="mv__foot-label sp">リファラル採用特設ページ</p>
         <div class="hero">
             <h2 class="hero__ttl">Never End<br>
                 Your Possibilities
@@ -7,9 +32,12 @@
             <p class="hero__lead">あなたの可能性を終わらせない</p>
         </div>
         <div class="mv__foot">
-            <p class="mv__foot-label">リファラル採用特設ページ</p>
-            <a href="" class="mv__foot__link">
-                <!-- <figure class="mv__foot__thumb">
+            <p class="mv__foot-label pc">リファラル採用特設ページ</p>
+            <?php
+            if (is_front_page())
+                get_template_part('parts/home/fix-link-sp'); ?>
+            <!-- <a href="" class="mv__foot__link">
+                <figure class="mv__foot__thumb">
                     <picture>
                         <source srcset='<?php echo ImgPath; ?>/webp/mv_thumb.webp' type='image/webp'>
                         <img src='<?php echo ImgPath; ?>/mv_thumb.png' alt=''>
@@ -21,8 +49,8 @@
                             <img class="mv__foot__thumb-icon" src="<?php echo ImgPath; ?>/caption-arrow.png" alt="">
                         </picture>
                     </figcaption>
-                </figure> -->
-            </a>
+                </figure>
+            </a> -->
         </div>
     </div>
 </div>

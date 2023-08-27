@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -12,15 +13,55 @@ body {
   color: #2a3f51;
   position: relative;
 }
+body.is-menuOpen {
+  height: 100%;
+  overflow-y: hidden;
+}
 
 .inner {
   max-width: 1260px;
   margin: 0 auto;
   padding: 0 50px;
 }
+@media (max-width: 1170px) {
+  .inner {
+    padding: 0 40px;
+  }
+}
+@media not screen and (min-width: 576px) {
+  .inner {
+    padding: 0 5.3%;
+  }
+}
 
 .sec-ttl {
   font-family: "Unbounded", cursive;
   font-size: 60px;
   text-align: center;
+}
+@media not screen and (min-width: 576px) {
+  .sec-ttl {
+    font-size: 2.8rem;
+  }
+}
+.sec-ttl-ruby {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.pc-only {
+  display: block;
+}
+@media not screen and (min-width: 576px) {
+  .pc-only {
+    display: none;
+  }
+}
+
+.sp-only {
+  display: none;
+}
+@media not screen and (min-width: 576px) {
+  .sp-only {
+    display: block;
+  }
 }

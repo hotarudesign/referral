@@ -21,11 +21,18 @@
     padding: 43px 0;
     max-width: 552px;
     width: 100%;
-    background: v.$accentColor;
+    background: #3999f7;
+    @include v.sm {
+      margin: 40px 0 0;
+      padding: 16.4px 0;
+    }
     &-txt {
       font-weight: 700;
       font-size: 1.8rem;
       color: #fff;
+      @include v.sm {
+        font-size: 1.6rem;
+      }
     }
   }
 }

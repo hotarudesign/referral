@@ -1,0 +1,205 @@
+@use "../base/variable" as v;
+@use "../util/header";
+@use "../util/contact";
+@use "../util/footer";
+
+.inteview-post {
+  padding: 100px 0 0;
+  position: relative;
+  overflow-x: hidden;
+  &-ttl {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    font-family: v.$fontUnbounded;
+    font-size: 6rem;
+    color: #2e2e2e;
+    @include v.sm {
+      font-size: 2.8rem;
+    }
+  }
+  &-ruby {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+    font-family: v.$fontNoto;
+    font-weight: 500;
+    font-size: 1.4rem;
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: v.$accentColor;
+      border-radius: 50%;
+    }
+  }
+  .post {
+    padding: 85px 0 130px;
+    @include v.sm {
+      padding: 40px 0;
+    }
+    &__head {
+      &-ttl {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 1.5;
+        color: v.$accentColor;
+        @include v.sm {
+          font-size: 1.8rem;
+        }
+      }
+      &-thumb {
+        width: 100vw;
+        margin: 46.2px calc(50% - 50vw);
+        position: relative;
+        @include v.sm {
+          margin: 20px calc(50% - 50vw);
+          height: 366px;
+        }
+        img {
+          @include v.sm {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+      &-label {
+        padding: 33px 52px 32px 10%;
+        background: #f2f2f2;
+        position: absolute;
+        bottom: -20px;
+        @include v.sm {
+          padding: 18px 24px 18px 30px;
+          bottom: auto;
+        }
+        &01 {
+          left: 0;
+          @include v.sm {
+            top: 10px;
+          }
+        }
+        &02 {
+          right: 0;
+          @include v.sm {
+            bottom: 10px;
+          }
+        }
+      }
+      &-division {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 1.75;
+        @include v.sm {
+          font-size: 1.2rem;
+        }
+      }
+      &-name {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 1.75;
+        @include v.sm {
+          font-size: 1.6rem;
+        }
+      }
+      &-en {
+        padding-left: 22px;
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: #797979;
+        @include v.sm {
+          font-size: 0.8rem;
+        }
+      }
+      &-join {
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: #797979;
+        @include v.sm {
+          font-size: 1.2rem;
+        }
+      }
+    }
+    .talk {
+      margin: 55px 0 0;
+      @include v.sm {
+        margin: 30px 0 0;
+      }
+      &01 {
+        margin: 65px 0 0;
+        @include v.sm {
+          margin: 20px 0 0;
+        }
+      }
+      &-ttl {
+        font-weight: 500;
+        font-size: 2.4rem;
+        color: #2e2e2e;
+        @include v.sm {
+          font-size: 1.8rem;
+          line-height: 1.5;
+          text-indent: -18px;
+          margin-left: 18px;
+        }
+      }
+      &__answer {
+        margin: 25px 0 0;
+        @include v.sm {
+          margin: 20px 0 0;
+        }
+      }
+      &__item {
+        display: flex;
+        gap: 0 15px;
+        @include v.sm {
+          gap: 0 7px;
+        }
+        &-name {
+          width: 50px;
+          font-weight: 700;
+          font-size: 1.6rem;
+          line-height: 2;
+          color: #ef8538;
+          @include v.sm {
+            font-size: 1.5rem;
+          }
+        }
+        &:first-child {
+          .talk__item-name {
+            color: #ef8538;
+          }
+        }
+        &:nth-child(2) {
+          margin: 25px 0 0;
+          @include v.sm {
+            margin: 15px 0 0;
+          }
+          .talk__item-name {
+            color: #0759db;
+          }
+        }
+        &-desc {
+          width: calc(100% - 15px);
+          font-weight: 400;
+          font-size: 1.6rem;
+          line-height: 2;
+          color: #2e2e2e;
+          @include v.sm {
+            font-size: 1.5rem;
+          }
+        }
+      }
+      &02,
+      &03 {
+        display: flex;
+        flex-direction: column-reverse;
+        .talk {
+          &__body {
+            margin: 24px 0 0;
+          }
+        }
+      }
+    }
+  }
+}

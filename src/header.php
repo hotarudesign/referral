@@ -33,6 +33,9 @@
             <a href="<?php echo esc_url(home_url("/reqruit")); ?>" class="header__btn">エントリー</a>
             <button class="toggle-btn" id="toggleBtn"><span></span><span></span><span></span></button>
             <div class="slide-menu" id="slideMenu">
+                <a href="<?php echo esc_url(home_url('/')); ?>" class="logo-sp">
+                    <img src='<?php echo ImgPath; ?>/logo.svg' alt=''>
+                </a>
                 <nav class="g-nav-sp">
                     <?php
                     wp_nav_menu(
@@ -44,7 +47,7 @@
                     );
                     ?>
                 </nav>
-                <a href="<?php echo esc_url(home_url("/reqruit")); ?>" class="header__btn-sp">エントリー</a>
+                <a href="<?php echo esc_url(home_url("/reqruit")); ?>" class="btn-sp">エントリー</a>
             </div>
         </div>
     </header>

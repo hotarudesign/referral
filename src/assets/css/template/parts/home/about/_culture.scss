@@ -8,10 +8,16 @@
     &::after {
       content: url(../../images/webp/culture_bg-txt.webp);
       display: inline-block;
-      transform: scale(0.4);
+      width: 100%;
       position: absolute;
-      top: -165px;
-      left: -30%;
+      top: -160px;
+      left: 20%;
+      transform: translateX(-50%) scale(0.5);
+      @include v.sm {
+        top: -170px;
+        left: 15%;
+        transform: translateX(-50%) scale(0.3);
+      }
     }
   }
   &__head {
@@ -21,6 +27,9 @@
       font-weight: 700;
       font-size: 3.2rem;
       color: #2e2e2e;
+      @include v.sm {
+        font-size: 2.6rem;
+      }
     }
     &-lead {
       margin: 29px 0 0;
@@ -28,19 +37,33 @@
       font-size: 1.6rem;
       line-height: 2;
       color: #2e2e2e;
+      @include v.sm {
+        margin: 15px 0 0;
+        font-size: 1.1rem;
+      }
     }
   }
   &__list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 0 70px;
     margin: 21px 0 0;
+    @media (max-width: 1134px) {
+      gap: 0 40px;
+    }
+    @include v.sm {
+      margin: 30px 0 0;
+    }
   }
   &__item {
     margin: 25px 0 0;
     padding: 18px 0 0;
-    width: calc((100% - 8.52%) / 3);
     border-top: 1px solid #2a3f51;
+    &:first-child {
+      @include v.sm {
+        margin: 0;
+      }
+    }
     &__head {
       display: flex;
       justify-content: flex-end;
@@ -50,6 +73,9 @@
       &-ttl {
         font-weight: 700;
         font-size: 2.3rem;
+        @include v.sm {
+          font-size: 2rem;
+        }
       }
       &-num {
         margin: 0 0 0 7px;
@@ -59,6 +85,9 @@
         border-radius: 50%;
         position: relative;
         z-index: 2;
+        @include v.sm {
+          font-size: 1.5rem;
+        }
         &:before {
           content: "";
           display: inline-block;
@@ -71,6 +100,10 @@
           transform: translate(-50%, -50%);
           border-radius: 50%;
           z-index: -1;
+          @include v.sm {
+            width: 32px;
+            height: 32px;
+          }
         }
       }
     }
@@ -80,6 +113,9 @@
       font-size: 1.6rem;
       line-height: 1.78;
       color: #2e2e2e;
+      @include v.sm {
+        font-size: 1.1rem;
+      }
     }
   }
 }

@@ -1,24 +1,56 @@
+.reqruit {
+  padding: 36px 0 0;
+}
 .reqruit .page-top {
   height: 70vh;
   background: url(../../images/webp/reqruit_page-top.webp) no-repeat center/cover;
 }
+@media not screen and (min-width: 576px) {
+  .reqruit .page-top {
+    height: 30vh;
+    background-image: url(../../images/webp/reqruit_page-top-sp.webp);
+  }
+}
 .reqruit__container {
   padding: 73.4px 0 130px;
 }
+@media not screen and (min-width: 576px) {
+  .reqruit__container {
+    padding: 40px 0;
+  }
+}
 .reqruit__txt-ttl {
-  max-width: 535.74px;
-  width: 100%;
+  font-weight: 500;
+  font-size: 2.6rem;
+  line-height: 1.4;
+}
+@media not screen and (min-width: 576px) {
+  .reqruit__txt-ttl {
+    font-size: 1.6rem;
+  }
 }
 .reqruit__txt-desc {
   margin: 35.1px 0 0;
-  max-width: 1028.58px;
-  width: 100%;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+@media not screen and (min-width: 576px) {
+  .reqruit__txt-desc {
+    font-size: 1.1rem;
+  }
 }
 .reqruit__occupation {
   margin: 77px 0 0;
 }
 .reqruit__occupation-ttl {
-  width: 166.12px;
+  font-weight: 500;
+  font-size: 2.8rem;
+}
+@media not screen and (min-width: 576px) {
+  .reqruit__occupation-ttl {
+    font-size: 2rem;
+  }
 }
 .reqruit__occupation__list {
   margin: 43.5px 0 0;
@@ -36,6 +68,17 @@
   border-radius: 5px;
   box-shadow: 0 3px 10px #e7e7e7;
   position: relative;
+  transition: 0.5s;
+}
+@media not screen and (min-width: 576px) {
+  .reqruit__occupation__item {
+    max-width: 100%;
+  }
+}
+.reqruit__occupation__item:hover, .reqruit__occupation__item:focus {
+  background: #2a3f51;
+  color: #fff;
+  transition: 0.5s;
 }
 .reqruit__occupation__item a {
   display: block;
@@ -44,6 +87,11 @@
 .reqruit__occupation__item:last-child {
   max-width: 247px;
   width: 100%;
+}
+@media not screen and (min-width: 576px) {
+  .reqruit__occupation__item:last-child {
+    max-width: 100%;
+  }
 }
 .reqruit__occupation__item:before {
   content: "";

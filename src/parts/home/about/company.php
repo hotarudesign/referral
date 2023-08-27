@@ -9,174 +9,238 @@
             <h3 class="history__ttl">カシワバラグループは2030年まで<br>
                 <span class="history__ttl-accent">売上<span class="history__ttl-strong">3000億</span></span>を目指します
             </h3>
-            <div class="history__arrow">
+            <div class="history__arrow pc">
                 <picture>
                     <source srcset='<?php echo ImgPath; ?>/webp/history_arrow.webp' type='image/webp'>
-                    <img src='<?php echo ImgPath; ?>/history_arrow.png' alt=''>
+                    <img class="history__arrow-figure" src='<?php echo ImgPath; ?>/history_arrow.png' alt=''>
                 </picture>
-                <div class="history__point-goal">
+                <div class="history__lists">
+                    <div class="history__list history__list01">
+                        <figure class="history__item history__item01">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item01.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item01.png" alt="1953年 カシワバラ塗装店 開設">
+                            </picture>
+                        </figure>
+                    </div>
+                    <div class="history__list history__list02">
+                        <figure class="history__item history__item02">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item02.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item02.png" alt="1983年 アイキャン 設立">
+                            </picture>
+                        </figure>
+                        <figure class="history__item history__item03">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item03.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item03.png" alt="1987年 株式会社カシワバラ・コネクト 設立 通信サービスの提供">
+                            </picture>
+                        </figure>
+                        <figure class="history__item history__item04">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item04.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item04.png" alt="1990年 株式会社カシワバラ・サイト 設立 固定資産の管理">
+                            </picture>
+                        </figure>
+
+                    </div>
+                    <div class="history__list history__list03">
+                        <figure class="history__item history__item05">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item05.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item05.png" alt="2004年 株式会社カシワバラ・アシスト 設立 住宅購入資金のサポート">
+                            </picture>
+                        </figure>
+                        <figure class="history__item history__item06">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item06.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item06.png" alt="2009年 株式会社カシワバラ・パートナー 設立 保険の提供">
+                            </picture>
+                        </figure>
+                    </div>
+                    <div class="history__list history__list04">
+                        <figure class="history__item history__item07">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item07.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item07.png" alt="2010年 株式会社カシワバラ・コンパス 設立 資材の調達">
+                            </picture>
+                        </figure>
+                        <figure class="history__item history__item08">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item08.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item08.png" alt="2016年 株式会社カシワバラ・グラウンド 参画 不動産の開発">
+                            </picture>
+                        </figure>
+                    </div>
+                    <div class="history__list history__list05">
+                        <figure class="history__item history__item09">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item09.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item09.png" alt="2018年 株式会社オリジナルテクスト 設立 不動産の開発">
+                            </picture>
+                        </figure>
+                        <figure class="history__item history__item10">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item10.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item10.png" alt="2018年 カシワバラ・デイズ設立 建物の管理">
+                            </picture>
+                        </figure>
+                    </div>
+                    <div class="history__list history__list06">
+                        <figure class="history__item history__item11">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item11.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item11.png" alt="2022年 LTC Coating(s) Pte Ltd 海外の課題解決 1,040億円">
+                            </picture>
+                        </figure>
+                    </div>
+                    <div class="history__list history__list07">
+                        <figure class="history__item history__item12">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item12.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item12.png" alt="2030年 3,000億円">
+                            </picture>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="history__arrow sp">
+                <picture>
+                    <source srcset='<?php echo ImgPath; ?>/webp/history_arrow-sp.webp' type='image/webp'>
+                    <img class="history__arrow-figure" src='<?php echo ImgPath; ?>/history_arrow-sp.png' alt=''>
+                </picture>
+                <!-- <div class="history__point-goal">
                     <picture>
-                        <source srcset='<?php echo ImgPath; ?>/webp/culture_point07.webp' type='image/webp'>
-                        <img src="<?php echo ImgPath; ?>/culture_point07.png" alt="">
+                        <source srcset='<?php echo ImgPath; ?>/webp/history-item12-sp.webp' type='image/webp'>
+                        <img src="<?php echo ImgPath; ?>/history-item12-sp.png" alt="">
                     </picture>
-                </div>
-                <div class="history__list history__list01">
-                    <div class="history__item history__item01">
-                        <p class="history__item-txt">カシワバラ塗装店 設立</p>
-                        <p class="history__item-label">1953年</p>
-                    </div>
-                    <div class="history__point">
-                        <picture>
-                            <source srcset='<?php echo ImgPath; ?>/webp/culture_point01.webp' type='image/webp'>
-                            <img src="<?php echo ImgPath; ?>/culture_point01.png" alt="">
-                        </picture>
-                    </div>
-                </div>
-                <div class="history__list history__list02">
-                    <div class="history__item history__item02">
-                        <p class="history__item-txt">アイキャン 設立</p>
-                        <figure class="history__item-icon">
+                </div> -->
+                <div class="history__lists">
+                    <div class="history__list history__list01">
+                        <div class="history__item history__item01 history__item-sp">
                             <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/logo-ican.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/logo-ican.png" alt="">
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item01-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item01-sp.png" alt="">
+                            </picture>
+                            <div class="history__point history__point01">
+                                <picture>
+                                    <source srcset='<?php echo ImgPath; ?>/webp/history-point01.webp' type='image/webp'>
+                                    <img src="<?php echo ImgPath; ?>/history-point01.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history__list history__list02">
+                        <div class="history__item history__item02 history__item-sp">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item03-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item03-sp.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="history__item history__item03 history__item-sp">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item02-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item02-sp.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="history__item history__item04 history__item-sp">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item06-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item06-sp.png" alt="">
+                            </picture>
+                            <div class="history__point history__point02">
+                                <picture>
+                                    <source srcset='<?php echo ImgPath; ?>/webp/history-point02.webp' type='image/webp'>
+                                    <img src="<?php echo ImgPath; ?>/history-point02.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history__list history__list03">
+                        <div class="history__item history__item05 history__item-sp">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item05-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item05-sp.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="history__item history__item06 history__item-sp">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item04-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item04-sp.png" alt="">
+                            </picture>
+                            <div class="history__point history__point03">
+                                <picture>
+                                    <source srcset='<?php echo ImgPath; ?>/webp/history_point03.webp' type='image/webp'>
+                                    <img src="<?php echo ImgPath; ?>/history_point03.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history__list history__list04">
+                        <div class="history__item history__item07 history__item-sp">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item08-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item08-sp.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="history__item history__item08 history__item-sp">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item07-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item07-sp.png" alt="">
+                            </picture>
+                            <div class="history__point history__point04">
+                                <picture>
+                                    <source srcset='<?php echo ImgPath; ?>/webp/history_point04.webp' type='image/webp'>
+                                    <img src="<?php echo ImgPath; ?>/history_point04.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history__list history__list05">
+                        <div class="history__item history__item09 history__item-sp">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item10-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item10-sp.png" alt="">
+                            </picture>
+                        </div>
+                        <div class="history__item history__item10 history__item-sp">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item09-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item09-sp.png" alt="">
+                            </picture>
+                            <div class="history__point history__point05">
+                                <picture>
+                                    <source srcset='<?php echo ImgPath; ?>/webp/history_point05.webp' type='image/webp'>
+                                    <img src="<?php echo ImgPath; ?>/history_point05.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history__list history__list06">
+                        <div class="history__item history__item11 history__item-sp">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item11-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item11-sp.png" alt="">
+                            </picture>
+                            <div class="history__point history__point06">
+                                <picture>
+                                    <source srcset='<?php echo ImgPath; ?>/webp/history_point06.webp' type='image/webp'>
+                                    <img src="<?php echo ImgPath; ?>/history_point06.png" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="history__list history__list07">
+                        <figure class="history__item history__item12 history__item-sp">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item12-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item12-sp.png" alt="2030年 3,000億円">
                             </picture>
                         </figure>
-                        <p class="history__item-label">1983年</p>
-                    </div>
-                    <div class="history__item history__item03">
-                        <p class="history__item-txt">株式会社カシワバラ・コネクト 設立<br><span class="history__item-desc">通信サービスの提供</span></p>
-                        <figure class="history__item-icon">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/logo-connect.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/logo-connect.png" alt="">
-                            </picture>
-                        </figure>
-                        <p class="history__item-label">1987年</p>
-                    </div>
-                    <div class="history__point">
-                        <picture>
-                            <source srcset='<?php echo ImgPath; ?>/webp/culture_point02.webp' type='image/webp'>
-                            <img src="<?php echo ImgPath; ?>/culture_point02.png" alt="">
-                        </picture>
-                    </div>
-                </div>
-                <div class="history__list history__list03">
-                    <div class="history__item history__item04">
-                        <p class="history__item-txt">株式会社カシワバラ・サイト 設立<br><span class="history__item-desc">固定資産の管理</span></p>
-                        <figure class="history__item-icon">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/logo-site.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/logo-site.png" alt="">
-                            </picture>
-                        </figure>
-                        <p class="history__item-label">1990年</p>
-                    </div>
-                    <div class="history__item history__item05">
-                        <p class="history__item-txt">株式会社カシワバラ・アシスト 設立<br><span class="history__item-desc">住宅購入資金のサポート</span></p>
-                        <figure class="history__item-icon">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/logo-assist.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/logo-assist.png" alt="">
-                            </picture>
-                        </figure>
-                        <p class="history__item-label">2004年</p>
-                    </div>
-                    <div class="history__item history__item06">
-                        <p class="history__item-txt">株式会社カシワバラ・パートナー 設立<br><span class="history__item-desc">保険の提供</span></p>
-                        <figure class="history__item-icon">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/logo-partner.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/logo-partner.png" alt="">
-                            </picture>
-                        </figure>
-                        <p class="history__item-label">2009年</p>
-                    </div>
-                    <div class="history__point">
-                        <picture>
-                            <source srcset='<?php echo ImgPath; ?>/webp/culture_point03.webp' type='image/webp'>
-                            <img src="<?php echo ImgPath; ?>/culture_point03.png" alt="">
-                        </picture>
-                    </div>
-                </div>
-                <div class="history__list history__list04">
-                    <div class="history__item history__item07">
-                        <p class="history__item-txt">株式会社カシワバラ・コンパス 設立<br><span class="history__item-desc">資材の調達</span></p>
-                        <figure class="history__item-icon">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/logo-compass.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/logo-compass.png" alt="">
-                            </picture>
-                        </figure>
-                        <p class="history__item-label">2010年</p>
-                    </div>
-                    <div class="history__item history__item08">
-                        <p class="history__item-txt">株式会社カシワバラ・グラウンド 参画<br><span class="hisotry__item-desc">不動産の開発</span></p>
-                        <figure class="history__item-icon">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/logo-ground.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/logo-ground.png" alt="">
-                            </picture>
-                        </figure>
-                        <p class="history__item-label">2016年</p>
-                    </div>
-                    <div class="history__point">
-                        <picture>
-                            <source srcset='<?php echo ImgPath; ?>/webp/culture_point04.webp' type='image/webp'>
-                            <img src="<?php echo ImgPath; ?>/culture_point04.png" alt="">
-                        </picture>
-                    </div>
-                </div>
-                <div class="history__list history__list05">
-                    <div class="history__item history__item09">
-                        <p class="history__item-txt">株式会社オリジナルテクスト 設立<br><span class="history__item-desc">不動産の開発</span></p>
-                        <figure class="history__item-icon">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/logo-originaltext.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/logo-originaltext.png" alt="">
-                            </picture>
-                        </figure>
-                        <p class="history__item-label">2018年</p>
-                    </div>
-                    <div class="history__item history__item10">
-                        <p class="history__item-txt">株式会社カシワバラ・デイズ 設立<br><span class="hisotry__item-desc">建物の管理</span></p>
-                        <figure class="history__item-icon">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/logo-days.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/logo-days.png" alt="">
-                            </picture>
-                        </figure>
-                        <p class="history__item-label">2018年</p>
-                    </div>
-                    <div class="history__point">
-                        <picture>
-                            <source srcset='<?php echo ImgPath; ?>/webp/culture_point05.webp' type='image/webp'>
-                            <img src="<?php echo ImgPath; ?>/culture_point05.png" alt="">
-                        </picture>
-                    </div>
-                </div>
-                <div class="history__list history__list06">
-                    <div class="history__item history__item11">
-                        <p class="history__item-txt">LTC Coatings(S) Pte Ltd<br><span class="history__item-desc">海外の課題解決</span></p>
-                        <figure class="history__item-icon">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/logo-tokyogumi.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/logo-tokyogumi.png" alt="">
-                            </picture>
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/logo-ltc.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/logo-ltc.png" alt="">
-                            </picture>
-                        </figure>
-                        <p class="history__item-label">2022年</p>
-                    </div>
-                    <div class="history__point">
-                        <picture>
-                            <source srcset='<?php echo ImgPath; ?>/webp/culture_point06.webp' type='image/webp'>
-                            <img src="<?php echo ImgPath; ?>/culture_point06.png" alt="">
-                        </picture>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>

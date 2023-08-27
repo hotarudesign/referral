@@ -28,7 +28,7 @@
                             </picture>
                         </div>
                     </div>
-                    <p class="circle__item-num">01</p>
+                    <p class="circle__item-num jsFlowNum01">01</p>
                 </li>
                 <li class="circle__item">
                     <div class="circle__item__main">
@@ -43,7 +43,7 @@
                             </picture>
                         </div>
                     </div>
-                    <p class="circle__item-num">02</p>
+                    <p class="circle__item-num jsFlowNum02">02</p>
                 </li>
                 <li class="circle__item">
                     <div class="circle__item__main">
@@ -58,7 +58,7 @@
                             </picture>
                         </div>
                     </div>
-                    <p class="circle__item-num">03</p>
+                    <p class="circle__item-num jsFlowNum03">03</p>
                 </li>
                 <li class="circle__item">
                     <div class="circle__item__main">
@@ -73,7 +73,7 @@
                             </picture>
                         </div>
                     </div>
-                    <p class="circle__item-num">04</p>
+                    <p class="circle__item-num jsFlowNum04">04</p>
                 </li>
                 <li class="circle__item">
                     <div class="circle__item__main">
@@ -88,7 +88,7 @@
                             </picture>
                         </div>
                     </div>
-                    <p class="circle__item-num">05</p>
+                    <p class="circle__item-num jsFlowNum05">05</p>
                 </li>
             </ol>
         </div>

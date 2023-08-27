@@ -4,114 +4,31 @@
         <div class="splide2 splide">
             <div class="splide__track">
                 <ul class="splide__list">
-                    <li class="splide__slide">
-                        <div class="splide__slide__body">
-                            <div class="splide__slide__body__txt">
-                                <h4 class="splide__slide__body__txt-ttl">女性社員の座談会の様子を追加しました！</h4>
-                                <p class="splide__slide__body__txt-desc">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                            </div>
-                            <div class="splide__slide__head">
-                                <p class="splide__slide__head-label">お知らせ</p>
-                                <time class="splide__slide__head-data" date-time="2023/8/9">2023年8月9日</time>
-                            </div>
-                        </div>
-                        <figure class="splide__slide__thumb">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/news-item01.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/news-item01.png" alt="">
-                            </picture>
-                        </figure>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="splide__slide__body">
-                            <div class="splide__slide__body__txt">
-                                <h4 class="splide__slide__body__txt-ttl">女性社員の座談会の様子を追加しました！</h4>
-                                <p class="splide__slide__body__txt-desc">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                            </div>
-                            <div class="splide__slide__head">
-                                <p class="splide__slide__head-label">お知らせ</p>
-                                <time class="splide__slide__head-data" date-time="2023/8/9">2023年8月9日</time>
-                            </div>
-                        </div>
-                        <figure class="splide__slide__thumb">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/news-item01.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/news-item01.png" alt="">
-                            </picture>
-                        </figure>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="splide__slide__body">
-                            <div class="splide__slide__body__txt">
-                                <h4 class="splide__slide__body__txt-ttl">女性社員の座談会の様子を追加しました！</h4>
-                                <p class="splide__slide__body__txt-desc">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                            </div>
-                            <div class="splide__slide__head">
-                                <p class="splide__slide__head-label">お知らせ</p>
-                                <time class="splide__slide__head-data" date-time="2023/8/9">2023年8月9日</time>
-                            </div>
-                        </div>
-                        <figure class="splide__slide__thumb">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/news-item01.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/news-item01.png" alt="">
-                            </picture>
-                        </figure>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="splide__slide__body">
-                            <div class="splide__slide__body__txt">
-                                <h4 class="splide__slide__body__txt-ttl">女性社員の座談会の様子を追加しました！</h4>
-                                <p class="splide__slide__body__txt-desc">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                            </div>
-                            <div class="splide__slide__head">
-                                <p class="splide__slide__head-label">お知らせ</p>
-                                <time class="splide__slide__head-data" date-time="2023/8/9">2023年8月9日</time>
-                            </div>
-                        </div>
-                        <figure class="splide__slide__thumb">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/news-item01.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/news-item01.png" alt="">
-                            </picture>
-                        </figure>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="splide__slide__body">
-                            <div class="splide__slide__body__txt">
-                                <h4 class="splide__slide__body__txt-ttl">女性社員の座談会の様子を追加しました！</h4>
-                                <p class="splide__slide__body__txt-desc">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                            </div>
-                            <div class="splide__slide__head">
-                                <p class="splide__slide__head-label">お知らせ</p>
-                                <time class="splide__slide__head-data" date-time="2023/8/9">2023年8月9日</time>
-                            </div>
-                        </div>
-                        <figure class="splide__slide__thumb">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/news-item01.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/news-item01.png" alt="">
-                            </picture>
-                        </figure>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="splide__slide__body">
-                            <div class="splide__slide__body__txt">
-                                <h4 class="splide__slide__body__txt-ttl">女性社員の座談会の様子を追加しました！</h4>
-                                <p class="splide__slide__body__txt-desc">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                            </div>
-                            <div class="splide__slide__head">
-                                <p class="splide__slide__head-label">お知らせ</p>
-                                <time class="splide__slide__head-data" date-time="2023/8/9">2023年8月9日</time>
-                            </div>
-                        </div>
-                        <figure class="splide__slide__thumb">
-                            <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/news-item01.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/news-item01.png" alt="">
-                            </picture>
-                        </figure>
-                    </li>
+                    <?php
+                    $args = array(
+                        'post_type' => 'news',
+                        'posts_per_page' => 9
+                    );
+                    $my_query = new WP_Query($args); ?>
+                    <?php if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
+                            <li class="splide__slide">
+                                <div class="splide__slide__body">
+                                    <div class="splide__slide__body__txt">
+                                        <h4 class="splide__slide__body__txt-ttl"><?php the_title(); ?></h4>
+                                        <p class="splide__slide__body__txt-desc"><?php the_field('detail'); ?></p>
+                                    </div>
+                                    <div class="splide__slide__head">
+                                        <p class="splide__slide__head-label"><?php echo get_the_term_list($post->ID, 'news-category'); ?></p>
+                                        <time class="splide__slide__head-data" date-time="<?php echo get_the_time("Y年n月j日"); ?>"><?php echo get_the_time("Y年n月j日"); ?></time>
+                                    </div>
+                                </div>
+                                <figure class="splide__slide__thumb">
+                                    <img src='<?php the_field('news_thumbnail'); ?>' alt=''>
+                                </figure>
+                            </li>
+                    <?php endwhile;
+                    endif;
+                    wp_reset_postdata(); ?>
                 </ul>
             </div>
             <div class="splide__arrows">

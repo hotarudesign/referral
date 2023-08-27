@@ -6,47 +6,49 @@
             <div class="reqruit__container">
                 <div class="reqruit__txt">
                     <h2 class="reqruit__txt-ttl">
-                        <picture>
-                            <source srcset='<?php echo ImgPath; ?>/webp/reqruit_ttl.webp' type='image/webp'>
-                            <img src="<?php echo ImgPath; ?>/reqruit_ttl.png" alt="自らを変える勇気とこれまでを越える意志。">
-                        </picture>
+                        自らを変える勇気とこれまでを越える意志。
                     </h2>
                     <p class="reqruit__txt-desc">
-                        <picture>
-                            <source srcset='<?php echo ImgPath; ?>/webp/reqruit_desc.webp' type='image/webp'>
-                            <img src="<?php echo ImgPath; ?>/reqruit_desc.png" alt="街の塗装店として創業した私たち。現在では人々の暮らしをあらゆる面から支える企業グループへと成長し、2019年に
-                        「カシワバラグループ」として新たな一歩を踏み出しました。このような多面的な成長の過程で常に抱いてきた想いが、自らを変える勇気とこれまでを越える意志。我々が何をするのかではなく、お客様に何ができるのかという視点で既成概念に縛られることなく果敢なチャレンジを続けることで、さまざまな「世界」を生み出すことができるグループになったのです。ここには、自分らしいキャリアを描ける無限の活躍フィールドがあります。スペシャリストにも、ゼネラリストにもなれる環境があります。常に進化を続ける私たちと共に進む、あなたという新しい力を求めています。">
-                        </picture>
+                        町の塗装店として創業した私たち。<br>
+                        現在では人々の暮らしをあらゆる面から支える企業グループへと成長し、2019年に「カシワバラグループ」として新たな一歩を踏み出しました。<br>
+                        このような多面的な成長の過程で常に抱いてきた想いが、自らを変える勇気とこれまでを越える意志。<br>
+                        我々が何をするのかではなく、お客様に何ができるのかという視点で既成概念に縛られることなく果敢なチャレンジを続けることで、<br>
+                        さまざまな「世界」を生み出すことができるグループになったのです。<br>
+                        ここには、自分らしいキャリアを描ける無限の活躍フィールドがあります。<br>
+                        スペシャリストにも、ゼネラリストにもなれる環境があります。<br>
+                        常に進化を続ける私たちと共に進む、あなたという新しい力を求めています。<br>
                     </p>
                 </div>
                 <div class="reqruit__occupation">
                     <h3 class="reqruit__occupation-ttl">
-                        <picture>
-                            <source srcset='<?php echo ImgPath; ?>/webp/reqruit_list-ttl.webp' type='image/webp'>
-                            <img src="<?php echo ImgPath; ?>/reqruit_list-ttl.png" alt="募集職種一覧">
-                        </picture>
+                        募集職種一覧
                     </h3>
                     <ul class="reqruit__occupation__list">
-                        <li class="reqruit__occupation__item">
-                            <a href="">
-                                営業
-                            </a>
-                        </li>
-                        <li class="reqruit__occupation__item">
-                            <a href="">
-                                施工管理
-                            </a>
-                        </li>
-                        <li class="reqruit__occupation__item">
-                            <a href="">
-                                設計・積算
-                            </a>
-                        </li>
-                        <li class="reqruit__occupation__item">
-                            <a href="">
-                                施工管理（新卒・第二新卒）
-                            </a>
-                        </li>
+                        <?php
+                        $args = array(
+                            'post_type' => 'reqruit',
+                            'posts_per_page' => 4
+                        );
+                        $my_query = new WP_Query($args); ?>
+                        <?php if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
+                                <li class="reqruit__occupation__item">
+                                    <a href="<?php echo the_permalink(); ?>">
+                                        <?php
+                                        $terms = get_the_terms(get_the_ID(), 'job');
+                                        if (!empty($terms)) : if (!is_wp_error($terms)) :
+                                        ?>
+                                                <ul>
+                                                    <?php foreach ($terms as $term) : ?>
+                                                        <li><?php echo $term->name; ?></li>
+                                                    <?php endforeach; ?>
+                                                </ul>
+                                        <?php endif;
+                                        endif; ?>
+                                    </a>
+                                </li>
+                        <?php endwhile;
+                        endif;
+                        wp_reset_postdata(); ?>
                     </ul>
                 </div>
             </div>

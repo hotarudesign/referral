@@ -6,6 +6,9 @@
 
 .interview {
   padding: 205px 0 133px;
+  @include v.sm {
+    padding: 70px 0;
+  }
   &-ttl {
     display: flex;
     justify-content: flex-end;
@@ -13,6 +16,9 @@
     font-family: v.$fontUnbounded;
     font-size: 6rem;
     color: #2e2e2e;
+    @include v.sm {
+      font-size: 2.8rem;
+    }
   }
   &-ruby {
     display: flex;
@@ -35,13 +41,18 @@
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 32px;
     margin: 65px 0 0;
+    @include v.sm {
+      margin: 40px 0 0;
+      gap: 25px 0;
+    }
   }
   &__item {
+    box-shadow: 0 3px 6px #e7e7e7;
     &-link {
       display: flex;
+      justify-content: flex-end;
       flex-direction: column-reverse;
     }
-    box-shadow: 0 3px 6px #e7e7e7;
     &__body {
       display: flex;
       flex-direction: column-reverse;
@@ -53,6 +64,9 @@
           font-size: 1.6rem;
           line-height: 1.5;
           color: #2e2e2e;
+          @include v.sm {
+            font-size: 1.4rem;
+          }
         }
         &-desc {
           margin: 5px 0 0;
@@ -71,6 +85,9 @@
         font-weight: 500;
         font-size: 1.6rem;
         color: v.$accentColor;
+        @include v.sm {
+          font-size: 1.4rem;
+        }
       }
       &-date {
         font-weight: 500;
@@ -98,6 +115,9 @@
         color: #fff;
         position: absolute;
         top: 23px;
+        @include v.sm {
+          font-size: 1.3rem;
+        }
         &01 {
           left: 10px;
         }

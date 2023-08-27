@@ -3,6 +3,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 img {
   max-width: 100%;
@@ -12,14 +13,43 @@ body {
   font-family: v.$fontNoto;
   color: v.$mainColor;
   position: relative;
+  // ハンバーガーメニューopen時
+  &.is-menuOpen {
+    height: 100%;
+    overflow-y: hidden;
+  }
 }
 .inner {
   max-width: 1260px;
   margin: 0 auto;
   padding: 0 50px;
+  @media (max-width: 1170px) {
+    padding: 0 40px;
+  }
+  @include v.sm {
+    padding: 0 5.3%;
+  }
 }
 .sec-ttl {
   font-family: v.$fontUnbounded;
   font-size: 60px;
   text-align: center;
+  @include v.sm {
+    font-size: 2.8rem;
+  }
+  &-ruby {
+    font-family: v.$fontNoto;
+  }
+}
+.pc-only {
+  display: block;
+  @include v.sm {
+    display: none;
+  }
+}
+.sp-only {
+  display: none;
+  @include v.sm {
+    display: block;
+  }
 }

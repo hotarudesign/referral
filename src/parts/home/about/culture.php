@@ -3,8 +3,8 @@
         <h3 class="culture-ttl about__sec-ttl">文化を知る</h3>
         <div class="culture__head">
             <h4 class="culture__head-ttl">“創業者精神”</h4>
-            <p class="culture__head-lead">“創業者精神”とは、カシワバラの創業者である柏原久雄が創業当初にノートに書き留めた、<br>
-                会社の礎となる考え方です。6つの精神は、70年以上が経った今でもカシワバラの根底に息づいています。
+            <p class="culture__head-lead">“創業者精神”とは、カシワバラの創業者である<br class="sp-only">柏原久雄が創業当初にノートに書き留めた、<br>
+                会社の礎となる考え方です。6つの精神は、<br class="sp-only">70年以上が経った今でもカシワバラの根底に息づいています。
             </p>
         </div>
         <ol class="culture__list">

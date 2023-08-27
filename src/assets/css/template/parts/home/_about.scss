@@ -24,6 +24,9 @@
     font-size: 3.2rem;
     color: #000;
     position: relative;
+    @include v.sm {
+      font-size: 2.2rem;
+    }
     &::before {
       content: "";
       display: inline-block;

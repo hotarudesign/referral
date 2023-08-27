@@ -9,10 +9,16 @@
     &::after {
       content: url(../../images/webp/future_bg-txt.webp);
       display: inline-block;
-      transform: scale(0.4);
+      width: 100%;
       position: absolute;
-      top: -130px;
-      left: -90%;
+      top: -140px;
+      left: 10%;
+      transform: translateX(-50%) scale(0.5);
+      @include v.sm {
+        top: -130px;
+        left: 5%;
+        transform: translateX(-50%) scale(0.3);
+      }
     }
   }
   &-lead {
@@ -33,9 +39,50 @@
     width: 100%;
     background: #fff;
     border-radius: 5px;
+    position: relative;
+    &:before,
+    &:after {
+      content: url(../../images/webp/play-duotone.webp);
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%) scale(0.5);
+      @include v.sm {
+        top: auto;
+        transform: translate(-50%, -50%) scale(0.4) rotate(90deg);
+      }
+    }
+    &:before {
+      left: 31%;
+      @include v.sm {
+        top: 33%;
+        left: 50%;
+      }
+    }
+    &:after {
+      right: 32%;
+      @include v.sm {
+        bottom: 25%;
+        left: 50%;
+      }
+    }
+    @include v.md {
+      flex-direction: column;
+      gap: 30px 0;
+      background: transparent;
+    }
+    @include v.sm {
+      padding: 0 10px;
+    }
   }
   &__item {
-    padding: 23px 0 20px;
+    padding: 23px 20px 20px;
+    background: #fff;
+    border-radius: 5px;
+    @include v.sm {
+      padding: 23px 36px 20px;
+    }
+    &01 {
+    }
     &__head {
       display: flex;
       flex-direction: column-reverse;

@@ -4,6 +4,9 @@
   min-height: 820px;
   background: url(../../images/webp/flow_bg.webp) no-repeat center/cover;
   position: relative;
+  @include v.sm {
+    background: url(../../images/webp/flow_bg-sp.webp) no-repeat center/cover;
+  }
   &-ttl {
     display: flex;
     flex-direction: column;
@@ -21,31 +24,66 @@
     position: absolute;
     top: 122px;
     right: 15px;
+    @include v.sm {
+      width: 194px;
+      top: 24.5px;
+    }
   }
   .circle {
     width: 283.2px;
     position: absolute;
     top: 180px;
-    left: 50px;
+    left: 16%;
+    @include v.xxl {
+      top: 180px;
+      left: 8%;
+    }
+    @include v.sm {
+      position: static;
+      width: 100%;
+    }
     &::before {
       content: "";
       display: inline-block;
-      width: 687px;
-      height: 687px;
       border: 2.5px solid v.$accentColor;
       border-radius: 50%;
       position: absolute;
+      width: 687px;
+      height: 687px;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      @include v.xxl {
+        width: 600px;
+        height: 600px;
+        top: 45%;
+        left: 20%;
+      }
+      @include v.sm {
+        display: none;
+      }
+    }
+    &__logo {
+      @include v.sm {
+        display: none;
+      }
     }
     &__list {
       display: flex;
       flex-direction: column;
       gap: 34px 0;
       position: absolute;
-      top: 0;
-      left: 150%;
+      top: -18%;
+      left: 140%;
+      @include v.xxl {
+        top: -18%;
+        left: 100%;
+      }
+      @include v.sm {
+        gap: 20px 0;
+        margin: 40px 0 0;
+        position: static;
+      }
     }
     &__item {
       display: flex;
@@ -54,72 +92,140 @@
       flex-direction: row-reverse;
       &:first-child {
         gap: 0 69px;
+        @include v.sm {
+          gap: 0 19px;
+        }
         .circle__item {
           &__main {
             width: 343px;
+            @include v.sm {
+              width: 85%;
+            }
           }
           &-icon {
             width: 33px;
+            @include v.sm {
+              width: 26.83px;
+            }
+          }
+          &-num {
+            right: 38px;
+            @include v.sm {
+              right: 0;
+            }
           }
         }
       }
       &:nth-child(2) {
         gap: 0 93px;
+        @include v.sm {
+          gap: 0 19px;
+        }
         .circle__item {
           &__main {
             width: 252px;
+            @include v.sm {
+              width: 85%;
+            }
           }
           &-icon {
             width: 31.57px;
           }
           &-num {
-            left: 24px;
+            left: 30px;
+            @include v.xxl {
+              left: 20px;
+            }
+            @include v.sm {
+              left: 0;
+            }
           }
         }
       }
       &:nth-child(3) {
         gap: 0 140px;
+        @include v.sm {
+          gap: 0 19px;
+        }
         .circle__item {
           &__main {
             width: 301px;
+            @include v.sm {
+              width: 85%;
+            }
           }
           &-icon {
             width: 33.94px;
           }
           &-num {
-            left: 30px;
+            left: 48px;
+            @include v.xxl {
+              left: 34px;
+            }
+            @include v.sm {
+              left: 0;
+            }
           }
         }
       }
       &:nth-child(4) {
         gap: 0 87px;
+        @include v.sm {
+          gap: 0 19px;
+        }
         .circle__item {
           &__main {
             width: 343px;
+            @include v.sm {
+              width: 85%;
+            }
           }
           &-icon {
             width: 36.5px;
+          }
+          &-num {
+            left: 35px;
+            @include v.xxl {
+              left: 10px;
+            }
+            @include v.sm {
+              left: 0;
+            }
           }
         }
       }
       &:last-child {
         gap: 0 60px;
+        @include v.sm {
+          gap: 0 19px;
+        }
         .circle__item {
           &__main {
             width: 419px;
+            @include v.sm {
+              width: 85%;
+            }
           }
           &-icon {
             width: 29.06px;
           }
           &-num {
             bottom: 10px;
-            left: -50px;
+            left: -20px;
+            @include v.xxl {
+              bottom: 10px;
+              left: -60px;
+            }
+            @include v.sm {
+              bottom: 0;
+              left: 0;
+            }
           }
         }
       }
       &__main {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         flex-direction: row-reverse;
         gap: 0 19.6px;
@@ -127,6 +233,11 @@
         background: #fff;
         border-radius: 5px;
         position: relative;
+        @include v.sm {
+          justify-content: flex-end;
+          gap: 0 15px;
+          padding: 15px 0 15px 16.6px;
+        }
         &:before {
           content: "";
           position: absolute;
@@ -139,6 +250,9 @@
       }
       &__body {
         color: v.$mainColor;
+        @include v.sm {
+          line-height: 2;
+        }
         &-ttl {
           font-weight: 500;
           font-size: 1.6rem;
@@ -146,27 +260,30 @@
         &-desc {
           font-weight: 400;
           font-size: 1.4rem;
+          @include v.sm {
+            font-size: 1.3rem;
+            letter-spacing: -0.06em;
+          }
         }
       }
       &-num {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75px;
+        height: 75px;
         font-family: v.$fontUnbounded;
         font-weight: 500;
         font-size: 3rem;
         color: v.$mainColor;
+        background: #fff;
+        border-radius: 50%;
         position: relative;
         z-index: 2;
-        &::before {
-          content: "";
-          display: inline-block;
-          width: 75px;
-          height: 75px;
-          background: #fff;
-          border-radius: 50%;
-          position: absolute;
-          top: 52%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          z-index: -1;
+        @include v.sm {
+          width: 39px;
+          height: 39px;
+          font-size: 1.5rem;
         }
       }
     }

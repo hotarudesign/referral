@@ -1,0 +1,124 @@
+@use "../base/variable" as v;
+@use "../util/header";
+@use "../util/contact";
+@use "../util/footer";
+
+.reqruit-post {
+  padding: 36px 0 51px;
+  .page-top {
+    height: 80vh;
+    background: url(../../images/webp/reqruit-post_page-top.webp) no-repeat
+      center/cover;
+    @include v.sm {
+      height: 35vh;
+      background-image: url(../../images/webp/reqruit-post_page-top-sp.webp);
+    }
+  }
+  .post {
+    padding: 73.3px 0 0;
+    @include v.sm {
+      padding: 40px 0 0;
+    }
+    &__ttl {
+      font-weight: 500;
+      font-size: 2.6rem;
+      line-height: 1.4;
+      @include v.sm {
+        font-size: 1.7rem;
+        line-height: 1.7;
+      }
+    }
+    &__desc {
+      margin: 36px 0 0;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2;
+      @include v.sm {
+        margin: 21px 0 0;
+        font-size: 1.1rem;
+      }
+    }
+    .reqruitment {
+      padding: 77px 0 0;
+      @include v.sm {
+        padding: 30px 0 0;
+      }
+      &-ttl {
+        font-weight: 700;
+        font-size: 2.8rem;
+        color: #2e2e2e;
+        @include v.sm {
+          font-size: 2rem;
+        }
+      }
+      &__part {
+        margin: 51.7px 0 0;
+        @include v.sm {
+          margin: 30px 0 0;
+        }
+        &:last-child {
+          margin: 75.5px 0 0;
+          @include v.sm {
+            margin: 45px 0 0;
+          }
+        }
+        &-ttl {
+          margin-bottom: 29.2px;
+          padding-left: 10px;
+          font-size: 2rem;
+          border-left: 3px solid v.$accentColor;
+          @include v.sm {
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+          }
+        }
+      }
+      &__list {
+        display: flex;
+        gap: 0 24.7px;
+        padding: 23.5px 0 21.5px;
+        border-top: 1px solid #d0d0d0;
+        @include v.sm {
+          flex-direction: column;
+        }
+        &:last-child {
+          border-bottom: 1px solid #d0d0d0;
+        }
+        &-ttl {
+          width: 100px;
+          font-weight: 500;
+          font-size: 1.6rem;
+          line-height: 2;
+        }
+        &-data {
+          width: calc(100% - 100px);
+          font-weight: 400;
+          font-size: 1.6rem;
+          line-height: 2;
+          @include v.sm {
+            margin: 15px 0 0;
+            width: 100%;
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+  }
+  .entry-btn {
+    display: block;
+    margin: 53px auto 0;
+    padding: 30px 0 34px;
+    max-width: 495px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 3.2rem;
+    text-align: center;
+    background: linear-gradient(45deg, #a4d8ef, #38b8ef);
+    color: #fff;
+    border-radius: 50px;
+    @include v.sm {
+      padding: 12px 0 16px;
+      font-size: 2.4rem;
+    }
+  }
+}

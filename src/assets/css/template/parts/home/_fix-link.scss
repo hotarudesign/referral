@@ -8,13 +8,24 @@
   top: 20%;
   right: 0;
   z-index: 5;
+  @include v.sm {
+    width: 100%;
+    -ms-writing-mode: inherit;
+    writing-mode: inherit;
+    position: static;
+  }
   &__btn {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    width: 100%;
     padding: 17px 0 20px;
     background: v.$mainColor;
+    @include v.sm {
+      gap: 0 20px;
+      padding: 17px 0;
+    }
     &-icon {
       width: 19.3px;
     }
@@ -24,6 +35,21 @@
       font-size: 1.5rem;
       letter-spacing: 0.1em;
       color: #fff;
+      @include v.sm {
+        margin: 0;
+      }
+    }
+  }
+  &.pc {
+    display: block;
+    @include v.sm {
+      display: none;
+    }
+  }
+  &.sp {
+    display: none;
+    @include v.sm {
+      display: block;
     }
   }
 }

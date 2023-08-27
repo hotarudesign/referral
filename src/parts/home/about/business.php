@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="circle__list">
-                    <div class="circle__item jsCircleItem">
+                    <div class="circle__item circle__item01 jsCircleItem">
                         <p class="circle__item-txt">戸建て<br>開発・修繕</p>
                         <figure class="circle__item-icon">
                             <picture>
@@ -24,7 +24,7 @@
                             </picture>
                         </figure>
                     </div>
-                    <div class="circle__item jsCircleItem">
+                    <div class="circle__item circle__item02 jsCircleItem">
                         <p class="circle__item-txt">インフラ<br>メンテナンス</p>
                         <figure class="circle__item-icon">
                             <picture>
@@ -33,7 +33,7 @@
                             </picture>
                         </figure>
                     </div>
-                    <div class="circle__item jsCircleItem">
+                    <div class="circle__item circle__item03 jsCircleItem">
                         <p class="circle__item-txt">資材調達</p>
                         <figure class="circle__item-icon">
                             <picture>
@@ -42,7 +42,7 @@
                             </picture>
                         </figure>
                     </div>
-                    <div class="circle__item jsCircleItem">
+                    <div class="circle__item circle__item04 jsCircleItem">
                         <p class="circle__item-txt">通信</p>
                         <figure class="circle__item-icon">
                             <picture>
@@ -51,7 +51,7 @@
                             </picture>
                         </figure>
                     </div>
-                    <div class="circle__item jsCircleItem">
+                    <div class="circle__item circle__item05 jsCircleItem">
                         <p class="circle__item-txt">引越し<br>介護</p>
                         <figure class="circle__item-icon">
                             <picture>
@@ -60,7 +60,7 @@
                             </picture>
                         </figure>
                     </div>
-                    <div class="circle__item jsCircleItem">
+                    <div class="circle__item circle__item06 jsCircleItem">
                         <p class="circle__item-txt">カーボン<br>クレジット</p>
                         <figure class="circle__item-icon">
                             <picture>
@@ -69,7 +69,7 @@
                             </picture>
                         </figure>
                     </div>
-                    <div class="circle__item jsCircleItem">
+                    <div class="circle__item circle__item07 jsCircleItem">
                         <p class="circle__item-txt">内装<br>リノベーション</p>
                         <figure class="circle__item-icon">
                             <picture>
@@ -78,7 +78,7 @@
                             </picture>
                         </figure>
                     </div>
-                    <div class="circle__item jsCircleItem">
+                    <div class="circle__item circle__item08 jsCircleItem">
                         <p class="circle__item-txt">広告</p>
                         <figure class="circle__item-icon">
                             <picture>
@@ -87,7 +87,7 @@
                             </picture>
                         </figure>
                     </div>
-                    <div class="circle__item jsCircleItem">
+                    <div class="circle__item circle__item09 jsCircleItem">
                         <p class="circle__item-txt">保険の提供</p>
                         <figure class="circle__item-icon">
                             <picture>
@@ -96,7 +96,7 @@
                             </picture>
                         </figure>
                     </div>
-                    <div class="circle__item jsCircleItem">
+                    <div class="circle__item circle__item10 jsCircleItem">
                         <p class="circle__item-txt">海外事業</p>
                         <figure class="circle__item-icon">
                             <picture>
@@ -105,7 +105,7 @@
                             </picture>
                         </figure>
                     </div>
-                    <div class="circle__item jsCircleItem">
+                    <div class="circle__item circle__item11 jsCircleItem">
                         <p class="circle__item-txt">マンション<br>開発・修繕</p>
                         <figure class="circle__item-icon">
                             <picture>
@@ -125,12 +125,12 @@
                     <img src="<?php echo ImgPath; ?>/document.png" alt="">
                 </picture>
             </figure>
-            <button class="business__foot-btn">資料ダウンロード
+            <a class="business__foot-btn" href="<?php echo ImgPath; ?>/webp/document.webp" download="採用ピッチ資料">資料ダウンロード
                 <picture>
                     <source srcset='<?php echo ImgPath; ?>/webp/arrow-down-to-bracket-regular.webp' type='image/webp'>
                     <img class="business__foot-icon" src="<?php echo ImgPath; ?>/arrow-down-to-bracket-regular.png" alt="">
                 </picture>
-            </button>
+            </a>
         </div>
     </div>
 </section>

@@ -14,3 +14,27 @@ function theme_setup()
     );
 }
 add_action('after_setup_theme', 'theme_setup');
+
+// interviewのエディター非表示
+add_action('init', function () {
+    remove_post_type_support('interview', 'editor');
+}, 99);
+
+add_action('init', function () {
+    remove_post_type_support('news', 'editor');
+}, 99);
+
+add_action('init', function () {
+    remove_post_type_support('reqruit', 'editor');
+}, 99);
+
+// タームの並び替え
+function taxonomy_orderby_description($orderby, $args)
+{
+
+    if ($args['orderby'] == 'description') {
+        $orderby = 'tt.description';
+    }
+    return $orderby;
+}
+add_filter('get_terms_orderby', 'taxonomy_orderby_description', 10, 2);
