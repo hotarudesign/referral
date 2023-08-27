@@ -65,3 +65,7 @@ body.is-menuOpen {
     display: block;
   }
 }
+
+#wpadminbar {
+  display: none;
+}
