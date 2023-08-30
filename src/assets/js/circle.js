@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
   //rouletteの半径を計算
   let r = line.clientWidth / 2;
   //360度÷配置要素数
-  let deg = 360.0 / item_length;
+  let deg = 203.0 / item_length;
   //さっきの角度をラジアンに変更
   let rad = (deg * Math.PI) / 180.0;
-  let radians90 = (90 * Math.PI) / 180.0;
+  let radians90 = (180 * Math.PI) / 180.0;
   //要素追加して表示させる
   for (let i = 0; i < circle.length; i++) {
     //div要素の追加

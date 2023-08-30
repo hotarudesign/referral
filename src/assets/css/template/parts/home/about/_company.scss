@@ -4,6 +4,23 @@
   margin: 75px 0 0;
   margin-top: -75px; /* 固定ナビの高さ分のネガティブマージン */
   padding-top: 150px; /* 打ち消し用のパディング */
+  &-ttl {
+    position: relative;
+    &::after {
+      content: url(../../images/webp/company_bg-txt.webp);
+      display: inline-block;
+      width: 100%;
+      position: absolute;
+      top: -140px;
+      left: 20%;
+      transform: translateX(-50%) scale(0.5);
+      @include v.sm {
+        top: -130px;
+        left: 10%;
+        transform: translateX(-50%) scale(0.3);
+      }
+    }
+  }
   &-lead {
     margin: 23px 0 0;
     font-weight: 400;

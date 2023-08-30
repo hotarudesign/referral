@@ -9,7 +9,7 @@ mm.add("(min-width: 576px)", () => {
   gsap.to(".history__item", {
     opacity: 1,
     duration: 1,
-    stagger: 0.5,
+    stagger: 0.3,
     scrollTrigger: {
       trigger: ".history",
       start: "center center",
@@ -34,9 +34,9 @@ const shape = document.querySelector(".circle__line");
 let angle = 0;
 function drawCircle() {
   //角度が365°未満のとき
-  if (angle < 365) {
+  if (angle < 201) {
     //角度を2°ずつ増やす
-    angle += 1;
+    angle += 1.5;
     //角度をconic-gradientの角度に代入
     shape.style.backgroundImage = `conic-gradient(black ${angle}deg, transparent ${angle}deg)`;
     //requestAnimationFrameを再度呼び出す
@@ -61,7 +61,7 @@ gsap.set(".jsCircleItem", {
 });
 gsap.to(".jsCircleItem", {
   opacity: 1,
-  stagger: 0.6,
+  stagger: 0.4,
   scrollTrigger: {
     trigger: ".circle",
     start: "top center",
@@ -78,21 +78,21 @@ mm.add("(min-width: 578px)", () => {
   });
   futureItem.to(".future__item01", {
     keyframes: [
-      { backgroundColor: "#1670E4", scale: 1.2, duration: 2 }, //このアニメーションが終わったら下のアニメーションが起こる
-      { backgroundColor: "#fff", scale: 1, duration: 2 },
+      { backgroundColor: "#1670E4", scale: 1.2, duration: 1 }, //このアニメーションが終わったら下のアニメーションが起こる
+      { backgroundColor: "#fff", scale: 1, duration: 1 },
     ],
   });
   futureItem.to(".future__item02", {
     keyframes: [
-      { backgroundColor: "#1670E4", scale: 1.2, duration: 2 }, //このアニメーションが終わったら下のアニメーションが起こる
-      { backgroundColor: "#fff", scale: 1, duration: 2 },
+      { backgroundColor: "#1670E4", scale: 1.2, duration: 1 }, //このアニメーションが終わったら下のアニメーションが起こる
+      { backgroundColor: "#fff", scale: 1, duration: 1 },
     ],
   });
 
   futureItem.to(".future__item03", {
     keyframes: [
-      { backgroundColor: "#1670E4", scale: 1.2, duration: 2 }, //このアニメーションが終わったら下のアニメーションが起こる
-      { backgroundColor: "#fff", scale: 1, duration: 2 },
+      { backgroundColor: "#1670E4", scale: 1.2, duration: 1 }, //このアニメーションが終わったら下のアニメーションが起こる
+      { backgroundColor: "#fff", scale: 1, duration: 1 },
     ],
   });
 });
@@ -106,23 +106,75 @@ mm.add("(max-width: 576px)", () => {
   });
   futureItem.to(".future__item01", {
     keyframes: [
-      { backgroundColor: "#1670E4", duration: 2 }, //このアニメーションが終わったら下のアニメーションが起こる
-      { backgroundColor: "#fff", duration: 2 },
+      { backgroundColor: "#1670E4", duration: 1 }, //このアニメーションが終わったら下のアニメーションが起こる
+      { backgroundColor: "#fff", duration: 1 },
     ],
   });
   futureItem.to(".future__item02", {
     keyframes: [
-      { backgroundColor: "#1670E4", duration: 2 }, //このアニメーションが終わったら下のアニメーションが起こる
-      { backgroundColor: "#fff", duration: 2 },
+      { backgroundColor: "#1670E4", duration: 1 }, //このアニメーションが終わったら下のアニメーションが起こる
+      { backgroundColor: "#fff", duration: 1 },
     ],
   });
 
   futureItem.to(".future__item03", {
     keyframes: [
-      { backgroundColor: "#1670E4", duration: 2 }, //このアニメーションが終わったら下のアニメーションが起こる
-      { backgroundColor: "#fff", duration: 2 },
+      { backgroundColor: "#1670E4", duration: 1 }, //このアニメーションが終わったら下のアニメーションが起こる
+      { backgroundColor: "#fff", duration: 1 },
     ],
   });
+});
+
+const futureInitialImg = gsap.timeline({
+  repeat: -1,
+  scrollTrigger: {
+    trigger: ".future__list",
+    start: "top center",
+  },
+});
+
+futureInitialImg.to(".initialImg01", {
+  keyframes: [
+    { opacity: 0, duration: 1 },
+    { opacity: 1, duration: 1 },
+  ],
+});
+futureInitialImg.to(".initialImg02", {
+  keyframes: [
+    { opacity: 0, duration: 1 },
+    { opacity: 1, duration: 1 },
+  ],
+});
+futureInitialImg.to(".initialImg03", {
+  keyframes: [
+    { opacity: 0, duration: 1 },
+    { opacity: 1, duration: 1 },
+  ],
+});
+const futureChangeImg = gsap.timeline({
+  repeat: -1,
+  scrollTrigger: {
+    trigger: ".future__list",
+    start: "top center",
+  },
+});
+futureChangeImg.to(".changeImg01", {
+  keyframes: [
+    { opacity: 1, duration: 1 },
+    { opacity: 0, duration: 1 },
+  ],
+});
+futureChangeImg.to(".changeImg02", {
+  keyframes: [
+    { opacity: 1, duration: 1 },
+    { opacity: 0, duration: 1 },
+  ],
+});
+futureChangeImg.to(".changeImg03", {
+  keyframes: [
+    { opacity: 1, duration: 1 },
+    { opacity: 0, duration: 1 },
+  ],
 });
 
 const futureColor = gsap.timeline({
@@ -134,20 +186,20 @@ const futureColor = gsap.timeline({
 });
 futureColor.to([".js-future-head01", ".js-future-label01"], {
   keyframes: [
-    { color: "#fff", duration: 2 },
-    { color: "#166594", duration: 2 },
+    { color: "#fff", duration: 1 },
+    { color: "#166594", duration: 1 },
   ],
 });
 futureColor.to([".js-future-head02", ".js-future-label02"], {
   keyframes: [
-    { color: "#fff", duration: 2 },
-    { color: "#166594", duration: 2 },
+    { color: "#fff", duration: 1 },
+    { color: "#166594", duration: 1 },
   ],
 });
 futureColor.to([".js-future-head03", ".js-future-label03"], {
   keyframes: [
-    { color: "#fff", duration: 2 },
-    { color: "#166594", duration: 2 },
+    { color: "#fff", duration: 1 },
+    { color: "#166594", duration: 1 },
   ],
 });
 
@@ -161,20 +213,20 @@ const futureDesc = gsap.timeline({
 });
 futureDesc.to(".js-future-desc01", {
   keyframes: [
-    { color: "#fff", duration: 2 },
-    { color: "#2e2e2e", duration: 2 },
+    { color: "#fff", duration: 1 },
+    { color: "#2e2e2e", duration: 1 },
   ],
 });
 futureDesc.to(".js-future-desc02", {
   keyframes: [
-    { color: "#fff", duration: 2 },
-    { color: "#2e2e2e", duration: 2 },
+    { color: "#fff", duration: 1 },
+    { color: "#2e2e2e", duration: 1 },
   ],
 });
 futureDesc.to(".js-future-desc03", {
   keyframes: [
-    { color: "#fff", duration: 2 },
-    { color: "#2e2e2e", duration: 2 },
+    { color: "#fff", duration: 1 },
+    { color: "#2e2e2e", duration: 1 },
   ],
 });
 
@@ -187,31 +239,31 @@ const flowNum = gsap.timeline({
 });
 flowNum.to(".jsFlowNum01", {
   keyframes: [
-    { backgroundColor: "#2A3F51", color: "#fff", duration: 2 },
-    { backgroundColor: "#fff", color: "#2A3F51", duration: 2 },
+    { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
+    { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
   ],
 });
 flowNum.to(".jsFlowNum02", {
   keyframes: [
-    { backgroundColor: "#2A3F51", color: "#fff", duration: 2 },
-    { backgroundColor: "#fff", color: "#2A3F51", duration: 2 },
+    { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
+    { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
   ],
 });
 flowNum.to(".jsFlowNum03", {
   keyframes: [
-    { backgroundColor: "#2A3F51", color: "#fff", duration: 2 },
-    { backgroundColor: "#fff", color: "#2A3F51", duration: 2 },
+    { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
+    { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
   ],
 });
 flowNum.to(".jsFlowNum04", {
   keyframes: [
-    { backgroundColor: "#2A3F51", color: "#fff", duration: 2 },
-    { backgroundColor: "#fff", color: "#2A3F51", duration: 2 },
+    { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
+    { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
   ],
 });
 flowNum.to(".jsFlowNum05", {
   keyframes: [
-    { backgroundColor: "#2A3F51", color: "#fff", duration: 2 },
-    { backgroundColor: "#fff", color: "#2A3F51", duration: 2 },
+    { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
+    { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
   ],
 });

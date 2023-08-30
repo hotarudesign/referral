@@ -1,5 +1,5 @@
 <div class="mv">
-    <div class="splide">
+    <div class="splide splide3">
         <div class="splide__track">
             <div class="splide__list">
                 <div class="splide__slide">
@@ -24,15 +24,27 @@
         </div>
     </div>
     <div class="mv__inner inner">
-        <p class="mv__foot-label sp">リファラル採用特設ページ</p>
+        <p class="mv__foot-label sp">
+            <picture>
+                <source srcset='<?php echo ImgPath; ?>/webp/mv_foot-label.webp' type='image/webp'>
+                <img src="<?php echo ImgPath; ?>/mv_foot-label.png" alt="">
+            </picture>
+        </p>
         <div class="hero">
-            <h2 class="hero__ttl">Never End<br>
-                Your Possibilities
+            <h2 class="hero__ttl">
+                <picture>
+                    <source srcset='<?php echo ImgPath; ?>/webp/mv-ttl.webp' type='image/webp'>
+                    <img src="<?php echo ImgPath; ?>/mv-ttl.png" alt="">
+                </picture>
             </h2>
-            <p class="hero__lead">あなたの可能性を終わらせない</p>
         </div>
         <div class="mv__foot">
-            <p class="mv__foot-label pc">リファラル採用特設ページ</p>
+            <p class="mv__foot-label pc">
+                <picture>
+                    <source srcset='<?php echo ImgPath; ?>/webp/mv_foot-label.webp' type='image/webp'>
+                    <img src="<?php echo ImgPath; ?>/mv_foot-label.png" alt="">
+                </picture>
+            </p>
             <?php
             if (is_front_page())
                 get_template_part('parts/home/fix-link-sp'); ?>

@@ -32,7 +32,7 @@ new Splide(".splide2", {
 }).mount();
 
 // splide3 mv
-const target = ".splide";
+const target = ".splide3";
 const target_options = {
   type: "fade",
   rewind: true,
@@ -45,3 +45,28 @@ const target_options = {
 
 const mySplide = new Splide(target, target_options);
 mySplide.mount();
+
+// splide4 news
+new Splide(".splide4", {
+  type: "loop",
+  autoplay: true,
+  interval: 5000,
+  perPage: 1,
+  gap: 38,
+  pagination: false,
+}).mount();
+
+// splide5 message
+const options = {
+  type: "loop",
+  arrows: false,
+  pagination: false,
+  perPage: 4,
+  gap: 30,
+  autoScroll: {
+    speed: 1,
+    pauseOnHover: false,
+  },
+};
+const splide = new Splide(".splide5", options);
+splide.mount(window.splide.Extensions);

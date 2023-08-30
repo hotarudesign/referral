@@ -19,6 +19,7 @@ function add_link_files()
     // JavaScriptの読み込み
     if (is_front_page()) {
         wp_enqueue_script('splide', "https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js");
+        wp_enqueue_script('splide-auto', "https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js");
         wp_enqueue_script('splide-setting', get_template_directory_uri() . '/assets/js/splide-setting.js', '', '', true);
         wp_enqueue_script('g-sap', "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js");
         wp_enqueue_script('scrollTrigger', "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js");

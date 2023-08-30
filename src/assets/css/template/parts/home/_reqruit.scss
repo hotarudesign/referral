@@ -11,28 +11,11 @@
       color: v.$accentColor;
     }
   }
+
   &__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
-    gap: 0 42.3px;
-    margin: 75px auto 0;
-    padding: 43px 0;
-    max-width: 552px;
+    display: block;
+    margin: 0 auto;
+    max-width: 607px;
     width: 100%;
-    background: #3999f7;
-    @include v.sm {
-      margin: 40px 0 0;
-      padding: 16.4px 0;
-    }
-    &-txt {
-      font-weight: 700;
-      font-size: 1.8rem;
-      color: #fff;
-      @include v.sm {
-        font-size: 1.6rem;
-      }
-    }
   }
 }

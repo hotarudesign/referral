@@ -1,9 +1,17 @@
 @use "../../../base/variable" as v;
 .message {
   position: relative;
+  overflow: hidden;
   &-ttl {
     color: #fff;
     text-shadow: 0 3px 6px #ccc;
+  }
+  &__inner {
+    overflow: visible;
+  }
+  .splide {
+    overflow: visible;
+    margin: 0 calc(50% - 50vw);
   }
   &__inner {
     width: 100%;
@@ -12,30 +20,28 @@
     left: 50%;
     transform: translateX(-50%);
     @include v.sm {
-      top: 8vw;
+      top: 5vw;
     }
   }
   &__main {
-    margin: 3vw 0 0;
+    margin: 88px 0 0;
     text-align: center;
+    @include v.sm {
+      margin: 20px 0 0;
+    }
     &__ttl {
       margin: 0 auto;
-      width: 70vw;
-      @include v.sm {
-        width: 100%;
-      }
+      max-width: 1302px;
+      width: 100%;
     }
 
     &__desc {
-      margin: 2vw auto 0;
-      font-weight: 500;
-      font-size: 2rem;
-      line-height: 2;
-      color: #fff;
-      text-shadow: 0 3px 4px #999;
-      @include v.lg {
-        margin: 3vw auto 0;
-        font-size: 1.5rem;
+      margin: 50px auto 0;
+      max-width: 684px;
+      width: 100%;
+      @include v.sm {
+        margin: 20px auto;
+        width: 60%;
       }
     }
   }

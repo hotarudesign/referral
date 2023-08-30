@@ -4,8 +4,12 @@
         <div class="contact__body">
             <p class="contact__body-desc">ご不明な点がございましたら<br class="sp-only">ぜひお気軽にお問い合わせください。</p>
             <p class="contact__body-detail">〒000-0000　東京都住所が入ります</p>
-            <p class="contact__body-detail">カシワバラ株式会社　採用担当　担当者名</p>
-            <p class="contact__body-detail">TEL:電話番号が入ります。<br class="sp-only"><span class="pc-only">　</span>Mail：メールアドレス</p>
+            <p class="contact__body-detail">カシワバラグループ　採用担当 松崎</p>
+            <p class="contact__body-detail">
+                <a href="tel:080-0000-0000">TEL:080-0000-0000</a>
+                <br class="sp-only">
+                <a href="mailto:n.matsuzaki@kashiwabara.co.jp">Mail：n.matsuzaki@kashiwabara.co.jp</a>
+            </p>
         </div>
     </div>
 </section>

@@ -30,9 +30,16 @@
       }
     }
     &-detail {
+      display: block;
       font-weight: 400;
       font-size: 1.6rem;
       line-height: 2;
+      a {
+        margin: 0 5px;
+        @include v.sm {
+          margin: 0;
+        }
+      }
     }
   }
 }

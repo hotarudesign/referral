@@ -236,9 +236,18 @@
   }
 }
 .contact__body-detail {
+  display: block;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2;
+}
+.contact__body-detail a {
+  margin: 0 5px;
+}
+@media not screen and (min-width: 576px) {
+  .contact__body-detail a {
+    margin: 0;
+  }
 }
 
 .footer {
