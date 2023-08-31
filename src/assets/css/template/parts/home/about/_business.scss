@@ -45,7 +45,7 @@
       height: 130vh;
     }
     @include v.sm {
-      height: 45vh;
+      height: 40vh;
     }
     &-bg {
       display: flex;
@@ -159,18 +159,18 @@
     &__list {
       display: block;
       position: absolute;
-      width: 1366px;
-      top: 10%;
-      left: 46%;
+      max-width: 1366px;
+      width: 100%;
+      top: 0;
+      left: 44%;
       transform: translateX(-50%);
+      z-index: 10;
       @include v.xxl {
         width: 900px;
-        top: 18%;
-        left: 45%;
+        top: -2%;
       }
       @include v.sm {
         width: 273px;
-        top: 20%;
         left: 42%;
       }
     }
@@ -322,7 +322,7 @@
     position: relative;
     z-index: 5;
     @include v.sm {
-      margin: 140px 0 0;
+      margin: 0;
     }
     &-ttl {
       display: inline-block;
@@ -352,11 +352,22 @@
       }
     }
     .splide {
+      &__arrows {
+        @include v.sm {
+          position: absolute;
+          top: 60%;
+          width: 100%;
+        }
+      }
       .button {
         background-color: transparent; /* ボタンの背景を透明にする */
         height: 50px;
         transition: 0.2s;
         width: 50px;
+        @include v.sm {
+          width: 25px;
+          height: 25px;
+        }
         &::before {
           background-repeat: no-repeat;
           background-size: contain;
@@ -368,6 +379,10 @@
           position: absolute;
           top: 0;
           width: 50px;
+          @include v.sm {
+            width: 25px;
+            height: 25px;
+          }
         }
       }
       /* 前の矢印 */

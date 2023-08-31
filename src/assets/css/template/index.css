@@ -985,7 +985,7 @@
 }
 @media not screen and (min-width: 576px) {
   .business__main {
-    height: 45vh;
+    height: 40vh;
   }
 }
 .business__main-bg {
@@ -1124,22 +1124,22 @@
 .business .circle__list {
   display: block;
   position: absolute;
-  width: 1366px;
-  top: 10%;
-  left: 46%;
+  max-width: 1366px;
+  width: 100%;
+  top: 0;
+  left: 44%;
   transform: translateX(-50%);
+  z-index: 10;
 }
 @media (max-width: 1440px) {
   .business .circle__list {
     width: 900px;
-    top: 18%;
-    left: 45%;
+    top: -2%;
   }
 }
 @media not screen and (min-width: 576px) {
   .business .circle__list {
     width: 273px;
-    top: 20%;
     left: 42%;
   }
 }
@@ -1280,7 +1280,7 @@
 }
 @media not screen and (min-width: 576px) {
   .business__foot {
-    margin: 140px 0 0;
+    margin: 0;
   }
 }
 .business__foot-ttl {
@@ -1311,11 +1311,24 @@
   /* 次の矢印 */
   /* 次のスライドが無い場合の矢印 */
 }
+@media not screen and (min-width: 576px) {
+  .business__foot .splide__arrows {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+  }
+}
 .business__foot .splide .button {
   background-color: transparent; /* ボタンの背景を透明にする */
   height: 50px;
   transition: 0.2s;
   width: 50px;
+}
+@media not screen and (min-width: 576px) {
+  .business__foot .splide .button {
+    width: 25px;
+    height: 25px;
+  }
 }
 .business__foot .splide .button::before {
   background-repeat: no-repeat;
@@ -1328,6 +1341,12 @@
   position: absolute;
   top: 0;
   width: 50px;
+}
+@media not screen and (min-width: 576px) {
+  .business__foot .splide .button::before {
+    width: 25px;
+    height: 25px;
+  }
 }
 .business__foot .splide .prev::before {
   background-image: url(../../images/webp/slide_arrow-prev.webp);
