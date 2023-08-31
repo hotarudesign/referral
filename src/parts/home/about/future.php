@@ -15,8 +15,8 @@
                             <img class="icon initialImg01" src="<?php echo ImgPath; ?>/building-duotone.png" alt="">
                         </picture>
                         <picture>
-                            <source srcset='<?php echo ImgPath; ?>/webp/industry-windows-duotone.webp' type='image/webp'>
-                            <img class="icon changeImg01" src="<?php echo ImgPath; ?>/industry-windows-duotone.png" alt="">
+                            <source srcset='<?php echo ImgPath; ?>/webp/building-duotone-white.webp' type='image/webp'>
+                            <img class="icon changeImg01" src="<?php echo ImgPath; ?>/building-duotone-white.png" alt="">
                         </picture>
                     </figure>
                     <p class="future__item__head-label js-future-label01">Path</p>
@@ -32,8 +32,8 @@
                             <img class="icon initialImg02" src="<?php echo ImgPath; ?>/industry-windows-duotone.png" alt="">
                         </picture>
                         <picture>
-                            <source srcset='<?php echo ImgPath; ?>/webp/building-duotone.webp' type='image/webp'>
-                            <img class="icon changeImg02" src="<?php echo ImgPath; ?>/building-duotone.png" alt="">
+                            <source srcset='<?php echo ImgPath; ?>/webp/industry-windows-duotone-white.webp' type='image/webp'>
+                            <img class="icon changeImg02" src="<?php echo ImgPath; ?>/industry-windows-duotone-white.png" alt="">
                         </picture>
                     </figure>
                     <p class="future__item__head-label js-future-label02">Now</p>
@@ -44,13 +44,13 @@
                 <div class="future__item__head js-future-head03">
                     <h4 class="future__item__head-ttl">暮らしの総合プロデュース</h4>
                     <figure class="future__item__head-icon">
-                        <picture class="future__item__head-icon">
+                        <picture>
                             <source srcset='<?php echo ImgPath; ?>/webp/house-flag-duotone.webp' type='image/webp'>
                             <img class="icon initialImg03" src="<?php echo ImgPath; ?>/house-flag-duotone.png" alt="">
                         </picture>
                         <picture>
-                            <source srcset='<?php echo ImgPath; ?>/webp/building-duotone.webp' type='image/webp'>
-                            <img class="icon changeImg03" src="<?php echo ImgPath; ?>/building-duotone.png" alt="">
+                            <source srcset='<?php echo ImgPath; ?>/webp/house-flag-duotone-white.webp' type='image/webp'>
+                            <img class="icon changeImg03" src="<?php echo ImgPath; ?>/house-flag-duotone-white.png" alt="">
                         </picture>
                     </figure>
                     <p class="future__item__head-label js-future-label03">Future</p>
