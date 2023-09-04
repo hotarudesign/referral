@@ -77,7 +77,7 @@
                 </div>
             </div>
         </article>
-        <a href="" class="entry-btn">エントリー</a>
+        <a href="https://thkd5375.talent-p.net/EntryFormMng/Entryform?url_token=b71d970ffcf54e6c9b2478287e7757e1" class="entry-btn">エントリー</a>
     </div>
 </main>
 <?php get_template_part('parts/contact'); ?>
