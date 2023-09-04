@@ -1052,7 +1052,8 @@
   .business .circle__center:before {
     width: 97.49px;
     height: 131.67px;
-    top: 40%;
+    top: 32%;
+    left: 58%;
   }
 }
 .business .circle__center-ttl {
@@ -1165,8 +1166,8 @@
 }
 @media not screen and (min-width: 576px) {
   .business .circle__item {
-    width: 62px;
-    height: 62px;
+    width: 50px;
+    height: 50px;
   }
 }
 .business .circle__item:first-child .circle__item-icon {
@@ -1176,7 +1177,7 @@
 @media not screen and (min-width: 576px) {
   .business .circle__item:first-child .circle__item-icon {
     margin-bottom: 2.9px;
-    width: 20.68px;
+    width: 16px;
   }
 }
 .business .circle__item:nth-child(2) .circle__item-icon {
@@ -1186,7 +1187,7 @@
 @media not screen and (min-width: 576px) {
   .business .circle__item:nth-child(2) .circle__item-icon {
     margin-bottom: 1.1px;
-    width: 20.4px;
+    width: 18px;
   }
 }
 .business .circle__item:nth-child(3) .circle__item-icon {
@@ -1196,7 +1197,7 @@
 @media not screen and (min-width: 576px) {
   .business .circle__item:nth-child(3) .circle__item-icon {
     margin-bottom: 3.6px;
-    width: 21.15px;
+    width: 16px;
   }
 }
 .business .circle__item:nth-child(4) .circle__item-icon {
@@ -1205,8 +1206,8 @@
 }
 @media not screen and (min-width: 576px) {
   .business .circle__item:nth-child(4) .circle__item-icon {
-    margin-bottom: 6.2px;
-    width: 18.93px;
+    margin-bottom: -1px;
+    width: 14px;
   }
 }
 .business .circle__item:nth-child(5) .circle__item-icon {
@@ -1215,7 +1216,7 @@
 }
 @media not screen and (min-width: 576px) {
   .business .circle__item:nth-child(5) .circle__item-icon {
-    margin-bottom: 4px;
+    margin-bottom: 2px;
     width: 20.24px;
   }
 }
@@ -1225,7 +1226,7 @@
 }
 @media not screen and (min-width: 576px) {
   .business .circle__item:nth-child(6) .circle__item-icon {
-    margin-bottom: 0;
+    margin-bottom: 2px;
     width: 17.73px;
   }
 }
@@ -1255,8 +1256,8 @@
 }
 @media not screen and (min-width: 576px) {
   .business .circle__item:nth-child(9) .circle__item-icon {
-    margin-bottom: 5.6px;
-    width: 24.87px;
+    margin-bottom: 2px;
+    width: 16px;
   }
 }
 .business .circle__item-txt {
@@ -1268,6 +1269,7 @@
 @media not screen and (min-width: 576px) {
   .business .circle__item-txt {
     font-size: 0.8rem;
+    letter-spacing: -0.12em;
   }
 }
 .business__foot {

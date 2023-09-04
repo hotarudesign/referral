@@ -100,7 +100,8 @@
         @include v.sm {
           width: 97.49px;
           height: 131.67px;
-          top: 40%;
+          top: 32%;
+          left: 58%;
         }
       }
       &-ttl {
@@ -192,8 +193,8 @@
         height: 155px;
       }
       @include v.sm {
-        width: 62px;
-        height: 62px;
+        width: 50px;
+        height: 50px;
       }
       &:first-child {
         .circle__item {
@@ -202,7 +203,7 @@
             width: 51.55px;
             @include v.sm {
               margin-bottom: 2.9px;
-              width: 20.68px;
+              width: 16px;
             }
           }
         }
@@ -214,7 +215,7 @@
             width: 50.85px;
             @include v.sm {
               margin-bottom: 1.1px;
-              width: 20.4px;
+              width: 18px;
             }
           }
         }
@@ -226,7 +227,7 @@
             width: 52.73px;
             @include v.sm {
               margin-bottom: 3.6px;
-              width: 21.15px;
+              width: 16px;
             }
           }
         }
@@ -237,8 +238,8 @@
             margin-bottom: 14px;
             width: 47.18px;
             @include v.sm {
-              margin-bottom: 6.2px;
-              width: 18.93px;
+              margin-bottom: -1px;
+              width: 14px;
             }
           }
         }
@@ -249,7 +250,7 @@
             margin-bottom: 16.5px;
             width: 50.45px;
             @include v.sm {
-              margin-bottom: 4px;
+              margin-bottom: 2px;
               width: 20.24px;
             }
           }
@@ -261,7 +262,7 @@
             margin-bottom: 8px;
             width: 44.19px;
             @include v.sm {
-              margin-bottom: 0;
+              margin-bottom: 2px;
               width: 17.73px;
             }
           }
@@ -297,8 +298,8 @@
             margin-bottom: 22.5px;
             width: 46.45px;
             @include v.sm {
-              margin-bottom: 5.6px;
-              width: 24.87px;
+              margin-bottom: 2px;
+              width: 16px;
             }
           }
         }
@@ -310,6 +311,7 @@
         text-align: center;
         @include v.sm {
           font-size: 0.8rem;
+          letter-spacing: -0.12em;
         }
       }
     }
