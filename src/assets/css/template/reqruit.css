@@ -2,8 +2,8 @@
   padding: 36px 0 0;
 }
 .reqruit .page-top {
-  height: 70vh;
-  background: url(../../images/webp/reqruit_page-top.webp) no-repeat center/cover;
+  height: 60vh;
+  background: url(../../images/webp/reqruit_page-top.webp) no-repeat 0% 100%/cover;
 }
 @media not screen and (min-width: 576px) {
   .reqruit .page-top {
@@ -19,26 +19,35 @@
     padding: 40px 0;
   }
 }
-.reqruit__txt-ttl {
-  font-weight: 500;
-  font-size: 2.6rem;
-  line-height: 1.4;
-}
-@media not screen and (min-width: 576px) {
-  .reqruit__txt-ttl {
-    font-size: 1.6rem;
-  }
-}
 .reqruit__txt-desc {
   margin: 35.1px 0 0;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2;
+  color: #2e2e2e;
 }
 @media not screen and (min-width: 576px) {
   .reqruit__txt-desc {
     font-size: 1.1rem;
   }
+}
+.reqruit .personal {
+  margin: 70px 0 0;
+}
+.reqruit .personal-ttl {
+  font-weight: 500;
+  font-size: 2.8rem;
+}
+.reqruit .personal-lead {
+  margin: 16px 0 0;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+.reqruit .personal__item {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2;
 }
 .reqruit__occupation {
   margin: 77px 0 0;

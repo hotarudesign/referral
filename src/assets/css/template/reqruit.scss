@@ -3,8 +3,8 @@
 .reqruit {
   padding: 36px 0 0;
   .page-top {
-    height: 70vh;
-    background: url(../../images/webp/reqruit_page-top.webp) no-repeat center /
+    height: 60vh;
+    background: url(../../images/webp/reqruit_page-top.webp) no-repeat 0% 100% /
       cover;
     @include v.sm {
       height: 30vh;
@@ -18,22 +18,35 @@
     }
   }
   &__txt {
-    &-ttl {
-      font-weight: 500;
-      font-size: 2.6rem;
-      line-height: 1.4;
-      @include v.sm {
-        font-size: 1.6rem;
-      }
-    }
     &-desc {
       margin: 35.1px 0 0;
       font-weight: 400;
       font-size: 1.6rem;
       line-height: 2;
+      color: #2e2e2e;
       @include v.sm {
         font-size: 1.1rem;
       }
+    }
+  }
+  .personal {
+    margin: 70px 0 0;
+    &-ttl {
+      font-weight: 500;
+      font-size: 2.8rem;
+    }
+    &-lead {
+      margin: 16px 0 0;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2;
+    }
+    &__list {
+    }
+    &__item {
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2;
     }
   }
   &__occupation {
