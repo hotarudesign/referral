@@ -15,34 +15,11 @@
     }
   }
   .post {
-    padding: 73.3px 0 0;
+    padding: 65px 0 0;
     @include v.sm {
       padding: 40px 0 0;
     }
-    &__ttl {
-      font-weight: 500;
-      font-size: 2.6rem;
-      line-height: 1.4;
-      @include v.sm {
-        font-size: 1.7rem;
-        line-height: 1.7;
-      }
-    }
-    &__desc {
-      margin: 36px 0 0;
-      font-weight: 400;
-      font-size: 1.6rem;
-      line-height: 2;
-      @include v.sm {
-        margin: 21px 0 0;
-        font-size: 1.1rem;
-      }
-    }
     .reqruitment {
-      padding: 77px 0 0;
-      @include v.sm {
-        padding: 30px 0 0;
-      }
       &-ttl {
         font-weight: 700;
         font-size: 2.8rem;

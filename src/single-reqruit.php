@@ -3,52 +3,65 @@
     <div class="page-top"></div>
     <div class="reqruit-post__inner inner">
         <article class="post">
-            <h2 class="post__ttl">
-                施工管理は、リーダーシップを育む訓練の場。そこから多様な分野に挑戦してほしい
-            </h2>
-            <p class="post__desc">
-                コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。
-            </p>
             <div class="reqruitment">
                 <h3 class="reqruitment-ttl"><?php the_title(); ?></h3>
-                <div class="reqruitment__part">
-                    <h4 class="reqruitment__part-ttl">
-                        採用情報
-                    </h4>
-                    <dl class="reqruitment__list">
-                        <dt class="reqruitment__list-ttl">
-                            業務内容
-                        </dt>
-                        <dd class="reqruitment__list-data"><?php the_field('job-detail'); ?></dd>
-                    </dl>
-                    <dl class="reqruitment__list">
-                        <dt class="reqruitment__list-ttl">
-                            応募条件
-                        </dt>
-                        <dd class="reqruitment__list-data"><?php the_field('entry_detail'); ?></dd>
-                    </dl>
-                    <dl class="reqruitment__list">
-                        <dt class="reqruitment__list-ttl">
-                            求める人物像
-                        </dt>
-                        <dd class="reqruitment__list-data"><?php the_field('persona'); ?></dd>
-                    </dl>
-                    <dl class="reqruitment__list">
-                        <dt class="reqruitment__list-ttl">
-                            勤務地
-                        </dt>
-                        <dd class="reqruitment__list-data"><?php the_field('location'); ?></dd>
-                    </dl>
-                </div>
                 <div class="reqruitment__part">
                     <h4 class="reqruitment__part-ttl">
                         募集要項
                     </h4>
                     <dl class="reqruitment__list">
                         <dt class="reqruitment__list-ttl">
-                            勤務地
+                            応募資格
                         </dt>
-                        <dd class="reqruitment__list-data"><?php the_field('work_time'); ?></dd>
+                        <dd class="reqruitment__list-data"><?php the_field('entry_detail'); ?></dd>
+                    </dl>
+                    <dl class="reqruitment__list">
+                        <dt class="reqruitment__list-ttl">
+                            雇用形態
+                        </dt>
+                        <dd class="reqruitment__list-data"><?php the_field('employment-status'); ?></dd>
+                    </dl>
+                    <dl class="reqruitment__list">
+                        <dt class="reqruitment__list-ttl">
+                            入社日
+                        </dt>
+                        <dd class="reqruitment__list-data"><?php the_field('join-day'); ?></dd>
+                    </dl>
+                    <dl class="reqruitment__list">
+                        <dt class="reqruitment__list-ttl">
+                            事業内容
+                        </dt>
+                        <dd class="reqruitment__list-data"><?php the_field('business-content'); ?></dd>
+                    </dl>
+                    <dl class="reqruitment__list">
+                        <dt class="reqruitment__list-ttl">
+                            仕事内容
+                        </dt>
+                        <dd class="reqruitment__list-data"><?php the_field('job-description'); ?></dd>
+                    </dl>
+                    <dl class="reqruitment__list">
+                        <dt class="reqruitment__list-ttl">
+                            採用フロー
+                        </dt>
+                        <dd class="reqruitment__list-data"><?php the_field('reqruit-flow'); ?></dd>
+                    </dl>
+                    <dl class="reqruitment__list">
+                        <dt class="reqruitment__list-ttl">
+                            選考方法
+                        </dt>
+                        <dd class="reqruitment__list-data"><?php the_field('selection-method'); ?></dd>
+                    </dl>
+                    <dl class="reqruitment__list">
+                        <dt class="reqruitment__list-ttl">
+                            提出書類
+                        </dt>
+                        <dd class="reqruitment__list-data"><?php the_field('document-submit'); ?></dd>
+                    </dl>
+                    <dl class="reqruitment__list">
+                        <dt class="reqruitment__list-ttl">
+                            基本給
+                        </dt>
+                        <dd class="reqruitment__list-data"><?php the_field('salary'); ?></dd>
                     </dl>
                     <dl class="reqruitment__list">
                         <dt class="reqruitment__list-ttl">
@@ -58,21 +71,45 @@
                     </dl>
                     <dl class="reqruitment__list">
                         <dt class="reqruitment__list-ttl">
-                            休日・休暇
+                            昇給
+                        </dt>
+                        <dd class="reqruitment__list-data"><?php the_field('salary-increase'); ?></dd>
+                    </dl>
+                    <dl class="reqruitment__list">
+                        <dt class="reqruitment__list-ttl">
+                            賞与
+                        </dt>
+                        <dd class="reqruitment__list-data"><?php the_field('bonus'); ?></dd>
+                    </dl>
+                    <dl class="reqruitment__list">
+                        <dt class="reqruitment__list-ttl">
+                            休日休暇
                         </dt>
                         <dd class="reqruitment__list-data"><?php the_field('holiday'); ?></dd>
                     </dl>
                     <dl class="reqruitment__list">
                         <dt class="reqruitment__list-ttl">
-                            福利厚生
+                            待遇<br>福利厚生<br>社内制度
                         </dt>
                         <dd class="reqruitment__list-data"><?php the_field('welfare'); ?></dd>
                     </dl>
                     <dl class="reqruitment__list">
                         <dt class="reqruitment__list-ttl">
-                            備考
+                            勤務地
                         </dt>
-                        <dd class="reqruitment__list-data"><?php the_field('remarks'); ?></dd>
+                        <dd class="reqruitment__list-data"><?php the_field('location'); ?></dd>
+                    </dl>
+                    <dl class="reqruitment__list">
+                        <dt class="reqruitment__list-ttl">
+                            勤務時間
+                        </dt>
+                        <dd class="reqruitment__list-data"><?php the_field('work_time'); ?></dd>
+                    </dl>
+                    <dl class="reqruitment__list">
+                        <dt class="reqruitment__list-ttl">
+                            問い合わせ先
+                        </dt>
+                        <dd class="reqruitment__list-data"><?php the_field('contact-submit'); ?></dd>
                     </dl>
                 </div>
             </div>

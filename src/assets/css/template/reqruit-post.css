@@ -317,42 +317,11 @@
   }
 }
 .reqruit-post .post {
-  padding: 73.3px 0 0;
+  padding: 65px 0 0;
 }
 @media not screen and (min-width: 576px) {
   .reqruit-post .post {
     padding: 40px 0 0;
-  }
-}
-.reqruit-post .post__ttl {
-  font-weight: 500;
-  font-size: 2.6rem;
-  line-height: 1.4;
-}
-@media not screen and (min-width: 576px) {
-  .reqruit-post .post__ttl {
-    font-size: 1.7rem;
-    line-height: 1.7;
-  }
-}
-.reqruit-post .post__desc {
-  margin: 36px 0 0;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 2;
-}
-@media not screen and (min-width: 576px) {
-  .reqruit-post .post__desc {
-    margin: 21px 0 0;
-    font-size: 1.1rem;
-  }
-}
-.reqruit-post .post .reqruitment {
-  padding: 77px 0 0;
-}
-@media not screen and (min-width: 576px) {
-  .reqruit-post .post .reqruitment {
-    padding: 30px 0 0;
   }
 }
 .reqruit-post .post .reqruitment-ttl {
