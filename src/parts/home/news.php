@@ -7,7 +7,9 @@
                     <?php
                     $args = array(
                         'post_type' => 'news',
-                        'posts_per_page' => 9
+                        'posts_per_page' => 9,
+                        'order' => 'ASC'
+
                     );
                     $my_query = new WP_Query($args); ?>
                     <?php if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
@@ -26,9 +28,24 @@
                                     <img src='<?php the_field('news_thumbnail'); ?>' alt=''>
                                 </figure>
                             </li>
-                    <?php endwhile;
-                    endif;
-                    wp_reset_postdata(); ?>
+                        <?php endwhile; ?>
+                    <?php else : ?>
+                        <li class="splide__slide">
+                            <div class="splide__slide__body">
+                                <div class="splide__slide__body__txt">
+                                    <h4 class="splide__slide__body__txt-ttl">新しいお知らせまで少々お待ちください。</h4>
+                                    </h4>
+                                </div>
+                                <div class="splide__slide__head">
+                                    <p class="splide__slide__head-label"><?php echo get_the_term_list($post->ID, 'news-category'); ?></p>
+                                </div>
+                            </div>
+                            <figure class="splide__slide__thumb">
+                                <img src='<?php the_field('news_thumbnail'); ?>' alt=''>
+                            </figure>
+                        </li>
+                    <?php endif; ?>
+                    <?php wp_reset_postdata(); ?>
                 </ul>
             </div>
             <div class="splide__arrows">
