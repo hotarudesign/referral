@@ -2,7 +2,7 @@
 .header {
   padding: 12.4px 0;
   width: 100%;
-  background: #e4eff9;
+  background: #fff;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -94,7 +94,7 @@
   font-weight: 400;
   font-size: 1.6rem;
   text-align: center;
-  background: linear-gradient(45deg, #a4d8ef, #38b8ef);
+  background: #ef3838;
   color: #fff;
   border-radius: 50px;
 }
@@ -1815,7 +1815,9 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  color: #000;
+  color: #fff;
+  position: relative;
+  z-index: 5;
 }
 .flow-ttl-ruby {
   font-weight: 700;
@@ -1861,6 +1863,7 @@
   position: absolute;
   width: 687px;
   height: 687px;
+  background: url(../../images/webp/flow_circle_thumb.webp) no-repeat center/cover;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1875,11 +1878,6 @@
 }
 @media not screen and (min-width: 576px) {
   .flow .circle::before {
-    display: none;
-  }
-}
-@media not screen and (min-width: 576px) {
-  .flow .circle__logo {
     display: none;
   }
 }
@@ -1911,7 +1909,7 @@
   flex-direction: row-reverse;
 }
 .flow .circle__item:first-child {
-  gap: 0 69px;
+  gap: 0 20px;
 }
 @media not screen and (min-width: 576px) {
   .flow .circle__item:first-child {
@@ -1943,7 +1941,7 @@
   }
 }
 .flow .circle__item:nth-child(2) {
-  gap: 0 93px;
+  gap: 0 80px;
 }
 @media not screen and (min-width: 576px) {
   .flow .circle__item:nth-child(2) {
@@ -1975,7 +1973,7 @@
   }
 }
 .flow .circle__item:nth-child(3) {
-  gap: 0 140px;
+  gap: 0 120px;
 }
 @media not screen and (min-width: 576px) {
   .flow .circle__item:nth-child(3) {
@@ -2039,7 +2037,7 @@
   }
 }
 .flow .circle__item:last-child {
-  gap: 0 60px;
+  gap: 0 40px;
 }
 @media not screen and (min-width: 576px) {
   .flow .circle__item:last-child {

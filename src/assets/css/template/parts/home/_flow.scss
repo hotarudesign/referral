@@ -11,7 +11,9 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    color: #000;
+    color: #fff;
+    position: relative;
+    z-index: 5;
     &-ruby {
       font-weight: 700;
       font-size: 1.4rem;
@@ -50,6 +52,8 @@
       position: absolute;
       width: 687px;
       height: 687px;
+      background: url(../../images/webp/flow_circle_thumb.webp) no-repeat
+        center/cover;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -59,11 +63,6 @@
         top: 45%;
         left: 20%;
       }
-      @include v.sm {
-        display: none;
-      }
-    }
-    &__logo {
       @include v.sm {
         display: none;
       }
@@ -91,7 +90,7 @@
       align-items: center;
       flex-direction: row-reverse;
       &:first-child {
-        gap: 0 69px;
+        gap: 0 20px;
         @include v.sm {
           gap: 0 19px;
         }
@@ -117,7 +116,7 @@
         }
       }
       &:nth-child(2) {
-        gap: 0 93px;
+        gap: 0 80px;
         @include v.sm {
           gap: 0 19px;
         }
@@ -143,7 +142,7 @@
         }
       }
       &:nth-child(3) {
-        gap: 0 140px;
+        gap: 0 120px;
         @include v.sm {
           gap: 0 19px;
         }
@@ -195,7 +194,7 @@
         }
       }
       &:last-child {
-        gap: 0 60px;
+        gap: 0 40px;
         @include v.sm {
           gap: 0 19px;
         }

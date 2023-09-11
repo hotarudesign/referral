@@ -2,7 +2,7 @@
 .header {
   padding: 12.4px 0;
   width: 100%;
-  background: #e4eff9;
+  background: #fff;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -80,7 +80,7 @@
     font-weight: 400;
     font-size: 1.6rem;
     text-align: center;
-    background: linear-gradient(45deg, #a4d8ef, #38b8ef);
+    background: #ef3838;
     color: #fff;
     border-radius: 50px;
     @include v.lg {
