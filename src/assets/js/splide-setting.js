@@ -61,6 +61,7 @@ const options = {
   type: "loop",
   arrows: false,
   pagination: false,
+  drag: false,
   perPage: 4,
   gap: 30,
   autoScroll: {
