@@ -989,8 +989,8 @@
 .business .circle__center {
   text-align: center;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 42%;
+  left: 30%;
   transform: rotate(101deg);
 }
 @media (max-width: 1440px) {
@@ -1006,34 +1006,9 @@
     transform: translate(-50%, -50%) rotate(101deg);
   }
 }
-.business .circle__center:before {
-  content: "";
-  display: inline-block;
-  width: 243px;
-  height: 328.2px;
-  background: url(../../images/webp/circle-center_logo.webp) no-repeat center/cover;
-  position: absolute;
-  top: 45%;
-  left: 55%;
-  transform: translate(-50%, -50%);
-}
-@media (max-width: 1440px) {
-  .business .circle__center:before {
-    top: 50%;
-    left: 50%;
-  }
-}
-@media not screen and (min-width: 576px) {
-  .business .circle__center:before {
-    width: 97.49px;
-    height: 131.67px;
-    top: 32%;
-    left: 58%;
-  }
-}
 .business .circle__center-ttl {
   font-weight: 700;
-  font-size: 4.6rem;
+  font-size: 10rem;
   line-height: 1.3;
   color: #2a3f51;
 }
@@ -1046,7 +1021,7 @@
 .business .circle__center-desc {
   margin: 18px 0 0;
   font-weight: 400;
-  font-size: 2.4rem;
+  font-size: 4rem;
 }
 @media not screen and (min-width: 576px) {
   .business .circle__center-desc {
