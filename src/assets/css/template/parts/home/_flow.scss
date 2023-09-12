@@ -67,6 +67,11 @@
         display: none;
       }
     }
+    &__logo {
+      @include v.sm {
+        display: none;
+      }
+    }
     &__list {
       display: flex;
       flex-direction: column;

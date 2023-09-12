@@ -1,20 +1,20 @@
 "use strict";
 // splide1 interview
-new Splide(".splide1", {
-  type: "loop",
-  autoplay: true,
-  interval: 5000,
-  perPage: 3,
-  gap: 38,
-  pagination: false,
-  destroy: false,
-  breakpoints: {
-    577: {
-      perPage: 1,
-      destroy: true,
-    },
-  },
-}).mount();
+// new Splide(".splide1", {
+//   type: "loop",
+//   autoplay: true,
+//   interval: 5000,
+//   perPage: 3,
+//   gap: 38,
+//   pagination: false,
+//   destroy: false,
+//   breakpoints: {
+//     577: {
+//       perPage: 1,
+//       destroy: true,
+//     },
+//   },
+// }).mount();
 
 // splide2 news
 new Splide(".splide2", {

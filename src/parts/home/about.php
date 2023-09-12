@@ -4,5 +4,5 @@
     <?php get_template_part('parts/home/about/future'); ?>
     <?php get_template_part('parts/home/about/business'); ?>
     <?php get_template_part('parts/home/about/culture'); ?>
-    <?php get_template_part('parts/home/about/interview'); ?>
+    <!-- <?php get_template_part('parts/home/about/interview'); ?> -->
 </section>

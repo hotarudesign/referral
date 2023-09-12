@@ -49,6 +49,9 @@
         font-size: 2rem;
       }
       &-accent {
+        display: inline-block;
+        margin-top: -20px;
+        vertical-align: top;
         color: v.$accentColor;
       }
       &-strong {
@@ -56,12 +59,14 @@
         font-weight: 900;
         font-size: 6.6rem;
         line-height: 1.21;
+        color: v.$accentColor;
         @include v.sm {
           font-size: 3.8rem;
         }
       }
     }
     &__arrow {
+      margin: 262px 0 0;
       position: relative;
       &.pc {
         display: block;
@@ -84,27 +89,27 @@
               }
             }
             &02 {
-              bottom: 14%;
-              left: 1%;
+              bottom: 0;
+              left: 5%;
             }
             &03 {
-              bottom: 32%;
-              left: 26%;
+              bottom: 2%;
+              left: 14%;
             }
             &04 {
-              right: 14%;
-              top: 48%;
+              left: 31%;
+              bottom: 45%;
             }
             &05 {
-              top: 2.4%;
-              right: 25%;
+              top: 12%;
+              right: 2%;
             }
             &06 {
-              right: 0.3%;
-              bottom: 46%;
+              right: 8%;
+              bottom: 64%;
             }
             &07 {
-              top: -6%;
+              top: -4.5%;
               right: -0.5%;
             }
           }
@@ -131,7 +136,7 @@
               }
             }
             &04 {
-              width: 420.5px;
+              width: 714px;
               @include v.xxl {
                 width: 30vw;
               }
@@ -143,7 +148,7 @@
               }
             }
             &06 {
-              width: 310.38px;
+              width: 911px;
               @include v.xxl {
                 width: 22vw;
               }
@@ -156,7 +161,7 @@
             }
             &08 {
               margin: 0 0 0 auto;
-              width: 263.6px;
+              width: 389px;
               @include v.xxl {
                 width: 17.5vw;
               }
@@ -168,19 +173,19 @@
               }
             }
             &10 {
-              width: 289.34px;
+              width: 616px;
               @include v.xxl {
                 width: 19vw;
               }
             }
             &11 {
-              width: 206.87px;
+              width: 247px;
               @include v.xxl {
                 width: 14.5vw;
               }
             }
             &12 {
-              width: 176.27px;
+              width: 66px;
               @include v.xxl {
                 width: 14vw;
               }

@@ -6,8 +6,8 @@
             今後はさらなる売上拡大を目指し、M&Aやグループ各社の連携を行っていきます。
         </p>
         <div class="history">
-            <h3 class="history__ttl">カシワバラグループは2030年まで<br>
-                <span class="history__ttl-accent">売上<span class="history__ttl-strong">3000億</span></span>を目指します
+            <h3 class="history__ttl">カシワバラグループは<br>さらなる
+                <span class="history__ttl-accent">“</span><span class="history__ttl-strong">売上拡大</span><span class="history__ttl-accent">”</span>を目指します
             </h3>
             <div class="history__arrow pc">
                 <picture>
