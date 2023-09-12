@@ -8,7 +8,7 @@
                     $args = array(
                         'post_type' => 'news',
                         'posts_per_page' => 9,
-                        'order' => 'ASC'
+                        'order' => 'DESC'
 
                     );
                     $my_query = new WP_Query($args); ?>
