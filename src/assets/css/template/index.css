@@ -596,6 +596,11 @@
   top: 12%;
   right: 2%;
 }
+@media (max-width: 1280px) {
+  .company .history__arrow.pc .history__list05 {
+    right: 0;
+  }
+}
 .company .history__arrow.pc .history__list06 {
   right: 8%;
   bottom: 64%;
@@ -612,99 +617,54 @@
 .company .history__arrow.pc .history__item01 {
   width: 306.2px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1280px) {
   .company .history__arrow.pc .history__item01 {
-    width: 22vw;
-  }
-}
-.company .history__arrow.pc .history__item02 {
-  width: 263.6px;
-}
-@media (max-width: 1440px) {
-  .company .history__arrow.pc .history__item02 {
-    width: 19vw;
-  }
-}
-.company .history__arrow.pc .history__item03 {
-  width: 263.6px;
-}
-@media (max-width: 1440px) {
-  .company .history__arrow.pc .history__item03 {
-    width: 19vw;
+    width: 25vw;
   }
 }
 .company .history__arrow.pc .history__item04 {
   width: 714px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1280px) {
   .company .history__arrow.pc .history__item04 {
-    width: 30vw;
-  }
-}
-.company .history__arrow.pc .history__item05 {
-  width: 263.6px;
-}
-@media (max-width: 1440px) {
-  .company .history__arrow.pc .history__item05 {
-    width: 18.8vw;
+    width: 55vw;
   }
 }
 .company .history__arrow.pc .history__item06 {
   width: 911px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1280px) {
   .company .history__arrow.pc .history__item06 {
-    width: 22vw;
-  }
-}
-.company .history__arrow.pc .history__item07 {
-  width: 299.97px;
-}
-@media (max-width: 1440px) {
-  .company .history__arrow.pc .history__item07 {
-    width: 20vw;
+    width: 68vw;
   }
 }
 .company .history__arrow.pc .history__item08 {
   margin: 0 0 0 auto;
   width: 389px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1280px) {
   .company .history__arrow.pc .history__item08 {
-    width: 17.5vw;
-  }
-}
-.company .history__arrow.pc .history__item09 {
-  width: 263.6px;
-}
-@media (max-width: 1440px) {
-  .company .history__arrow.pc .history__item09 {
-    width: 17.4vw;
+    width: 30vw;
   }
 }
 .company .history__arrow.pc .history__item10 {
   width: 616px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1280px) {
   .company .history__arrow.pc .history__item10 {
-    width: 19vw;
+    width: 48vw;
   }
 }
 .company .history__arrow.pc .history__item11 {
   width: 247px;
 }
-@media (max-width: 1440px) {
+@media (max-width: 1280px) {
   .company .history__arrow.pc .history__item11 {
-    width: 14.5vw;
+    width: 19vw;
   }
 }
 .company .history__arrow.pc .history__item12 {
   width: 66px;
-}
-@media (max-width: 1440px) {
-  .company .history__arrow.pc .history__item12 {
-    width: 14vw;
-  }
 }
 .company .history__arrow.sp {
   display: none;

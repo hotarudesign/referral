@@ -103,6 +103,9 @@
             &05 {
               top: 12%;
               right: 2%;
+              @include v.resMap {
+                right: 0;
+              }
             }
             &06 {
               right: 8%;
@@ -119,76 +122,46 @@
             border-radius: 5px;
             &01 {
               width: 306.2px;
-              @include v.xxl {
-                width: 22vw;
-              }
-            }
-            &02 {
-              width: 263.6px;
-              @include v.xxl {
-                width: 19vw;
-              }
-            }
-            &03 {
-              width: 263.6px;
-              @include v.xxl {
-                width: 19vw;
+              @include v.resMap {
+                width: 25vw;
               }
             }
             &04 {
               width: 714px;
-              @include v.xxl {
-                width: 30vw;
-              }
-            }
-            &05 {
-              width: 263.6px;
-              @include v.xxl {
-                width: 18.8vw;
+              @include v.resMap {
+                width: 55vw;
               }
             }
             &06 {
               width: 911px;
-              @include v.xxl {
-                width: 22vw;
-              }
-            }
-            &07 {
-              width: 299.97px;
-              @include v.xxl {
-                width: 20vw;
+              @include v.resMap {
+                width: 68vw;
               }
             }
             &08 {
               margin: 0 0 0 auto;
               width: 389px;
-              @include v.xxl {
-                width: 17.5vw;
-              }
-            }
-            &09 {
-              width: 263.6px;
-              @include v.xxl {
-                width: 17.4vw;
+              @include v.resMap {
+                width: 30vw;
               }
             }
             &10 {
               width: 616px;
-              @include v.xxl {
-                width: 19vw;
+              @include v.resMap {
+                width: 48vw;
               }
             }
             &11 {
               width: 247px;
-              @include v.xxl {
-                width: 14.5vw;
+              @include v.resMap {
+                width: 19vw;
               }
             }
             &12 {
               width: 66px;
-              @include v.xxl {
-                width: 14vw;
-              }
+              // @include v.xxl {
+              //   width: 14vw;
+              // }
             }
           }
         }

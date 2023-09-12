@@ -2,6 +2,7 @@ $sm: 576px;
 $md: 768px;
 $lg: 992px;
 $xl: 1200px;
+$resMap: 1280px;
 $xxl: 1440px;
 $fontNoto: "Noto Sans JP", sans-serif;
 $fontArial: "Arial Black", sans-serif;
@@ -11,6 +12,11 @@ $accentColor: #38b8ef;
 // 1440px以下
 @mixin xxl {
   @media (max-width: ($xxl)) {
+    @content;
+  }
+}
+@mixin resMap {
+  @media (max-width: ($resMap)) {
     @content;
   }
 }

@@ -24,7 +24,7 @@
                         </figure>
                     </div>
                     <div class="history__list history__list02">
-                        <figure class="history__item history__item02">
+                        <!-- <figure class="history__item history__item02">
                             <picture>
                                 <source srcset='<?php echo ImgPath; ?>/webp/history-item02.webp' type='image/webp'>
                                 <img src="<?php echo ImgPath; ?>/history-item02.png" alt="1983年 アイキャン 設立">
@@ -35,7 +35,7 @@
                                 <source srcset='<?php echo ImgPath; ?>/webp/history-item03.webp' type='image/webp'>
                                 <img src="<?php echo ImgPath; ?>/history-item03.png" alt="1987年 株式会社カシワバラ・コネクト 設立 通信サービスの提供">
                             </picture>
-                        </figure>
+                        </figure> -->
                         <figure class="history__item history__item04">
                             <picture>
                                 <source srcset='<?php echo ImgPath; ?>/webp/history-item04.webp' type='image/webp'>
@@ -45,12 +45,12 @@
 
                     </div>
                     <div class="history__list history__list03">
-                        <figure class="history__item history__item05">
+                        <!-- <figure class="history__item history__item05">
                             <picture>
                                 <source srcset='<?php echo ImgPath; ?>/webp/history-item05.webp' type='image/webp'>
                                 <img src="<?php echo ImgPath; ?>/history-item05.png" alt="2004年 株式会社カシワバラ・アシスト 設立 住宅購入資金のサポート">
                             </picture>
-                        </figure>
+                        </figure> -->
                         <figure class="history__item history__item06">
                             <picture>
                                 <source srcset='<?php echo ImgPath; ?>/webp/history-item06.webp' type='image/webp'>
@@ -59,12 +59,12 @@
                         </figure>
                     </div>
                     <div class="history__list history__list04">
-                        <figure class="history__item history__item07">
+                        <!-- <figure class="history__item history__item07">
                             <picture>
                                 <source srcset='<?php echo ImgPath; ?>/webp/history-item07.webp' type='image/webp'>
                                 <img src="<?php echo ImgPath; ?>/history-item07.png" alt="2010年 株式会社カシワバラ・コンパス 設立 資材の調達">
                             </picture>
-                        </figure>
+                        </figure> -->
                         <figure class="history__item history__item08">
                             <picture>
                                 <source srcset='<?php echo ImgPath; ?>/webp/history-item08.webp' type='image/webp'>
@@ -73,12 +73,12 @@
                         </figure>
                     </div>
                     <div class="history__list history__list05">
-                        <figure class="history__item history__item09">
+                        <!-- <figure class="history__item history__item09">
                             <picture>
                                 <source srcset='<?php echo ImgPath; ?>/webp/history-item09.webp' type='image/webp'>
                                 <img src="<?php echo ImgPath; ?>/history-item09.png" alt="2018年 株式会社オリジナルテクスト 設立 不動産の開発">
                             </picture>
-                        </figure>
+                        </figure> -->
                         <figure class="history__item history__item10">
                             <picture>
                                 <source srcset='<?php echo ImgPath; ?>/webp/history-item10.webp' type='image/webp'>
