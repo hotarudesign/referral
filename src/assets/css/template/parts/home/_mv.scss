@@ -20,6 +20,16 @@
         object-fit: cover;
         object-position: 80% 10%;
       }
+      &:nth-child(3) {
+        img {
+          @include v.sm {
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+            object-position: 10% 10%;
+          }
+        }
+      }
     }
     @include v.sm {
       height: 100vh;

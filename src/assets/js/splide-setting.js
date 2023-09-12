@@ -68,6 +68,14 @@ const options = {
     speed: 1,
     pauseOnHover: false,
   },
+  breakpoints: {
+    578: {
+      gap: 10,
+      autoScroll: {
+        speed: 0.5,
+      },
+    },
+  },
 };
 const splide = new Splide(".splide5", options);
 splide.mount(window.splide.Extensions);
