@@ -34,7 +34,7 @@
             <h2 class="hero__ttl">
                 <picture>
                     <source srcset='<?php echo ImgPath; ?>/webp/mv-ttl.webp' type='image/webp'>
-                    <img src="<?php echo ImgPath; ?>/mv-ttl.png" alt="">
+                    <img src="<?php echo ImgPath; ?>/mv-ttl.png" alt="Never End Your Posibilities">
                 </picture>
             </h2>
         </div>
@@ -42,7 +42,7 @@
             <p class="mv__foot-label pc">
                 <picture>
                     <source srcset='<?php echo ImgPath; ?>/webp/mv_foot-label.webp' type='image/webp'>
-                    <img src="<?php echo ImgPath; ?>/mv_foot-label.png" alt="">
+                    <img src="<?php echo ImgPath; ?>/mv_foot-label.png" alt="あなたの可能性を終わらせない">
                 </picture>
             </p>
             <?php

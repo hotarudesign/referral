@@ -18,7 +18,7 @@
                 <a href="<?php echo esc_url(home_url('/')); ?>">
                     <picture>
                         <source srcset='<?php echo ImgPath; ?>/webp/logo.webp' type='image/webp'>
-                        <img src='<?php echo ImgPath; ?>/logo.png' alt=''>
+                        <img src='<?php echo ImgPath; ?>/logo.png' alt='Kashiwabara Corporation Referral Recruiting Site'>
                     </picture>
                 </a>
             </h1>

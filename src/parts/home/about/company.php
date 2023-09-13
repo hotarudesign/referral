@@ -42,7 +42,6 @@
                                 <img src="<?php echo ImgPath; ?>/history-item04.png" alt="1990年 株式会社カシワバラ・サイト 設立 固定資産の管理">
                             </picture>
                         </figure>
-
                     </div>
                     <div class="history__list history__list03">
                         <!-- <figure class="history__item history__item05">
