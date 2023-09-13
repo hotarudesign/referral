@@ -7,7 +7,6 @@
                     <?php
                     $args = array(
                         'post_type' => 'news',
-                        'posts_per_page' => 9,
                         'order' => 'DESC'
 
                     );
@@ -21,7 +20,7 @@
                                     </div>
                                     <div class="splide__slide__head">
                                         <p class="splide__slide__head-label"><?php echo get_the_term_list($post->ID, 'news-category'); ?></p>
-                                        <time class="splide__slide__head-data" date-time="<?php echo get_the_time("Y年n月j日"); ?>"><?php echo get_the_time("Y年n月j日"); ?></time>
+                                        <time class="splide__slide__head-data" date-time="<?php echo get_the_time("Y年n月j日"); ?>"><?php the_field('post-date'); ?></time>
                                     </div>
                                 </div>
                                 <figure class="splide__slide__thumb">
@@ -29,21 +28,6 @@
                                 </figure>
                             </li>
                         <?php endwhile; ?>
-                    <?php else : ?>
-                        <li class="splide__slide">
-                            <div class="splide__slide__body">
-                                <div class="splide__slide__body__txt">
-                                    <h4 class="splide__slide__body__txt-ttl">新しいお知らせまで少々お待ちください。</h4>
-                                    </h4>
-                                </div>
-                                <div class="splide__slide__head">
-                                    <p class="splide__slide__head-label"><?php echo get_the_term_list($post->ID, 'news-category'); ?></p>
-                                </div>
-                            </div>
-                            <figure class="splide__slide__thumb">
-                                <img src='<?php the_field('news_thumbnail'); ?>' alt=''>
-                            </figure>
-                        </li>
                     <?php endif; ?>
                     <?php wp_reset_postdata(); ?>
                 </ul>

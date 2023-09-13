@@ -459,8 +459,13 @@
   }
 }
 .message__main {
-  margin: 88px 0 0;
+  margin: 140px 0 0;
   text-align: center;
+}
+@media (max-width: 1440px) {
+  .message__main {
+    margin: 60px 0 0;
+  }
 }
 @media not screen and (min-width: 576px) {
   .message__main {
@@ -473,9 +478,15 @@
   width: 100%;
 }
 .message__main__desc {
-  margin: 50px auto 0;
-  max-width: 684px;
+  margin: 80px auto 0;
+  max-width: 800px;
   width: 100%;
+}
+@media (max-width: 1440px) {
+  .message__main__desc {
+    margin: 40px auto 0;
+    max-width: 60%;
+  }
 }
 @media not screen and (min-width: 576px) {
   .message__main__desc {

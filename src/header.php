@@ -16,7 +16,10 @@
         <div class="header__inner">
             <h1 class="header__logo logo">
                 <a href="<?php echo esc_url(home_url('/')); ?>">
-                    <img src="<?php echo ImgPath; ?>/logo.svg" alt="">
+                    <picture>
+                        <source srcset='<?php echo ImgPath; ?>/webp/logo.webp' type='image/webp'>
+                        <img src='<?php echo ImgPath; ?>/logo.png' alt=''>
+                    </picture>
                 </a>
             </h1>
             <nav class="g-nav">

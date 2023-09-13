@@ -107,7 +107,7 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
-                            <a href="" class="business__foot-view">
+                            <a href="<?php echo ImgPath; ?>/document.png" class="business__foot-view">
                                 <figure class="business__foot-document">
                                     <picture>
                                         <source srcset='<?php echo ImgPath; ?>/webp/document.webp' type='image/webp'>
@@ -117,7 +117,7 @@
                             </a>
                         </li>
                         <li class="splide__slide">
-                            <a href="" class="business__foot-view">
+                            <a href="<?php echo ImgPath; ?>/document.png" class="business__foot-view">
                                 <figure class="business__foot-document">
                                     <picture>
                                         <source srcset='<?php echo ImgPath; ?>/webp/document.webp' type='image/webp'>
@@ -127,7 +127,7 @@
                             </a>
                         </li>
                         <li class="splide__slide">
-                            <a href="" class="business__foot-view">
+                            <a href="<?php echo ImgPath; ?>/document.png" class="business__foot-view">
                                 <figure class="business__foot-document">
                                     <picture>
                                         <source srcset='<?php echo ImgPath; ?>/webp/document.webp' type='image/webp'>
