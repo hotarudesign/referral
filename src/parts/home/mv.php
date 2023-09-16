@@ -4,8 +4,9 @@
             <div class="splide__list">
                 <div class="splide__slide">
                     <picture>
-                        <source srcset='<?php echo ImgPath; ?>/webp/mv01.webp' type='image/webp'>
-                        <img src='<?php echo ImgPath; ?>/mv01.jpg' alt=''>
+                        <source srcset='<?php echo ImgPath; ?>/webp/mv01.webp' media="(min-width:578px)" type='image/webp'>
+                        <source srcset='<?php echo ImgPath; ?>/webp/mv_sp01.webp' media="(max-width:578px)" type='image/webp'>
+                        <img src='' alt=''>
                     </picture>
                 </div>
                 <div class="splide__slide">
@@ -24,12 +25,6 @@
         </div>
     </div>
     <div class="mv__inner inner">
-        <p class="mv__foot-label sp">
-            <picture>
-                <source srcset='<?php echo ImgPath; ?>/webp/mv_foot-label.webp' type='image/webp'>
-                <img src="<?php echo ImgPath; ?>/mv_foot-label.png" alt="">
-            </picture>
-        </p>
         <div class="hero">
             <h2 class="hero__ttl">
                 <picture>
@@ -39,30 +34,20 @@
             </h2>
         </div>
         <div class="mv__foot">
-            <p class="mv__foot-label pc">
+            <p class="mv__foot-label">
                 <picture>
-                    <source srcset='<?php echo ImgPath; ?>/webp/mv_foot-label.webp' type='image/webp'>
-                    <img src="<?php echo ImgPath; ?>/mv_foot-label.png" alt="あなたの可能性を終わらせない">
+                    <source srcset='<?php echo ImgPath; ?>/webp/mv_foot-label.webp' media="(min-width:578px)" type='image/webp'>
+                    <img src="" alt="">
                 </picture>
             </p>
-            <?php
-            if (is_front_page())
-                get_template_part('parts/home/fix-link-sp'); ?>
-            <!-- <a href="" class="mv__foot__link">
-                <figure class="mv__foot__thumb">
-                    <picture>
-                        <source srcset='<?php echo ImgPath; ?>/webp/mv_thumb.webp' type='image/webp'>
-                        <img src='<?php echo ImgPath; ?>/mv_thumb.png' alt=''>
-                    </picture>
-                    <figcaption class="mv__foot__thumb-caption">
-                        <p class="mv__foot__thumb-txt">座談会の様子はこちら</p>
-                        <picture>
-                            <source srcset='<?php echo ImgPath; ?>/webp/caption-arrow.webp' type='image/webp'>
-                            <img class="mv__foot__thumb-icon" src="<?php echo ImgPath; ?>/caption-arrow.png" alt="">
-                        </picture>
-                    </figcaption>
-                </figure>
-            </a> -->
         </div>
     </div>
+</div>
+<div class="mv__foot-sp">
+    <p class="mv__foot-sp-label">
+        <picture>
+            <source srcset='<?php echo ImgPath; ?>/webp/mv_foot-label-sp.webp' media="(max-width:578px)" type='image/webp'>
+            <img src="" alt="あなたの可能性を終わらせない">
+        </picture>
+    </p>
 </div>

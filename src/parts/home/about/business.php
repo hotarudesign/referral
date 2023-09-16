@@ -80,31 +80,34 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
-                            <a href="<?php echo ImgPath; ?>/document.png" class="business__foot-view">
+                            <a href="<?php echo ImgPath; ?>/document.png" target="_blank" rel="noopener noreferrer" class="business__foot-view">
                                 <figure class="business__foot-document">
                                     <picture>
-                                        <source srcset='<?php echo ImgPath; ?>/webp/document.webp' type='image/webp'>
-                                        <img src="<?php echo ImgPath; ?>/document.png" alt="">
+                                        <source srcset='<?php echo ImgPath; ?>/webp/document.webp' media="(min-width:578px)" type='image/webp'>
+                                        <source srcset='<?php echo ImgPath; ?>/webp/document-sp.webp' media="(max-width:578px)" type='image/webp'>
+                                        <img src="" alt="">
                                     </picture>
                                 </figure>
                             </a>
                         </li>
                         <li class="splide__slide">
-                            <a href="<?php echo ImgPath; ?>/document.png" class="business__foot-view">
+                            <a href="<?php echo ImgPath; ?>/document.png" target="_blank" rel="noopener noreferrer" class="business__foot-view">
                                 <figure class="business__foot-document">
                                     <picture>
-                                        <source srcset='<?php echo ImgPath; ?>/webp/document.webp' type='image/webp'>
-                                        <img src="<?php echo ImgPath; ?>/document.png" alt="">
+                                        <source srcset='<?php echo ImgPath; ?>/webp/document.webp' media="(min-width:578px)" type='image/webp'>
+                                        <source srcset='<?php echo ImgPath; ?>/webp/document-sp.webp' media="(max-width:578px)" type='image/webp'>
+                                        <img src="" alt="">
                                     </picture>
                                 </figure>
                             </a>
                         </li>
                         <li class="splide__slide">
-                            <a href="<?php echo ImgPath; ?>/document.png" class="business__foot-view">
+                            <a href="<?php echo ImgPath; ?>/document.png" target="_blank" rel="noopener noreferrer" class="business__foot-view">
                                 <figure class="business__foot-document">
                                     <picture>
-                                        <source srcset='<?php echo ImgPath; ?>/webp/document.webp' type='image/webp'>
-                                        <img src="<?php echo ImgPath; ?>/document.png" alt="">
+                                        <source srcset='<?php echo ImgPath; ?>/webp/document.webp' media="(min-width:578px)" type='image/webp'>
+                                        <source srcset='<?php echo ImgPath; ?>/webp/document-sp.webp' media="(max-width:578px)" type='image/webp'>
+                                        <img src="" alt="">
                                     </picture>
                                 </figure>
                             </a>

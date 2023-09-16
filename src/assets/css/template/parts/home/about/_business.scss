@@ -215,9 +215,7 @@
     .splide {
       &__arrows {
         @include v.sm {
-          position: absolute;
-          top: 60%;
-          width: 100%;
+          display: none;
         }
       }
       .button {

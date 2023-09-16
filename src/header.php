@@ -36,9 +36,11 @@
             <a href="https://thkd5375.talent-p.net/EntryFormMng/Entryform?url_token=b71d970ffcf54e6c9b2478287e7757e1" class="header__btn">エントリー</a>
             <button class="toggle-btn" id="toggleBtn"><span></span><span></span><span></span></button>
             <div class="slide-menu" id="slideMenu">
-                <a href="<?php echo esc_url(home_url('/')); ?>" class="logo-sp">
-                    <img src='<?php echo ImgPath; ?>/logo.svg' alt=''>
-                </a>
+                <div class="slide-menu__head">
+                    <a href="<?php echo esc_url(home_url('/')); ?>" class="logo-sp">
+                        <img src='<?php echo ImgPath; ?>/logo.svg' alt=''>
+                    </a>
+                </div>
                 <nav class="g-nav-sp">
                     <?php
                     wp_nav_menu(
@@ -50,7 +52,7 @@
                     );
                     ?>
                 </nav>
-                <a href="https://thkd5375.talent-p.net/EntryFormMng/Entryform?url_token=b71d970ffcf54e6c9b2478287e7757e1" class="btn-sp">エントリー</a>
+                <!-- <a href="https://thkd5375.talent-p.net/EntryFormMng/Entryform?url_token=b71d970ffcf54e6c9b2478287e7757e1" class="btn-sp">エントリー</a> -->
             </div>
         </div>
     </header>

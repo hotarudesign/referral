@@ -46,7 +46,7 @@ const target_options = {
 const mySplide = new Splide(target, target_options);
 mySplide.mount();
 
-// splide4 news
+// splide4 document
 new Splide(".splide4", {
   type: "loop",
   autoplay: true,
@@ -54,6 +54,12 @@ new Splide(".splide4", {
   perPage: 1,
   gap: 38,
   pagination: false,
+  breakpoints: {
+    577: {
+      perPage: 1,
+      arrows: false,
+    },
+  },
 }).mount();
 
 // splide5 message

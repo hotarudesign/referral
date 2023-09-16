@@ -1,11 +1,16 @@
 @charset "UTF-8";
 .header {
-  padding: 12.4px 0;
+  padding: 12px 0 8px;
   width: 100%;
   background: #fff;
   position: fixed;
   top: 0;
   z-index: 10;
+}
+@media not screen and (min-width: 576px) {
+  .header {
+    padding: 9px 0 6px;
+  }
 }
 .header__inner {
   display: flex;
@@ -83,6 +88,11 @@
   opacity: 0;
   transition: ease-in 0.5s;
 }
+@media not screen and (min-width: 992px) {
+  .header .g-nav__item:before {
+    display: none;
+  }
+}
 .header .g-nav__item:hover:before, .header .g-nav__item:focus:before {
   bottom: -6px;
   opacity: 1;
@@ -137,10 +147,13 @@
   left: 0;
   transition: ease-in 0.5s;
 }
+.header .toggle-btn.is-active span {
+  background: #fff;
+}
 .header .toggle-btn.is-active span:nth-child(1) {
   top: 50%;
   left: 0;
-  transform: translateY(-50%) rotate(45deg);
+  transform: translateY(-50%) rotate(35deg);
   transition: ease-in 0.5s;
 }
 .header .toggle-btn.is-active span:nth-child(2) {
@@ -150,7 +163,7 @@
 .header .toggle-btn.is-active span:nth-child(3) {
   top: 50%;
   left: 0;
-  transform: translateY(-50%) rotate(-45deg);
+  transform: translateY(-50%) rotate(-35deg);
   transition: ease-in 0.5s;
 }
 .header .slide-menu {
@@ -159,17 +172,13 @@
 @media not screen and (min-width: 992px) {
   .header .slide-menu {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    padding: 8% 0;
     width: 100vw;
     height: 100%;
-    text-align: center;
     position: fixed;
     top: 0;
     right: -100vw;
-    background: linear-gradient(#fff, #e5f0fa);
+    background: #2d3d50;
     transition: 0.5s;
     touch-action: none;
   }
@@ -178,37 +187,38 @@
   right: 0;
   transition: 0.5s;
 }
-.header .g-nav-sp {
-  margin: auto 0;
+.header .slide-menu__head {
+  padding: 12.4px 5.3%;
+  border-bottom: 1px solid #818181;
+}
+.header .slide-menu__head .logo-sp {
+  display: block;
+  width: 159px;
 }
 .header .g-nav-sp .g-nav__list {
   display: flex;
   flex-direction: column;
+  padding: 0 5.3%;
 }
 .header .g-nav-sp .g-nav__item {
-  font-size: 2rem;
+  padding: 4% 0;
+  font-weight: 300;
+  font-size: 1.7rem;
   line-height: 2.6;
-}
-.header .btn-sp {
-  margin: auto auto 5%;
-  padding: 16px 0 20px;
-  width: 250px;
-  font-weight: 500;
-  font-size: 2rem;
-  text-align: center;
-  background: linear-gradient(45deg, #a4d8ef, #38b8ef);
-  color: #fff;
-  border-radius: 50px;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid #818181;
+  color: #f7f7f7;
 }
 
 .mv {
-  padding: 75px 0 0;
-  height: 100vh;
+  margin: 89.77px 0 0;
+  height: calc(100vh - 89.77px);
+  position: relative;
 }
 @media not screen and (min-width: 576px) {
   .mv {
-    padding: 90px 0 0;
-    background-position: 80% 100%;
+    margin: 84.77px 0 0;
+    height: calc(93svh - 84.77px);
   }
 }
 .mv .splide {
@@ -219,9 +229,30 @@
   left: 0;
   z-index: -1;
 }
+@media not screen and (min-width: 576px) {
+  .mv .splide {
+    height: 100%;
+  }
+}
+.mv .splide__track {
+  height: 100vh;
+}
+@media not screen and (min-width: 576px) {
+  .mv .splide__track {
+    height: 100%;
+  }
+}
+.mv .splide__slide {
+  height: 100vh;
+}
+@media not screen and (min-width: 576px) {
+  .mv .splide__slide {
+    height: 100%;
+  }
+}
 .mv .splide__slide img {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 80% 10%;
@@ -230,16 +261,11 @@
 @media not screen and (min-width: 576px) {
   .mv .splide__slide:nth-child(3) img {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: 10% 10%;
        object-position: 10% 10%;
-  }
-}
-@media not screen and (min-width: 576px) {
-  .mv .splide {
-    height: 100vh;
   }
 }
 .mv__inner {
@@ -261,7 +287,7 @@
 }
 @media not screen and (min-width: 576px) {
   .mv .hero {
-    margin: 0 0 50%;
+    margin: 12% 0 0;
   }
 }
 .mv .hero__ttl {
@@ -338,6 +364,11 @@
   align-items: center;
   margin-bottom: 5%;
 }
+@media (max-width: 1440px) {
+  .mv__foot {
+    margin-bottom: 0;
+  }
+}
 @media not screen and (min-width: 576px) {
   .mv__foot {
     flex-direction: column;
@@ -350,21 +381,21 @@
   max-width: 393px;
   width: 100%;
 }
-.mv__foot-label.pc {
-  display: block;
-}
 @media not screen and (min-width: 576px) {
-  .mv__foot-label.pc {
-    display: none;
+  .mv__foot-label {
+    margin: 0;
+    width: 100%;
   }
 }
-.mv__foot-label.sp {
+
+.mv__foot-sp {
   display: none;
 }
 @media not screen and (min-width: 576px) {
-  .mv__foot-label.sp {
+  .mv__foot-sp {
     display: block;
-    margin: 0;
+    margin: -10% 0 0;
+    padding: 0 5.3%;
   }
 }
 
@@ -379,6 +410,7 @@
 }
 @media not screen and (min-width: 576px) {
   .fix-link {
+    display: none;
     width: 100%;
     writing-mode: inherit;
     position: static;
@@ -581,7 +613,7 @@
 }
 @media not screen and (min-width: 576px) {
   .company .history__ttl-strong {
-    font-size: 3.8rem;
+    font-size: 3.2rem;
   }
 }
 .company .history__arrow {
@@ -725,19 +757,19 @@
   margin: -30px 0 0 -15vw;
 }
 .company .history__arrow.sp .history__list02 {
-  margin: 33px 0 0 -15vw;
+  margin: 4% 0 0 -15vw;
   gap: 10px 0;
 }
 .company .history__arrow.sp .history__list03 {
-  margin: 13px 0 0 -15vw;
+  margin: 3% 0 0 -15vw;
   gap: 10px 0;
 }
 .company .history__arrow.sp .history__list04 {
-  margin: 22px 0 0 -15vw;
+  margin: 3% 0 0 -15vw;
   gap: 10px 0;
 }
 .company .history__arrow.sp .history__list05 {
-  margin: 28.2px 0 0 -15vw;
+  margin: 3% 0 0 -15vw;
   gap: 10px 0;
 }
 .company .history__arrow.sp .history__list06 {
@@ -1209,9 +1241,7 @@
 }
 @media not screen and (min-width: 576px) {
   .business__foot .splide__arrows {
-    position: absolute;
-    top: 60%;
-    width: 100%;
+    display: none;
   }
 }
 .business__foot .splide .button {
