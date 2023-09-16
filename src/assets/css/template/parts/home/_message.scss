@@ -2,6 +2,11 @@
 .message {
   position: relative;
   overflow: hidden;
+  &__bg {
+    @include v.sm {
+      margin: 170px 0 0;
+    }
+  }
   &-ttl {
     color: #fff;
     text-shadow: 0 3px 6px #ccc;

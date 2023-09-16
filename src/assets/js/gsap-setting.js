@@ -1,6 +1,7 @@
 "use strict";
 gsap.registerPlugin(ScrollTrigger);
 
+// 会社沿革のアニメーション
 let mm = gsap.matchMedia();
 mm.add("(min-width: 576px)", () => {
   gsap.set(".history__item", {
@@ -30,13 +31,15 @@ mm.add("(max-width: 576px)", () => {
     },
   });
 });
+
+// Businessのサークルアニメーション
 const shape = document.querySelector(".circle__line");
 let angle = 0;
 function drawCircle() {
   //角度が365°未満のとき
   if (angle < 201) {
     //角度を2°ずつ増やす
-    angle += 1.5;
+    angle += 1.2;
     //角度をconic-gradientの角度に代入
     shape.style.backgroundImage = `conic-gradient(black ${angle}deg, transparent ${angle}deg)`;
     //requestAnimationFrameを再度呼び出す

@@ -6,7 +6,7 @@
             今後はさらなる売上拡大を目指し、M&Aやグループ各社の連携を行っていきます。
         </p>
         <div class="history">
-            <h3 class="history__ttl">カシワバラグループは<br>さらなる
+            <h3 class="history__ttl">カシワバラグループは<br class="pc-only">さらなる<br class="sp-only">
                 <span class="history__ttl-accent">“</span><span class="history__ttl-strong">売上拡大</span><span class="history__ttl-accent">”</span>を目指します
             </h3>
             <div class="history__arrow pc">
@@ -108,12 +108,6 @@
                     <source srcset='<?php echo ImgPath; ?>/webp/history_arrow-sp.webp' type='image/webp'>
                     <img class="history__arrow-figure" src='<?php echo ImgPath; ?>/history_arrow-sp.png' alt=''>
                 </picture>
-                <!-- <div class="history__point-goal">
-                    <picture>
-                        <source srcset='<?php echo ImgPath; ?>/webp/history-item12-sp.webp' type='image/webp'>
-                        <img src="<?php echo ImgPath; ?>/history-item12-sp.png" alt="">
-                    </picture>
-                </div> -->
                 <div class="history__lists">
                     <div class="history__list history__list01">
                         <div class="history__item history__item01 history__item-sp">
@@ -121,41 +115,29 @@
                                 <source srcset='<?php echo ImgPath; ?>/webp/history-item01-sp.webp' type='image/webp'>
                                 <img src="<?php echo ImgPath; ?>/history-item01-sp.png" alt="">
                             </picture>
-                            <div class="history__point history__point01">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/history-point01.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/history-point01.png" alt="">
-                                </picture>
-                            </div>
                         </div>
                     </div>
                     <div class="history__list history__list02">
                         <div class="history__item history__item02 history__item-sp">
                             <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/history-item03-sp.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/history-item03-sp.png" alt="">
-                            </picture>
-                        </div>
-                        <div class="history__item history__item03 history__item-sp">
-                            <picture>
                                 <source srcset='<?php echo ImgPath; ?>/webp/history-item02-sp.webp' type='image/webp'>
                                 <img src="<?php echo ImgPath; ?>/history-item02-sp.png" alt="">
                             </picture>
                         </div>
-                        <div class="history__item history__item04 history__item-sp">
+                        <div class="history__item history__item03 history__item-sp">
                             <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/history-item06-sp.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/history-item06-sp.png" alt="">
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item03-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item03-sp.png" alt="">
                             </picture>
-                            <div class="history__point history__point02">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/history-point02.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/history-point02.png" alt="">
-                                </picture>
-                            </div>
                         </div>
                     </div>
                     <div class="history__list history__list03">
+                        <div class="history__item history__item04 history__item-sp">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item04-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item04-sp.png" alt="">
+                            </picture>
+                        </div>
                         <div class="history__item history__item05 history__item-sp">
                             <picture>
                                 <source srcset='<?php echo ImgPath; ?>/webp/history-item05-sp.webp' type='image/webp'>
@@ -164,55 +146,37 @@
                         </div>
                         <div class="history__item history__item06 history__item-sp">
                             <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/history-item04-sp.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/history-item04-sp.png" alt="">
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item06-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item06-sp.png" alt="">
                             </picture>
-                            <div class="history__point history__point03">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/history_point03.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/history_point03.png" alt="">
-                                </picture>
-                            </div>
                         </div>
                     </div>
                     <div class="history__list history__list04">
                         <div class="history__item history__item07 history__item-sp">
                             <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/history-item08-sp.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/history-item08-sp.png" alt="">
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item07-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item07-sp.png" alt="">
                             </picture>
                         </div>
                         <div class="history__item history__item08 history__item-sp">
                             <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/history-item07-sp.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/history-item07-sp.png" alt="">
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item08-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item08-sp.png" alt="">
                             </picture>
-                            <div class="history__point history__point04">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/history_point04.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/history_point04.png" alt="">
-                                </picture>
-                            </div>
                         </div>
                     </div>
                     <div class="history__list history__list05">
                         <div class="history__item history__item09 history__item-sp">
                             <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/history-item10-sp.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/history-item10-sp.png" alt="">
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item09-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item09-sp.png" alt="">
                             </picture>
                         </div>
                         <div class="history__item history__item10 history__item-sp">
                             <picture>
-                                <source srcset='<?php echo ImgPath; ?>/webp/history-item09-sp.webp' type='image/webp'>
-                                <img src="<?php echo ImgPath; ?>/history-item09-sp.png" alt="">
+                                <source srcset='<?php echo ImgPath; ?>/webp/history-item10-sp.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/history-item10-sp.png" alt="">
                             </picture>
-                            <div class="history__point history__point05">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/history_point05.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/history_point05.png" alt="">
-                                </picture>
-                            </div>
                         </div>
                     </div>
                     <div class="history__list history__list06">
@@ -221,12 +185,6 @@
                                 <source srcset='<?php echo ImgPath; ?>/webp/history-item11-sp.webp' type='image/webp'>
                                 <img src="<?php echo ImgPath; ?>/history-item11-sp.png" alt="">
                             </picture>
-                            <div class="history__point history__point06">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/history_point06.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/history_point06.png" alt="">
-                                </picture>
-                            </div>
                         </div>
                     </div>
                     <div class="history__list history__list07">

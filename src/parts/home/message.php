@@ -51,8 +51,9 @@
         <div class="message__main">
             <h2 class="message__main__ttl">
                 <picture>
-                    <source srcset='<?php echo ImgPath; ?>/webp/message-ttl.webp' type='image/webp'>
-                    <img src='<?php echo ImgPath; ?>/message-ttl.png' alt='カシワバラは建設会社では終わらない'>
+                    <source srcset='<?php echo ImgPath; ?>/webp/message-ttl.webp' media="(min-width:578px)" type='image/webp'>
+                    <source srcset='<?php echo ImgPath; ?>/webp/message-ttl-sp.webp' media="(max-width:578px)" type='image/webp'>
+                    <img src='' alt='カシワバラは建設会社では終わらない'>
                 </picture>
             </h2>
             <p class="message__main__desc">

@@ -70,6 +70,7 @@ const options = {
   },
   breakpoints: {
     578: {
+      perPage: 2,
       gap: 10,
       autoScroll: {
         speed: 0.5,

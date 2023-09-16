@@ -16,87 +16,60 @@
                         </div>
                     </div>
                     <div class="circle__list">
-                        <div class="circle__item circle__item08 jsCircleItem">
-                            <p class="circle__item-txt">広告</p>
-                            <figure class="circle__item-icon">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/rectangle-ad-duotone.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/rectangle-ad-duotone.png" alt="">
-                                </picture>
-                            </figure>
-                        </div>
-                        <div class="circle__item circle__item09 jsCircleItem">
-                            <p class="circle__item-txt">保険の提供</p>
-                            <figure class="circle__item-icon">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/handshake-duotone.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/handshake-duotone.png" alt="">
-                                </picture>
-                            </figure>
-                        </div>
-                        <div class="circle__item circle__item10 jsCircleItem">
-                            <p class="circle__item-txt">海外事業</p>
-                            <figure class="circle__item-icon">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/earth-americas-duotone.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/earth-americas-duotone.png" alt="">
-                                </picture>
-                            </figure>
-                        </div>
-                        <div class="circle__item circle__item11 jsCircleItem">
-                            <p class="circle__item-txt">マンション<br>開発・修繕</p>
-                            <figure class="circle__item-icon">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/building-duotone.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/building-duotone.png" alt="">
-                                </picture>
-                            </figure>
-                        </div>
-                        <div class="circle__item circle__item01 jsCircleItem">
-                            <p class="circle__item-txt">戸建て<br>開発・修繕</p>
-                            <figure class="circle__item-icon">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/house-window-duotone.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/house-window-duotone.png" alt="">
-                                </picture>
-                            </figure>
-                        </div>
-                        <div class="circle__item circle__item02 jsCircleItem">
-                            <p class="circle__item-txt">インフラ<br>メンテナンス</p>
-                            <figure class="circle__item-icon">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/triangle-person-digging-duotone.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/triangle-person-digging-duotone.png" alt="">
-                                </picture>
-                            </figure>
-                        </div>
-                        <div class="circle__item circle__item03 jsCircleItem">
-                            <p class="circle__item-txt">資材調達</p>
-                            <figure class="circle__item-icon">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/plane-engines-duotone.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/plane-engines-duotone.png" alt="">
-                                </picture>
-                            </figure>
-                        </div>
-                        <div class="circle__item circle__item04 jsCircleItem">
-                            <p class="circle__item-txt">通信</p>
-                            <figure class="circle__item-icon">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/tower-cell-duotone.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/tower-cell-duotone.png" alt="">
-                                </picture>
-                            </figure>
-                        </div>
-                        <div class="circle__item circle__item07 jsCircleItem">
-                            <p class="circle__item-txt">内装<br>リノベーション</p>
-                            <figure class="circle__item-icon">
-                                <picture>
-                                    <source srcset='<?php echo ImgPath; ?>/webp/screwdriver-wrench-duotone.webp' type='image/webp'>
-                                    <img src="<?php echo ImgPath; ?>/screwdriver-wrench-duotone.png" alt="">
-                                </picture>
-                            </figure>
-                        </div>
+                        <figure class="circle__item jsCircleItem">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/circle_item01.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/circle_item01.png" alt="広告">
+                            </picture>
+                        </figure>
+                        <figure class="circle__item jsCircleItem">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/circle_item02.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/circle_item02.png" alt="保険の提供">
+                            </picture>
+                        </figure>
+                        <figure class="circle__item  jsCircleItem">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/circle_item03.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/circle_item03.png" alt="海外事業">
+                            </picture>
+                        </figure>
+                        <figure class="circle__item jsCircleItem">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/circle_item04.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/circle_item04.png" alt="マンション開発・修繕">
+                            </picture>
+                        </figure>
+                        <figure class="circle__item jsCircleItem">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/circle_item05.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/circle_item05.png" alt="戸建て開発・修繕">
+                            </picture>
+                        </figure>
+                        <figure class="circle__item jsCircleItem">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/circle_item06.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/circle_item06.png" alt="インフラメンテナンス">
+                            </picture>
+                        </figure>
+                        <figure class="circle__item jsCircleItem">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/circle_item07.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/circle_item07.png" alt="資材調達">
+                            </picture>
+                        </figure>
+                        <figure class="circle__item jsCircleItem">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/circle_item08.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/circle_item08.png" alt="通信">
+                            </picture>
+                        </figure>
+                        <figure class="circle__item jsCircleItem">
+                            <picture>
+                                <source srcset='<?php echo ImgPath; ?>/webp/circle_item09.webp' type='image/webp'>
+                                <img src="<?php echo ImgPath; ?>/circle_item09.png" alt="内装リノベーション">
+                            </picture>
+                        </figure>
                     </div>
                 </div>
             </div>

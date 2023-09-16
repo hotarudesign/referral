@@ -36,7 +36,7 @@
     padding: 100px 17px 64.8px 0;
     background: #e9e9e9;
     @include v.sm {
-      padding: 40px 14px;
+      padding: 40px 14px 80px;
     }
     &__ttl {
       margin: 0 0 0 60px;
@@ -53,6 +53,11 @@
         margin-top: -20px;
         vertical-align: top;
         color: v.$accentColor;
+        @include v.sm {
+          margin: -10px 0 0;
+          font-size: 3.2rem;
+          letter-spacing: -0.1em;
+        }
       }
       &-strong {
         padding: 0 5px;
@@ -176,25 +181,39 @@
         }
         .history {
           &__arrow-figure {
+            width: 28vw;
           }
           &__lists {
             display: flex;
             flex-direction: column;
-            gap: 36px 0;
           }
           &__list {
             display: flex;
             flex-direction: column;
             &01 {
-              margin: -40px 0 0;
+              margin: -30px 0 0 -15vw;
             }
             &02 {
-              gap: 15px 0;
+              margin: 33px 0 0 -15vw;
+              gap: 10px 0;
             }
             &03 {
+              margin: 13px 0 0 -15vw;
+              gap: 10px 0;
+            }
+            &04 {
+              margin: 22px 0 0 -15vw;
+              gap: 10px 0;
+            }
+            &05 {
+              margin: 28.2px 0 0 -15vw;
+              gap: 10px 0;
+            }
+            &06 {
+              margin: 0 0 0 -15.8vw;
             }
             &07 {
-              width: 185px;
+              width: 66px;
               position: absolute;
               bottom: -30px;
               left: -2.5%;
@@ -205,43 +224,33 @@
             z-index: 1;
             &01 {
             }
+            &02 {
+              margin: 0 0 0 auto;
+              width: 68.5vw;
+            }
             &03 {
             }
             &04 {
+              margin: 0 0 0 auto;
+              width: 68.5vw;
+            }
+            &05 {
+              margin: 0 0 0 auto;
+              width: 68.5vw;
             }
             &06 {
+            }
+            &07 {
+              margin: 0 0 0 auto;
+              width: 68.5vw;
+            }
+            &09 {
+              margin: 0 0 0 auto;
+              width: 68.5vw;
             }
             &11 {
-              width: 228px;
               margin: 0 0 0 auto;
             }
-          }
-          &__point {
-            position: absolute;
-            transform: translateX(-50%);
-            z-index: -1;
-            &01,
-            &02,
-            &03,
-            &04,
-            &05 {
-              width: 57px;
-              top: 8px;
-              left: -9%;
-              z-index: -1;
-            }
-            &06 {
-              width: 45%;
-              top: 8px;
-              left: -20%;
-              z-index: -1;
-            }
-            // &-goal {
-            //   width: 185px;
-            //   position: absolute;
-            //   bottom: -30px;
-            //   left: -2.5%;
-            // }
           }
         }
       }
