@@ -258,6 +258,18 @@
   -o-object-position: 80% 10%;
      object-position: 80% 10%;
 }
+@media not screen and (min-width: 992px) {
+  .mv .splide__slide:nth-child(2) img {
+    -o-object-position: 100% 10%;
+       object-position: 100% 10%;
+  }
+}
+@media not screen and (min-width: 992px) {
+  .mv .splide__slide:nth-child(3) img {
+    -o-object-position: 30% 10%;
+       object-position: 30% 10%;
+  }
+}
 @media not screen and (min-width: 576px) {
   .mv .splide__slide:nth-child(3) img {
     width: 100%;
@@ -533,7 +545,6 @@
 }
 
 .company {
-  margin: 75px 0 0;
   margin-top: -75px; /* 固定ナビの高さ分のネガティブマージン */
   padding-top: 150px; /* 打ち消し用のパディング */
 }
@@ -1033,6 +1044,11 @@
     height: 140vh;
   }
 }
+@media not screen and (min-width: 992px) {
+  .business__main {
+    height: 85vh;
+  }
+}
 @media not screen and (min-width: 576px) {
   .business__main {
     margin: 20px calc(50% - 50vw) 0;
@@ -1061,6 +1077,11 @@
     margin: 0 auto -18%;
   }
 }
+@media not screen and (min-width: 992px) {
+  .business .circle {
+    margin: 0 auto -15%;
+  }
+}
 @media not screen and (min-width: 576px) {
   .business .circle {
     margin: 0 auto -10%;
@@ -1076,6 +1097,12 @@
 @media (max-width: 1440px) {
   .business .circle__center {
     top: 41%;
+    left: 30%;
+  }
+}
+@media not screen and (min-width: 992px) {
+  .business .circle__center {
+    top: 39%;
     left: 30%;
   }
 }
@@ -1098,6 +1125,11 @@
     font-size: 8rem;
   }
 }
+@media not screen and (min-width: 992px) {
+  .business .circle__center-ttl {
+    font-size: 6rem;
+  }
+}
 @media not screen and (min-width: 576px) {
   .business .circle__center-ttl {
     font-size: 2.4rem;
@@ -1112,6 +1144,11 @@
 @media (max-width: 1440px) {
   .business .circle__center-desc {
     font-size: 3.6rem;
+  }
+}
+@media not screen and (min-width: 992px) {
+  .business .circle__center-desc {
+    font-size: 2.4rem;
   }
 }
 @media not screen and (min-width: 576px) {
@@ -1137,6 +1174,12 @@
     height: 1080px;
   }
 }
+@media not screen and (min-width: 992px) {
+  .business .circle__line {
+    width: 800px;
+    height: 800px;
+  }
+}
 @media not screen and (min-width: 576px) {
   .business .circle__line {
     width: 300px;
@@ -1155,6 +1198,12 @@
   .business .circle__line:before {
     width: 1078px;
     height: 1078px;
+  }
+}
+@media not screen and (min-width: 992px) {
+  .business .circle__line:before {
+    width: 798px;
+    height: 798px;
   }
 }
 @media not screen and (min-width: 576px) {
@@ -1179,6 +1228,12 @@
     top: -2%;
   }
 }
+@media not screen and (min-width: 992px) {
+  .business .circle__list {
+    width: 798px;
+    top: -2%;
+  }
+}
 @media not screen and (min-width: 576px) {
   .business .circle__list {
     width: 273px;
@@ -1191,6 +1246,12 @@
   position: absolute;
   transform: translate(0, -50%);
   z-index: 2;
+}
+@media not screen and (min-width: 992px) {
+  .business .circle__item {
+    width: 100px;
+    height: 100px;
+  }
 }
 @media not screen and (min-width: 576px) {
   .business .circle__item {
@@ -1217,6 +1278,11 @@
   font-size: 3.2rem;
   color: #2a3f51;
   position: relative;
+}
+@media not screen and (min-width: 992px) {
+  .business__foot-ttl {
+    font-size: 2rem;
+  }
 }
 @media not screen and (min-width: 576px) {
   .business__foot-ttl {
@@ -1732,6 +1798,8 @@
 }
 @media not screen and (min-width: 576px) {
   .flow {
+    padding: 120px 0 130px;
+    margin: -20px 0 0;
     background: url(../../images/webp/flow_bg-sp.webp) no-repeat center/cover;
   }
 }
@@ -1758,7 +1826,7 @@
 @media not screen and (min-width: 576px) {
   .flow__bg-txt {
     width: 194px;
-    top: 24.5px;
+    top: 70px;
   }
 }
 .flow .circle {

@@ -5,6 +5,8 @@
   background: url(../../images/webp/flow_bg.webp) no-repeat center/cover;
   position: relative;
   @include v.sm {
+    padding: 120px 0 130px;
+    margin: -20px 0 0;
     background: url(../../images/webp/flow_bg-sp.webp) no-repeat center/cover;
   }
   &-ttl {
@@ -28,7 +30,7 @@
     right: 15px;
     @include v.sm {
       width: 194px;
-      top: 24.5px;
+      top: 70px;
     }
   }
   .circle {
