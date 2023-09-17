@@ -38,7 +38,10 @@
             <div class="slide-menu" id="slideMenu">
                 <div class="slide-menu__head">
                     <a href="<?php echo esc_url(home_url('/')); ?>" class="logo-sp">
-                        <img src='<?php echo ImgPath; ?>/logo.svg' alt=''>
+                        <picture>
+                            <source srcset='<?php echo ImgPath; ?>/webp/logo-slide.webp' type='image/webp'>
+                            <img src='<?php echo ImgPath; ?>/logo-slide.png' alt='Kashiwabara Corporation Referral Recruiting Site'>
+                        </picture>
                     </a>
                 </div>
                 <nav class="g-nav-sp">
