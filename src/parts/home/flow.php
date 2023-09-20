@@ -16,8 +16,8 @@
             </div>
             <ol class="circle__list">
                 <li class="circle__item">
-                    <div class="circle__item__main">
-                        <div class="circle__item__body">
+                    <div class="circle__item__main jsCircleMain01">
+                        <div class="circle__item__body jsCircleBody01">
                             <h4 class="circle__item__body-ttl">エントリー</h4>
                             <p class="circle__item__body-desc">弊社キャリア採用責任者へメール。</p>
                         </div>
@@ -31,8 +31,8 @@
                     <p class="circle__item-num jsFlowNum01">01</p>
                 </li>
                 <li class="circle__item">
-                    <div class="circle__item__main">
-                        <div class="circle__item__body">
+                    <div class="circle__item__main jsCircleMain02">
+                        <div class="circle__item__body jsCircleBody02">
                             <h4 class="circle__item__body-ttl">一次面接</h4>
                             <p class="circle__item__body-desc">採用担当との面接</p>
                         </div>
@@ -46,8 +46,8 @@
                     <p class="circle__item-num jsFlowNum02">02</p>
                 </li>
                 <li class="circle__item">
-                    <div class="circle__item__main">
-                        <div class="circle__item__body">
+                    <div class="circle__item__main jsCircleMain03">
+                        <div class="circle__item__body jsCircleBody03">
                             <h4 class="circle__item__body-ttl">最終面接</h4>
                             <p class="circle__item__body-desc">配属予定先の部署⾧との面接</p>
                         </div>
@@ -61,8 +61,8 @@
                     <p class="circle__item-num jsFlowNum03">03</p>
                 </li>
                 <li class="circle__item">
-                    <div class="circle__item__main">
-                        <div class="circle__item__body">
+                    <div class="circle__item__main jsCircleMain04">
+                        <div class="circle__item__body jsCircleBody04">
                             <h4 class="circle__item__body-ttl">オファー面談</h4>
                             <p class="circle__item__body-desc">待遇の擦り合わせを行います。</p>
                         </div>
@@ -76,8 +76,8 @@
                     <p class="circle__item-num jsFlowNum04">04</p>
                 </li>
                 <li class="circle__item">
-                    <div class="circle__item__main">
-                        <div class="circle__item__body">
+                    <div class="circle__item__main jsCircleMain05">
+                        <div class="circle__item__body jsCircleBody05">
                             <h4 class="circle__item__body-ttl">入社</h4>
                             <p class="circle__item__body-desc">新生活応援支度金をお贈りいたします。</p>
                         </div>

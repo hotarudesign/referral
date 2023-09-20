@@ -43,13 +43,33 @@
       }
     }
     /* 前の矢印 */
-    .prev::before {
-      background-image: url(../../images/webp/slide_arrow-prev.webp);
-      bottom: 0;
+    .prev {
+      &::before {
+        background-image: url(../../images/webp/slide_arrow-prev.webp);
+        bottom: 0;
+        transition: 0.5s;
+      }
+      &:hover,
+      &:focus {
+        &::before {
+          background-image: url(../../images/webp/slide_arrow-prev-white.webp);
+          transition: 0.5s;
+        }
+      }
     }
     /* 次の矢印 */
-    .next::before {
-      background-image: url(../../images/webp/slide_arrow-next.webp);
+    .next {
+      &::before {
+        background-image: url(../../images/webp/slide_arrow-next.webp);
+        transition: 0.5s;
+      }
+      &:hover,
+      &:focus {
+        &::before {
+          background-image: url(../../images/webp/slide_arrow-next-white.webp);
+          transition: 0.5s;
+        }
+      }
     }
     /* 次のスライドが無い場合の矢印 */
     .button:disabled::before {

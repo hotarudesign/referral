@@ -233,40 +233,85 @@ futureDesc.to(".js-future-desc03", {
   ],
 });
 
-const flowNum = gsap.timeline({
+const changeFlow = gsap.timeline({
   repeat: -1,
   scrollTrigger: {
     trigger: ".flow",
     start: "top center",
   },
 });
-flowNum.to(".jsFlowNum01", {
+changeFlow.to([".jsFlowNum01", ".jsCircleMain01"], {
+  keyframes: [
+    {
+      backgroundColor: "#2A3F51",
+      color: "#fff",
+      duration: 1,
+    },
+    {
+      backgroundColor: "#fff",
+      color: "#2A3F51",
+      duration: 1,
+    },
+  ],
+});
+changeFlow.to([".jsFlowNum02", ".jsCircleMain02"], {
   keyframes: [
     { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
     { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
   ],
 });
-flowNum.to(".jsFlowNum02", {
+changeFlow.to([".jsFlowNum03", ".jsCircleMain03"], {
   keyframes: [
     { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
     { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
   ],
 });
-flowNum.to(".jsFlowNum03", {
+changeFlow.to([".jsFlowNum04", ".jsCircleMain04"], {
   keyframes: [
     { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
     { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
   ],
 });
-flowNum.to(".jsFlowNum04", {
+changeFlow.to([".jsFlowNum05", ".jsCircleMain05"], {
   keyframes: [
     { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
     { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
   ],
 });
-flowNum.to(".jsFlowNum05", {
+const changeFlowBody = gsap.timeline({
+  repeat: -1,
+  scrollTrigger: {
+    trigger: ".flow",
+    start: "top center",
+  },
+});
+changeFlowBody.to(".jsCircleBody01", {
   keyframes: [
-    { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
-    { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
+    { color: "#fff", duration: 1 },
+    { color: "#2A3F51", duration: 1 },
+  ],
+});
+changeFlowBody.to(".jsCircleBody02", {
+  keyframes: [
+    { color: "#fff", duration: 1 },
+    { color: "#2A3F51", duration: 1 },
+  ],
+});
+changeFlowBody.to(".jsCircleBody03", {
+  keyframes: [
+    { color: "#fff", duration: 1 },
+    { color: "#2A3F51", duration: 1 },
+  ],
+});
+changeFlowBody.to(".jsCircleBody04", {
+  keyframes: [
+    { color: "#fff", duration: 1 },
+    { color: "#2A3F51", duration: 1 },
+  ],
+});
+changeFlowBody.to(".jsCircleBody05", {
+  keyframes: [
+    { color: "#fff", duration: 1 },
+    { color: "#2A3F51", duration: 1 },
   ],
 });

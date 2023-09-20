@@ -263,24 +263,24 @@
 }
 @media not screen and (min-width: 992px) {
   .mv .splide__slide:nth-child(2) img {
-    -o-object-position: 100% 10%;
-       object-position: 100% 10%;
+    -o-object-position: 80% 10%;
+       object-position: 80% 10%;
   }
+}
+.mv .splide__slide:nth-child(3) img {
+  -o-object-position: 0% 10%;
+     object-position: 0% 10%;
 }
 @media not screen and (min-width: 992px) {
   .mv .splide__slide:nth-child(3) img {
-    -o-object-position: 30% 10%;
-       object-position: 30% 10%;
+    -o-object-position: 20% 10%;
+       object-position: 20% 10%;
   }
 }
 @media not screen and (min-width: 576px) {
   .mv .splide__slide:nth-child(3) img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -o-object-position: 10% 10%;
-       object-position: 10% 10%;
+    -o-object-position: 20% 10%;
+       object-position: 20% 10%;
   }
 }
 .mv__inner {
@@ -1759,7 +1759,7 @@
   background: url(../../images/webp/flow_bg.webp) no-repeat center/cover;
   position: relative;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow {
     padding: 120px 0 130px;
     margin: -20px 0 0;
@@ -1786,6 +1786,12 @@
   top: 122px;
   right: 15px;
 }
+@media not screen and (min-width: 992px) {
+  .flow__bg-txt {
+    max-width: inherit;
+    width: 40%;
+  }
+}
 @media not screen and (min-width: 576px) {
   .flow__bg-txt {
     width: 194px;
@@ -1804,9 +1810,14 @@
     left: 8%;
   }
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle {
     position: static;
+    width: 60%;
+  }
+}
+@media not screen and (min-width: 576px) {
+  .flow .circle {
     width: 100%;
   }
 }
@@ -1831,12 +1842,12 @@
     left: 20%;
   }
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle::before {
     display: none;
   }
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__logo {
     display: none;
   }
@@ -1855,7 +1866,7 @@
     left: 100%;
   }
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__list {
     gap: 20px 0;
     margin: 40px 0 0;
@@ -1871,7 +1882,7 @@
 .flow .circle__item:first-child {
   gap: 0 20px;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:first-child {
     gap: 0 19px;
   }
@@ -1879,7 +1890,7 @@
 .flow .circle__item:first-child .circle__item__main {
   width: 343px;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:first-child .circle__item__main {
     width: 85%;
   }
@@ -1887,7 +1898,7 @@
 .flow .circle__item:first-child .circle__item-icon {
   width: 33px;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:first-child .circle__item-icon {
     width: 26.83px;
   }
@@ -1895,7 +1906,7 @@
 .flow .circle__item:first-child .circle__item-num {
   right: 38px;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:first-child .circle__item-num {
     right: 0;
   }
@@ -1903,7 +1914,7 @@
 .flow .circle__item:nth-child(2) {
   gap: 0 80px;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:nth-child(2) {
     gap: 0 19px;
   }
@@ -1911,7 +1922,7 @@
 .flow .circle__item:nth-child(2) .circle__item__main {
   width: 252px;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:nth-child(2) .circle__item__main {
     width: 85%;
   }
@@ -1927,7 +1938,7 @@
     left: 20px;
   }
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:nth-child(2) .circle__item-num {
     left: 0;
   }
@@ -1935,7 +1946,7 @@
 .flow .circle__item:nth-child(3) {
   gap: 0 120px;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:nth-child(3) {
     gap: 0 19px;
   }
@@ -1943,7 +1954,7 @@
 .flow .circle__item:nth-child(3) .circle__item__main {
   width: 301px;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:nth-child(3) .circle__item__main {
     width: 85%;
   }
@@ -1959,7 +1970,7 @@
     left: 34px;
   }
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:nth-child(3) .circle__item-num {
     left: 0;
   }
@@ -1967,7 +1978,7 @@
 .flow .circle__item:nth-child(4) {
   gap: 0 87px;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:nth-child(4) {
     gap: 0 19px;
   }
@@ -1975,7 +1986,7 @@
 .flow .circle__item:nth-child(4) .circle__item__main {
   width: 343px;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:nth-child(4) .circle__item__main {
     width: 85%;
   }
@@ -1991,7 +2002,7 @@
     left: 10px;
   }
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:nth-child(4) .circle__item-num {
     left: 0;
   }
@@ -1999,7 +2010,7 @@
 .flow .circle__item:last-child {
   gap: 0 40px;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:last-child {
     gap: 0 19px;
   }
@@ -2007,7 +2018,7 @@
 .flow .circle__item:last-child .circle__item__main {
   width: 419px;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:last-child .circle__item__main {
     width: 85%;
   }
@@ -2025,7 +2036,7 @@
     left: -60px;
   }
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item:last-child .circle__item-num {
     bottom: 0;
     left: 0;
@@ -2042,7 +2053,7 @@
   border-radius: 5px;
   position: relative;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item__main {
     justify-content: flex-end;
     gap: 0 15px;
@@ -2061,7 +2072,7 @@
 .flow .circle__item__body {
   color: #2a3f51;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item__body {
     line-height: 2;
   }
@@ -2074,7 +2085,7 @@
   font-weight: 400;
   font-size: 1.4rem;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item__body-desc {
     font-size: 1.3rem;
     letter-spacing: -0.06em;
@@ -2095,7 +2106,7 @@
   position: relative;
   z-index: 2;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 992px) {
   .flow .circle__item-num {
     width: 39px;
     height: 39px;
@@ -2121,12 +2132,23 @@
   margin: 0 auto;
   max-width: 607px;
   width: 100%;
+  border-radius: 30px;
+  box-shadow: 5px 5px 0 #38b8ef;
   opacity: 1;
   transition: opacity 0.5s;
+  overflow: hidden;
 }
 .reqruit__link:hover, .reqruit__link:focus {
   opacity: 0.7;
   transition: opacity 0.5s;
+}
+.reqruit__link:hover img, .reqruit__link:focus img {
+  transform: scale(1.1);
+  transition: transform 0.5s, opacity 0.5s;
+}
+.reqruit__link img {
+  transform: scale(1);
+  transition: transform 0.5s, opacity 0.5s;
 }
 
 .news {
@@ -2180,9 +2202,19 @@
 .news .splide .prev::before {
   background-image: url(../../images/webp/slide_arrow-prev.webp);
   bottom: 0;
+  transition: 0.5s;
+}
+.news .splide .prev:hover::before, .news .splide .prev:focus::before {
+  background-image: url(../../images/webp/slide_arrow-prev-white.webp);
+  transition: 0.5s;
 }
 .news .splide .next::before {
   background-image: url(../../images/webp/slide_arrow-next.webp);
+  transition: 0.5s;
+}
+.news .splide .next:hover::before, .news .splide .next:focus::before {
+  background-image: url(../../images/webp/slide_arrow-next-white.webp);
+  transition: 0.5s;
 }
 .news .splide .button:disabled::before {
   opacity: 0.5;

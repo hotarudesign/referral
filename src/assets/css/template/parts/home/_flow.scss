@@ -4,7 +4,7 @@
   min-height: 820px;
   background: url(../../images/webp/flow_bg.webp) no-repeat center/cover;
   position: relative;
-  @include v.sm {
+  @include v.lg {
     padding: 120px 0 130px;
     margin: -20px 0 0;
     background: url(../../images/webp/flow_bg-sp.webp) no-repeat center/cover;
@@ -28,6 +28,10 @@
     position: absolute;
     top: 122px;
     right: 15px;
+    @include v.lg {
+      max-width: inherit;
+      width: 40%;
+    }
     @include v.sm {
       width: 194px;
       top: 70px;
@@ -42,8 +46,11 @@
       top: 180px;
       left: 8%;
     }
-    @include v.sm {
+    @include v.lg {
       position: static;
+      width: 60%;
+    }
+    @include v.sm {
       width: 100%;
     }
     &::before {
@@ -65,12 +72,12 @@
         top: 45%;
         left: 20%;
       }
-      @include v.sm {
+      @include v.lg {
         display: none;
       }
     }
     &__logo {
-      @include v.sm {
+      @include v.lg {
         display: none;
       }
     }
@@ -85,7 +92,7 @@
         top: -18%;
         left: 100%;
       }
-      @include v.sm {
+      @include v.lg {
         gap: 20px 0;
         margin: 40px 0 0;
         position: static;
@@ -98,25 +105,25 @@
       flex-direction: row-reverse;
       &:first-child {
         gap: 0 20px;
-        @include v.sm {
+        @include v.lg {
           gap: 0 19px;
         }
         .circle__item {
           &__main {
             width: 343px;
-            @include v.sm {
+            @include v.lg {
               width: 85%;
             }
           }
           &-icon {
             width: 33px;
-            @include v.sm {
+            @include v.lg {
               width: 26.83px;
             }
           }
           &-num {
             right: 38px;
-            @include v.sm {
+            @include v.lg {
               right: 0;
             }
           }
@@ -124,13 +131,13 @@
       }
       &:nth-child(2) {
         gap: 0 80px;
-        @include v.sm {
+        @include v.lg {
           gap: 0 19px;
         }
         .circle__item {
           &__main {
             width: 252px;
-            @include v.sm {
+            @include v.lg {
               width: 85%;
             }
           }
@@ -142,7 +149,7 @@
             @include v.xxl {
               left: 20px;
             }
-            @include v.sm {
+            @include v.lg {
               left: 0;
             }
           }
@@ -150,13 +157,13 @@
       }
       &:nth-child(3) {
         gap: 0 120px;
-        @include v.sm {
+        @include v.lg {
           gap: 0 19px;
         }
         .circle__item {
           &__main {
             width: 301px;
-            @include v.sm {
+            @include v.lg {
               width: 85%;
             }
           }
@@ -168,7 +175,7 @@
             @include v.xxl {
               left: 34px;
             }
-            @include v.sm {
+            @include v.lg {
               left: 0;
             }
           }
@@ -176,13 +183,13 @@
       }
       &:nth-child(4) {
         gap: 0 87px;
-        @include v.sm {
+        @include v.lg {
           gap: 0 19px;
         }
         .circle__item {
           &__main {
             width: 343px;
-            @include v.sm {
+            @include v.lg {
               width: 85%;
             }
           }
@@ -194,7 +201,7 @@
             @include v.xxl {
               left: 10px;
             }
-            @include v.sm {
+            @include v.lg {
               left: 0;
             }
           }
@@ -202,13 +209,13 @@
       }
       &:last-child {
         gap: 0 40px;
-        @include v.sm {
+        @include v.lg {
           gap: 0 19px;
         }
         .circle__item {
           &__main {
             width: 419px;
-            @include v.sm {
+            @include v.lg {
               width: 85%;
             }
           }
@@ -222,7 +229,7 @@
               bottom: 10px;
               left: -60px;
             }
-            @include v.sm {
+            @include v.lg {
               bottom: 0;
               left: 0;
             }
@@ -239,7 +246,7 @@
         background: #fff;
         border-radius: 5px;
         position: relative;
-        @include v.sm {
+        @include v.lg {
           justify-content: flex-end;
           gap: 0 15px;
           padding: 15px 0 15px 16.6px;
@@ -256,7 +263,7 @@
       }
       &__body {
         color: v.$mainColor;
-        @include v.sm {
+        @include v.lg {
           line-height: 2;
         }
         &-ttl {
@@ -266,7 +273,7 @@
         &-desc {
           font-weight: 400;
           font-size: 1.4rem;
-          @include v.sm {
+          @include v.lg {
             font-size: 1.3rem;
             letter-spacing: -0.06em;
           }
@@ -286,7 +293,7 @@
         border-radius: 50%;
         position: relative;
         z-index: 2;
-        @include v.sm {
+        @include v.lg {
           width: 39px;
           height: 39px;
           font-size: 1.5rem;
