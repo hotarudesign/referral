@@ -110,11 +110,32 @@
   background: #ef3838;
   color: #fff;
   border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 @media not screen and (min-width: 992px) {
   .header__btn {
     display: none;
   }
+}
+.header__btn::before {
+  content: "";
+  display: inline-block;
+  width: 120%;
+  height: 120%;
+  background: #2a3f51;
+  border-radius: 50px;
+  position: absolute;
+  top: 50%;
+  left: -120%;
+  transform: translateY(-50%);
+  z-index: -1;
+  transition: left ease-in 0.5s;
+}
+.header__btn:hover::before {
+  left: 0;
+  transition: left ease-in 0.5s;
 }
 .header .toggle-btn {
   display: none;
