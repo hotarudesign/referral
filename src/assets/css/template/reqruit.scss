@@ -8,7 +8,6 @@
       cover;
     @include v.sm {
       height: 30vh;
-      background-image: url(../../images/webp/reqruit_page-top-sp.webp);
     }
   }
   &__container {
@@ -34,12 +33,18 @@
     &-ttl {
       font-weight: 500;
       font-size: 2.8rem;
+      @include v.sm {
+        font-size: 1.7rem;
+      }
     }
     &-lead {
       margin: 16px 0 0;
       font-weight: 400;
       font-size: 1.6rem;
       line-height: 2;
+      @include v.sm {
+        font-size: 1.1rem;
+      }
     }
     &__list {
     }
@@ -47,6 +52,9 @@
       font-weight: 400;
       font-size: 1.6rem;
       line-height: 2;
+      @include v.sm {
+        font-size: 1.1rem;
+      }
     }
   }
   &__occupation {
@@ -55,7 +63,7 @@
       font-weight: 500;
       font-size: 2.8rem;
       @include v.sm {
-        font-size: 2rem;
+        font-size: 1.7rem;
       }
     }
     &__list {
@@ -77,6 +85,7 @@
       transition: 0.5s;
       @include v.sm {
         max-width: 100%;
+        font-size: 1.1rem;
       }
       &:hover,
       &:focus {

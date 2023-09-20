@@ -1308,7 +1308,20 @@
   margin: 65px auto 0;
   max-width: 840px;
   width: 100%;
+  overflow: hidden;
+  transition: transform 0.5s;
 }
+.business__foot-view:hover .business__foot-document {
+  opacity: 0.7;
+  transform: scale(1.05);
+  transition: transform 0.5s, opacity 0.5s;
+}
+.business__foot-document {
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
 .culture {
   padding: 161px 0 87px;
   background: rgba(56, 184, 239, 0.11);
