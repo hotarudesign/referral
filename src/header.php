@@ -55,7 +55,6 @@
                     );
                     ?>
                 </nav>
-                <!-- <a href="https://thkd5375.talent-p.net/EntryFormMng/Entryform?url_token=b71d970ffcf54e6c9b2478287e7757e1" class="btn-sp">エントリー</a> -->
             </div>
         </div>
     </header>
