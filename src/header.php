@@ -33,7 +33,7 @@
                 );
                 ?>
             </nav>
-            <a href="https://thkd5375.talent-p.net/EntryFormMng/Entryform?url_token=b71d970ffcf54e6c9b2478287e7757e1" class="header__btn">エントリー</a>
+            <a href="<?php echo esc_url(home_url('/reqruit')); ?>" class="header__btn">エントリー</a>
             <button class="toggle-btn" id="toggleBtn"><span></span><span></span><span></span></button>
             <div class="slide-menu" id="slideMenu">
                 <div class="slide-menu__head">

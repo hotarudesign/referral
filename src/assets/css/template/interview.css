@@ -67,8 +67,7 @@
   font-weight: 500;
   font-size: 1.6rem;
   position: relative;
-  opacity: 1;
-  transition: opacity 0.5s;
+  transition: color 0.5s;
 }
 @media (max-width: 1170px) {
   .header .g-nav__item {
@@ -92,13 +91,17 @@
     display: none;
   }
 }
+.header .g-nav__item:hover, .header .g-nav__item:focus {
+  color: #38b8ef;
+  transition: color 0.5s;
+}
 .header .g-nav__item:hover:before, .header .g-nav__item:focus:before {
   bottom: -6px;
   opacity: 1;
   transition: ease-in 0.5s;
 }
 .header__btn {
-  padding: 8px 0;
+  padding: 14.5px 0 13.2px;
   width: 160px;
   font-weight: 400;
   font-size: 1.6rem;
