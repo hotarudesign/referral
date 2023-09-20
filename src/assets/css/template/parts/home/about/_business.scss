@@ -247,59 +247,13 @@
         left: 0;
       }
     }
-    .splide {
-      &__arrows {
-        @include v.sm {
-          display: none;
-        }
-      }
-      .button {
-        background-color: transparent; /* ボタンの背景を透明にする */
-        height: 50px;
-        transition: 0.2s;
-        width: 50px;
-        @include v.sm {
-          width: 25px;
-          height: 25px;
-        }
-        &::before {
-          background-repeat: no-repeat;
-          background-size: contain;
-          bottom: 0;
-          content: "";
-          height: 50px;
-          left: 0;
-          margin: auto;
-          position: absolute;
-          top: 0;
-          width: 50px;
-          @include v.sm {
-            width: 25px;
-            height: 25px;
-          }
-        }
-      }
-      /* 前の矢印 */
-      .prev::before {
-        background-image: url(../../images/webp/slide_arrow-prev.webp);
-      }
-      /* 次の矢印 */
-      .next::before {
-        background-image: url(../../images/webp/slide_arrow-next.webp);
-      }
-      /* 次のスライドが無い場合の矢印 */
-      .button:disabled::before {
-        opacity: 0.5;
-      }
-      .splide__slide img {
-        height: auto;
-        width: 100%;
-      }
-    }
-    &-document {
+    &-view {
+      display: block;
       margin: 65px auto 0;
       max-width: 840px;
       width: 100%;
+    }
+    &-document {
     }
   }
 }

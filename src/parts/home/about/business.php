@@ -76,49 +76,16 @@
         </div>
         <div class="business__foot" id="document">
             <h3 class="business__foot-ttl">これを見ればカシワバラグループの過去・現在・未来がわかります。</h3>
-            <div class="splide splide4">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide">
-                            <a href="<?php echo ImgPath; ?>/document.png" target="_blank" rel="noopener noreferrer" class="business__foot-view">
-                                <figure class="business__foot-document">
-                                    <picture>
-                                        <source srcset='<?php echo ImgPath; ?>/webp/document.webp' media="(min-width:578px)" type='image/webp'>
-                                        <source srcset='<?php echo ImgPath; ?>/webp/document-sp.webp' media="(max-width:578px)" type='image/webp'>
-                                        <img src="" alt="">
-                                    </picture>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="splide__slide">
-                            <a href="<?php echo ImgPath; ?>/document.png" target="_blank" rel="noopener noreferrer" class="business__foot-view">
-                                <figure class="business__foot-document">
-                                    <picture>
-                                        <source srcset='<?php echo ImgPath; ?>/webp/document.webp' media="(min-width:578px)" type='image/webp'>
-                                        <source srcset='<?php echo ImgPath; ?>/webp/document-sp.webp' media="(max-width:578px)" type='image/webp'>
-                                        <img src="" alt="">
-                                    </picture>
-                                </figure>
-                            </a>
-                        </li>
-                        <li class="splide__slide">
-                            <a href="<?php echo ImgPath; ?>/document.png" target="_blank" rel="noopener noreferrer" class="business__foot-view">
-                                <figure class="business__foot-document">
-                                    <picture>
-                                        <source srcset='<?php echo ImgPath; ?>/webp/document.webp' media="(min-width:578px)" type='image/webp'>
-                                        <source srcset='<?php echo ImgPath; ?>/webp/document-sp.webp' media="(max-width:578px)" type='image/webp'>
-                                        <img src="" alt="">
-                                    </picture>
-                                </figure>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="splide__arrows">
-                    <button class="splide__arrow splide__arrow--prev button prev"></button>
-                    <button class="splide__arrow splide__arrow--next button next"></button>
-                </div>
-            </div>
+            <a href="<?php echo ImgPath; ?>/document.png" target="_blank" rel="noopener noreferrer" class="business__foot-view">
+                <figure class="business__foot-document">
+                    <picture>
+                        <source srcset='<?php echo ImgPath; ?>/webp/document.webp' media="(min-width:578px)" type='image/webp'>
+                        <source srcset='<?php echo ImgPath; ?>/webp/document-sp.webp' media="(max-width:578px)" type='image/webp'>
+                        <img src="" alt="">
+                    </picture>
+                </figure>
+            </a>
+            </ul>
         </div>
     </div>
 </section>
