@@ -1070,7 +1070,12 @@
 }
 @media not screen and (min-width: 992px) {
   .business__main {
-    height: 85vh;
+    height: 95vh;
+  }
+}
+@media not screen and (min-width: 768px) {
+  .business__main {
+    height: 70vh;
   }
 }
 @media not screen and (min-width: 576px) {
@@ -1101,9 +1106,19 @@
     margin: 0 auto -18%;
   }
 }
+@media (max-width: 1170px) {
+  .business .circle {
+    margin: 0 auto -12%;
+  }
+}
 @media not screen and (min-width: 992px) {
   .business .circle {
-    margin: 0 auto -15%;
+    margin: 0 auto -16%;
+  }
+}
+@media not screen and (min-width: 768px) {
+  .business .circle {
+    margin: 0 auto -14%;
   }
 }
 @media not screen and (min-width: 576px) {
@@ -1149,9 +1164,15 @@
     font-size: 8rem;
   }
 }
-@media not screen and (min-width: 992px) {
+@media (max-width: 1170px) {
   .business .circle__center-ttl {
     font-size: 6rem;
+  }
+}
+@media not screen and (min-width: 768px) {
+  .business .circle__center-ttl {
+    font-size: 4rem;
+    line-height: 1.27;
   }
 }
 @media not screen and (min-width: 576px) {
@@ -1170,9 +1191,15 @@
     font-size: 3.6rem;
   }
 }
-@media not screen and (min-width: 992px) {
+@media (max-width: 1170px) {
   .business .circle__center-desc {
     font-size: 2.4rem;
+  }
+}
+@media not screen and (min-width: 768px) {
+  .business .circle__center-desc {
+    font-size: 2rem;
+    line-height: 1.27;
   }
 }
 @media not screen and (min-width: 576px) {
@@ -1198,10 +1225,22 @@
     height: 1080px;
   }
 }
+@media (max-width: 1170px) {
+  .business .circle__line {
+    width: 850px;
+    height: 850px;
+  }
+}
 @media not screen and (min-width: 992px) {
   .business .circle__line {
-    width: 800px;
-    height: 800px;
+    width: 700px;
+    height: 700px;
+  }
+}
+@media not screen and (min-width: 768px) {
+  .business .circle__line {
+    width: 500px;
+    height: 500px;
   }
 }
 @media not screen and (min-width: 576px) {
@@ -1224,10 +1263,22 @@
     height: 1078px;
   }
 }
+@media (max-width: 1170px) {
+  .business .circle__line:before {
+    width: 848px;
+    height: 848px;
+  }
+}
 @media not screen and (min-width: 992px) {
   .business .circle__line:before {
-    width: 798px;
-    height: 798px;
+    width: 698px;
+    height: 698px;
+  }
+}
+@media not screen and (min-width: 768px) {
+  .business .circle__line:before {
+    width: 498px;
+    height: 498px;
   }
 }
 @media not screen and (min-width: 576px) {
@@ -1252,16 +1303,29 @@
     top: -2%;
   }
 }
+@media (max-width: 1170px) {
+  .business .circle__list {
+    width: 848px;
+    left: 43%;
+  }
+}
 @media not screen and (min-width: 992px) {
   .business .circle__list {
-    width: 798px;
+    width: 698px;
     top: -2%;
+    left: 44%;
+  }
+}
+@media not screen and (min-width: 768px) {
+  .business .circle__list {
+    width: 498px;
+    left: 45%;
   }
 }
 @media not screen and (min-width: 576px) {
   .business .circle__list {
     width: 273px;
-    left: 40%;
+    left: 44%;
   }
 }
 .business .circle__item {
@@ -1275,6 +1339,12 @@
   .business .circle__item {
     width: 100px;
     height: 100px;
+  }
+}
+@media not screen and (min-width: 992px) {
+  .business .circle__item {
+    width: 75px;
+    height: 75px;
   }
 }
 @media not screen and (min-width: 576px) {

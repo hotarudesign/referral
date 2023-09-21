@@ -45,7 +45,10 @@
       height: 140vh;
     }
     @include v.lg {
-      height: 85vh;
+      height: 95vh;
+    }
+    @include v.md {
+      height: 70vh;
     }
     @include v.sm {
       margin: 20px calc(50% - 50vw) 0;
@@ -70,8 +73,14 @@
     @include v.xxl {
       margin: 0 auto -18%;
     }
+    @media (max-width: 1170px) {
+      margin: 0 auto -12%;
+    }
     @include v.lg {
-      margin: 0 auto -15%;
+      margin: 0 auto -16%;
+    }
+    @include v.md {
+      margin: 0 auto -14%;
     }
     @include v.sm {
       margin: 0 auto -10%;
@@ -104,8 +113,12 @@
         @include v.xxl {
           font-size: 8rem;
         }
-        @include v.lg {
+        @media (max-width: 1170px) {
           font-size: 6rem;
+        }
+        @include v.md {
+          font-size: 4rem;
+          line-height: 1.27;
         }
         @include v.sm {
           font-size: 2.4rem;
@@ -119,8 +132,12 @@
         @include v.xxl {
           font-size: 3.6rem;
         }
-        @include v.lg {
+        @media (max-width: 1170px) {
           font-size: 2.4rem;
+        }
+        @include v.md {
+          font-size: 2rem;
+          line-height: 1.27;
         }
         @include v.sm {
           font-size: 1.1rem;
@@ -141,9 +158,17 @@
         width: 1080px;
         height: 1080px;
       }
+      @media (max-width: 1170px) {
+        width: 850px;
+        height: 850px;
+      }
       @include v.lg {
-        width: 800px;
-        height: 800px;
+        width: 700px;
+        height: 700px;
+      }
+      @include v.md {
+        width: 500px;
+        height: 500px;
       }
       @include v.sm {
         width: 300px;
@@ -159,9 +184,17 @@
           width: 1078px;
           height: 1078px;
         }
+        @media (max-width: 1170px) {
+          width: 848px;
+          height: 848px;
+        }
         @include v.lg {
-          width: 798px;
-          height: 798px;
+          width: 698px;
+          height: 698px;
+        }
+        @include v.md {
+          width: 498px;
+          height: 498px;
         }
         @include v.sm {
           width: 296px;
@@ -182,13 +215,22 @@
         width: 1078px;
         top: -2%;
       }
+      @media (max-width: 1170px) {
+        width: 848px;
+        left: 43%;
+      }
       @include v.lg {
-        width: 798px;
+        width: 698px;
         top: -2%;
+        left: 44%;
+      }
+      @include v.md {
+        width: 498px;
+        left: 45%;
       }
       @include v.sm {
         width: 273px;
-        left: 40%;
+        left: 44%;
       }
     }
     &__item {
@@ -200,6 +242,10 @@
       @include v.lg {
         width: 100px;
         height: 100px;
+      }
+      @include v.lg {
+        width: 75px;
+        height: 75px;
       }
       @include v.sm {
         width: 50px;
