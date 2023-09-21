@@ -46,21 +46,21 @@
       position: absolute;
       top: 50%;
       transform: translateY(-50%) scale(0.5);
-      @include v.sm {
+      @include v.md {
         top: auto;
         transform: translate(-50%, -50%) scale(0.4) rotate(90deg);
       }
     }
     &:before {
       left: 31%;
-      @include v.sm {
+      @include v.md {
         top: 33%;
         left: 50%;
       }
     }
     &:after {
       right: 32%;
-      @include v.sm {
+      @include v.md {
         bottom: 25%;
         left: 50%;
       }

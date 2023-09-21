@@ -894,7 +894,7 @@
   top: 50%;
   transform: translateY(-50%) scale(0.5);
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 768px) {
   .future__list:before, .future__list:after {
     top: auto;
     transform: translate(-50%, -50%) scale(0.4) rotate(90deg);
@@ -903,7 +903,7 @@
 .future__list:before {
   left: 31%;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 768px) {
   .future__list:before {
     top: 33%;
     left: 50%;
@@ -912,7 +912,7 @@
 .future__list:after {
   right: 32%;
 }
-@media not screen and (min-width: 576px) {
+@media not screen and (min-width: 768px) {
   .future__list:after {
     bottom: 25%;
     left: 50%;
