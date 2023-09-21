@@ -71,6 +71,7 @@ gsap.to(".jsCircleItem", {
   },
 });
 
+// Futureのアニメーション
 mm.add("(min-width: 578px)", () => {
   const futureItem = gsap.timeline({
     repeat: -1,
@@ -81,20 +82,23 @@ mm.add("(min-width: 578px)", () => {
   });
   futureItem.to(".future__item01", {
     keyframes: [
-      { backgroundColor: "#1670E4", scale: 1.2, duration: 1 }, //このアニメーションが終わったら下のアニメーションが起こる
+      { backgroundColor: "#1670E4", scale: 1.2, duration: 1 },
+      { backgroundColor: "#1670E4", scale: 1.2, duration: 0.5 },
       { backgroundColor: "#fff", scale: 1, duration: 1 },
     ],
   });
   futureItem.to(".future__item02", {
     keyframes: [
-      { backgroundColor: "#1670E4", scale: 1.2, duration: 1 }, //このアニメーションが終わったら下のアニメーションが起こる
+      { backgroundColor: "#1670E4", scale: 1.2, duration: 1 },
+      { backgroundColor: "#1670E4", scale: 1.2, duration: 0.5 },
       { backgroundColor: "#fff", scale: 1, duration: 1 },
     ],
   });
 
   futureItem.to(".future__item03", {
     keyframes: [
-      { backgroundColor: "#1670E4", scale: 1.2, duration: 1 }, //このアニメーションが終わったら下のアニメーションが起こる
+      { backgroundColor: "#1670E4", scale: 1.2, duration: 1 },
+      { backgroundColor: "#1670E4", scale: 1.2, duration: 0.5 },
       { backgroundColor: "#fff", scale: 1, duration: 1 },
     ],
   });
@@ -109,20 +113,23 @@ mm.add("(max-width: 576px)", () => {
   });
   futureItem.to(".future__item01", {
     keyframes: [
-      { backgroundColor: "#1670E4", duration: 1 }, //このアニメーションが終わったら下のアニメーションが起こる
+      { backgroundColor: "#1670E4", duration: 1 },
+      { backgroundColor: "#1670E4", duration: 0.5 }, //このアニメーションが終わったら下のアニメーションが起こる
       { backgroundColor: "#fff", duration: 1 },
     ],
   });
   futureItem.to(".future__item02", {
     keyframes: [
-      { backgroundColor: "#1670E4", duration: 1 }, //このアニメーションが終わったら下のアニメーションが起こる
+      { backgroundColor: "#1670E4", duration: 1 },
+      { backgroundColor: "#1670E4", duration: 0.5 }, //このアニメーションが終わったら下のアニメーションが起こる
       { backgroundColor: "#fff", duration: 1 },
     ],
   });
 
   futureItem.to(".future__item03", {
     keyframes: [
-      { backgroundColor: "#1670E4", duration: 1 }, //このアニメーションが終わったら下のアニメーションが起こる
+      { backgroundColor: "#1670E4", duration: 1 },
+      { backgroundColor: "#1670E4", duration: 0.5 }, //このアニメーションが終わったら下のアニメーションが起こる
       { backgroundColor: "#fff", duration: 1 },
     ],
   });
@@ -139,18 +146,21 @@ const futureInitialImg = gsap.timeline({
 futureInitialImg.to(".initialImg01", {
   keyframes: [
     { opacity: 0, duration: 1 },
+    { opacity: 0, duration: 0.5 },
     { opacity: 1, duration: 1 },
   ],
 });
 futureInitialImg.to(".initialImg02", {
   keyframes: [
     { opacity: 0, duration: 1 },
+    { opacity: 0, duration: 0.5 },
     { opacity: 1, duration: 1 },
   ],
 });
 futureInitialImg.to(".initialImg03", {
   keyframes: [
     { opacity: 0, duration: 1 },
+    { opacity: 0, duration: 0.5 },
     { opacity: 1, duration: 1 },
   ],
 });
@@ -164,18 +174,21 @@ const futureChangeImg = gsap.timeline({
 futureChangeImg.to(".changeImg01", {
   keyframes: [
     { opacity: 1, duration: 1 },
+    { opacity: 1, duration: 0.5 },
     { opacity: 0, duration: 1 },
   ],
 });
 futureChangeImg.to(".changeImg02", {
   keyframes: [
     { opacity: 1, duration: 1 },
+    { opacity: 1, duration: 0.5 },
     { opacity: 0, duration: 1 },
   ],
 });
 futureChangeImg.to(".changeImg03", {
   keyframes: [
     { opacity: 1, duration: 1 },
+    { opacity: 1, duration: 0.5 },
     { opacity: 0, duration: 1 },
   ],
 });
@@ -190,18 +203,21 @@ const futureColor = gsap.timeline({
 futureColor.to([".js-future-head01", ".js-future-label01"], {
   keyframes: [
     { color: "#fff", duration: 1 },
+    { color: "#fff", duration: 0.5 },
     { color: "#166594", duration: 1 },
   ],
 });
 futureColor.to([".js-future-head02", ".js-future-label02"], {
   keyframes: [
     { color: "#fff", duration: 1 },
+    { color: "#fff", duration: 0.5 },
     { color: "#166594", duration: 1 },
   ],
 });
 futureColor.to([".js-future-head03", ".js-future-label03"], {
   keyframes: [
     { color: "#fff", duration: 1 },
+    { color: "#fff", duration: 0.5 },
     { color: "#166594", duration: 1 },
   ],
 });
@@ -217,18 +233,21 @@ const futureDesc = gsap.timeline({
 futureDesc.to(".js-future-desc01", {
   keyframes: [
     { color: "#fff", duration: 1 },
+    { color: "#fff", duration: 0.5 },
     { color: "#2e2e2e", duration: 1 },
   ],
 });
 futureDesc.to(".js-future-desc02", {
   keyframes: [
     { color: "#fff", duration: 1 },
+    { color: "#fff", duration: 0.5 },
     { color: "#2e2e2e", duration: 1 },
   ],
 });
 futureDesc.to(".js-future-desc03", {
   keyframes: [
     { color: "#fff", duration: 1 },
+    { color: "#fff", duration: 0.5 },
     { color: "#2e2e2e", duration: 1 },
   ],
 });
