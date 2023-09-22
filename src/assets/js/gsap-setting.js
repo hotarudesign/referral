@@ -259,7 +259,7 @@ const changeFlow = gsap.timeline({
     start: "top center",
   },
 });
-changeFlow.to([".jsFlowNum01", ".jsCircleMain01"], {
+changeFlow.to(".jsFlowNum01", {
   keyframes: [
     {
       backgroundColor: "#2A3F51",
@@ -273,64 +273,27 @@ changeFlow.to([".jsFlowNum01", ".jsCircleMain01"], {
     },
   ],
 });
-changeFlow.to([".jsFlowNum02", ".jsCircleMain02"], {
+changeFlow.to(".jsFlowNum02", {
   keyframes: [
     { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
     { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
   ],
 });
-changeFlow.to([".jsFlowNum03", ".jsCircleMain03"], {
+changeFlow.to(".jsFlowNum03", {
   keyframes: [
     { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
     { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
   ],
 });
-changeFlow.to([".jsFlowNum04", ".jsCircleMain04"], {
+changeFlow.to(".jsFlowNum04", {
   keyframes: [
     { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
     { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
   ],
 });
-changeFlow.to([".jsFlowNum05", ".jsCircleMain05"], {
+changeFlow.to(".jsFlowNum05", {
   keyframes: [
     { backgroundColor: "#2A3F51", color: "#fff", duration: 1 },
     { backgroundColor: "#fff", color: "#2A3F51", duration: 1 },
-  ],
-});
-const changeFlowBody = gsap.timeline({
-  repeat: -1,
-  scrollTrigger: {
-    trigger: ".flow",
-    start: "top center",
-  },
-});
-changeFlowBody.to(".jsCircleBody01", {
-  keyframes: [
-    { color: "#fff", duration: 1 },
-    { color: "#2A3F51", duration: 1 },
-  ],
-});
-changeFlowBody.to(".jsCircleBody02", {
-  keyframes: [
-    { color: "#fff", duration: 1 },
-    { color: "#2A3F51", duration: 1 },
-  ],
-});
-changeFlowBody.to(".jsCircleBody03", {
-  keyframes: [
-    { color: "#fff", duration: 1 },
-    { color: "#2A3F51", duration: 1 },
-  ],
-});
-changeFlowBody.to(".jsCircleBody04", {
-  keyframes: [
-    { color: "#fff", duration: 1 },
-    { color: "#2A3F51", duration: 1 },
-  ],
-});
-changeFlowBody.to(".jsCircleBody05", {
-  keyframes: [
-    { color: "#fff", duration: 1 },
-    { color: "#2A3F51", duration: 1 },
   ],
 });
