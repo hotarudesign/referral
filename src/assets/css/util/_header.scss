@@ -108,12 +108,12 @@
       left: -120%;
       transform: translateY(-50%);
       z-index: -1;
-      transition: left ease-in 0.5s;
+      transition: left ease-in 0.25s;
     }
     &:hover {
       &::before {
         left: 0;
-        transition: left ease-in 0.5s;
+        transition: left ease-in 0.25s;
       }
     }
   }

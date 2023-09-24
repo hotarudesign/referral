@@ -76,7 +76,7 @@
         </div>
         <div class="business__foot" id="document">
             <h3 class="business__foot-ttl">これを見ればカシワバラグループの過去・現在・未来がわかります。</h3>
-            <a href="<?php echo ImgPath; ?>/document.png" target="_blank" rel="noopener noreferrer" class="business__foot-view">
+            <a href="<?php echo ImgPath; ?>/カシワバラグループ採用ピッチ資料.pdf" target="_blank" rel="noopener noreferrer" class="business__foot-view">
                 <figure class="business__foot-document">
                     <picture>
                         <source srcset='<?php echo ImgPath; ?>/webp/document.webp' media="(min-width:578px)" type='image/webp'>
