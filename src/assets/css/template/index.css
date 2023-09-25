@@ -570,7 +570,7 @@
 
 .company {
   margin-top: -75px; /* 固定ナビの高さ分のネガティブマージン */
-  padding-top: 150px; /* 打ち消し用のパディング */
+  padding-top: 182px; /* 打ち消し用のパディング */
 }
 .company-ttl {
   position: relative;
@@ -845,7 +845,7 @@
 }
 
 .future {
-  margin: 176px 0 0;
+  margin: 208px 0 0;
   padding: 0 0 203px;
 }
 .future-ttl {
@@ -1017,13 +1017,13 @@
 }
 
 .business {
-  padding: 152px 0 169px;
+  padding: 184px 0 169px;
   background: #fff;
   overflow-x: hidden;
 }
 @media not screen and (min-width: 576px) {
   .business {
-    padding: 152px 0 80px;
+    padding: 184px 0 80px;
   }
 }
 .business-ttl {
@@ -1355,7 +1355,7 @@
 }
 .business__foot {
   margin: 85px 0 0;
-  padding: 75px 0 0;
+  padding: 107px 0 0;
   text-align: center;
   background: #fff;
   position: relative;
@@ -1414,7 +1414,7 @@
 }
 
 .culture {
-  padding: 161px 0 87px;
+  padding: 193px 0 87px;
   background: rgba(56, 184, 239, 0.11);
 }
 .culture-ttl {
@@ -1552,7 +1552,7 @@
 }
 
 .interview {
-  padding: 136px 0 130px;
+  padding: 168px 0 130px;
   background: #fff;
   overflow: hidden;
 }
@@ -1845,7 +1845,7 @@
 }
 
 .flow {
-  padding: 77px 0 130px;
+  padding: 109px 0 130px;
   min-height: 820px;
   background: url(../../images/webp/flow_bg.webp) no-repeat center/cover;
   position: relative;
@@ -2244,7 +2244,7 @@
 
 .news {
   margin: -75px 0 0;
-  padding: 130px 0 64.7px;
+  padding: 162px 0 64.7px;
 }
 .news-ttl {
   display: flex;

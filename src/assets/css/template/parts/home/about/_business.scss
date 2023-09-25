@@ -1,11 +1,11 @@
 @use "../../../../base/variable" as v;
 
 .business {
-  padding: 152px 0 169px;
+  padding: 184px 0 169px;
   background: #fff;
   overflow-x: hidden;
   @include v.sm {
-    padding: 152px 0 80px;
+    padding: 184px 0 80px;
   }
   &-ttl {
     position: relative;
@@ -255,7 +255,7 @@
   }
   &__foot {
     margin: 85px 0 0;
-    padding: 75px 0 0;
+    padding: 107px 0 0;
     text-align: center;
     background: #fff;
     position: relative;
