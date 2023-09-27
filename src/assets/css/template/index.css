@@ -1057,26 +1057,10 @@
   justify-content: flex-end;
   flex-direction: column;
   width: 100vw;
-  margin: 131px calc(50% - 50vw) 0;
-  height: 130vh;
+  margin: 0 calc(50% - 50vw) 0;
   position: relative;
   background: #fff;
   position: relative;
-}
-@media (max-width: 1440px) {
-  .business__main {
-    height: 140vh;
-  }
-}
-@media not screen and (min-width: 992px) {
-  .business__main {
-    height: 95vh;
-  }
-}
-@media not screen and (min-width: 768px) {
-  .business__main {
-    height: 70vh;
-  }
 }
 @media not screen and (min-width: 576px) {
   .business__main {
@@ -1089,7 +1073,7 @@
   justify-content: center;
   align-items: flex-end;
   width: 100%;
-  height: 100vw;
+  padding: 200px 0 0;
   background: linear-gradient(-180deg, #fff, #e4eff9);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
           clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
@@ -1103,7 +1087,7 @@
 }
 @media (max-width: 1440px) {
   .business .circle {
-    margin: 0 auto -18%;
+    margin: 0 auto -180px;
   }
 }
 @media (max-width: 1170px) {
@@ -1118,12 +1102,12 @@
 }
 @media not screen and (min-width: 768px) {
   .business .circle {
-    margin: 0 auto -14%;
+    margin: 0 auto -12%;
   }
 }
 @media not screen and (min-width: 576px) {
   .business .circle {
-    margin: 0 auto -10%;
+    margin: 0 auto -2%;
   }
 }
 .business .circle__center {
@@ -1313,7 +1297,7 @@
   .business .circle__list {
     width: 698px;
     top: -2%;
-    left: 44%;
+    left: 46%;
   }
 }
 @media not screen and (min-width: 768px) {
@@ -1325,7 +1309,7 @@
 @media not screen and (min-width: 576px) {
   .business .circle__list {
     width: 273px;
-    left: 44%;
+    left: 40%;
   }
 }
 .business .circle__item {
@@ -1343,8 +1327,8 @@
 }
 @media not screen and (min-width: 992px) {
   .business .circle__item {
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 80px;
   }
 }
 @media not screen and (min-width: 576px) {
@@ -2205,20 +2189,20 @@
   }
 }
 
-.reqruit {
+.recruit {
   padding: 130px 0 65px;
 }
-.reqruit-ttl {
+.recruit-ttl {
   display: flex;
   flex-direction: column;
   color: #000;
 }
-.reqruit-ttl-ruby {
+.recruit-ttl-ruby {
   font-weight: 700;
   font-size: 1.4rem;
   color: #38b8ef;
 }
-.reqruit__link {
+.recruit__link {
   display: block;
   margin: 0 auto;
   max-width: 607px;
@@ -2229,15 +2213,15 @@
   transition: opacity 0.5s;
   overflow: hidden;
 }
-.reqruit__link:hover, .reqruit__link:focus {
+.recruit__link:hover, .recruit__link:focus {
   opacity: 0.7;
   transition: opacity 0.5s;
 }
-.reqruit__link:hover img, .reqruit__link:focus img {
+.recruit__link:hover img, .recruit__link:focus img {
   transform: scale(1.1);
   transition: transform 0.5s, opacity 0.5s;
 }
-.reqruit__link img {
+.recruit__link img {
   transform: scale(1);
   transition: transform 0.5s, opacity 0.5s;
 }

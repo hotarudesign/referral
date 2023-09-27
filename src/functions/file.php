@@ -12,10 +12,10 @@ function add_link_files()
         wp_enqueue_style('interview', get_stylesheet_directory_uri() . '/assets/css/template/interview.css');
     if (is_singular('interview'))
         wp_enqueue_style('interview-post', get_stylesheet_directory_uri() . '/assets/css/template/interview-post.css');
-    if (is_archive('reqruit'))
-        wp_enqueue_style('reqruit', get_stylesheet_directory_uri() . '/assets/css/template/reqruit.css');
-    if (is_singular('reqruit'))
-        wp_enqueue_style('reqruit-post', get_stylesheet_directory_uri() . '/assets/css/template/reqruit-post.css');
+    if (is_archive('recruit'))
+        wp_enqueue_style('recruit', get_stylesheet_directory_uri() . '/assets/css/template/recruit.css');
+    if (is_singular('recruit'))
+        wp_enqueue_style('recruit-post', get_stylesheet_directory_uri() . '/assets/css/template/recruit-post.css');
     // JavaScriptの読み込み
     if (is_front_page()) {
         wp_enqueue_script('splide', "https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js");

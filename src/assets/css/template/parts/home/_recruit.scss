@@ -1,0 +1,39 @@
+@use "../../../base/variable" as v;
+.recruit {
+  padding: 130px 0 65px;
+  &-ttl {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    &-ruby {
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: v.$accentColor;
+    }
+  }
+
+  &__link {
+    display: block;
+    margin: 0 auto;
+    max-width: 607px;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 0 v.$accentColor;
+    opacity: 1;
+    transition: opacity 0.5s;
+    overflow: hidden;
+    &:hover,
+    &:focus {
+      opacity: 0.7;
+      transition: opacity 0.5s;
+      img {
+        transform: scale(1.1);
+        transition: transform 0.5s, opacity 0.5s;
+      }
+    }
+    img {
+      transform: scale(1);
+      transition: transform 0.5s, opacity 0.5s;
+    }
+  }
+}

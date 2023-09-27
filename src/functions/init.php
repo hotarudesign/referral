@@ -9,6 +9,7 @@ function theme_setup()
     register_nav_menus(
         array(
             'g-nav' => 'ヘッダーメニュー',
+            'g-nav__reqruit' => 'リクルートページヘッダー',
             'f-nav' => 'フッターメニュー',
         )
     );

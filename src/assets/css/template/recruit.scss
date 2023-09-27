@@ -1,0 +1,121 @@
+@use "../base/variable" as v;
+
+.recruit {
+  padding: 36px 0 0;
+  .page-top {
+    height: 60vh;
+    background: url(../../images/webp/recruit_page-top.webp) no-repeat 0% 100% /
+      cover;
+    @include v.sm {
+      height: 30vh;
+    }
+  }
+  &__container {
+    padding: 73.4px 0 130px;
+    @include v.sm {
+      padding: 40px 0;
+    }
+  }
+  &__txt {
+    &-desc {
+      margin: 35.1px 0 0;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2;
+      color: #2e2e2e;
+      @include v.sm {
+        font-size: 1.1rem;
+      }
+    }
+  }
+  .personal {
+    margin: 70px 0 0;
+    &-ttl {
+      font-weight: 500;
+      font-size: 2.8rem;
+      @include v.sm {
+        font-size: 1.7rem;
+      }
+    }
+    &-lead {
+      margin: 16px 0 0;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2;
+      @include v.sm {
+        font-size: 1.1rem;
+      }
+    }
+    &__list {
+    }
+    &__item {
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2;
+      @include v.sm {
+        font-size: 1.1rem;
+      }
+    }
+  }
+  &__occupation {
+    margin: 77px 0 0;
+    &-ttl {
+      font-weight: 500;
+      font-size: 2.8rem;
+      @include v.sm {
+        font-size: 1.7rem;
+      }
+    }
+    &__list {
+      margin: 43.5px 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    &__item {
+      max-width: 169px;
+      width: 100%;
+      font-weight: 400;
+      font-size: 1.6rem;
+      text-align: center;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 3px 10px #e7e7e7;
+      position: relative;
+      transition: 0.5s;
+      @include v.sm {
+        max-width: 100%;
+        font-size: 1.1rem;
+      }
+      &:hover,
+      &:focus {
+        background: #2a3f51;
+        color: #fff;
+        transition: 0.5s;
+      }
+      a {
+        display: block;
+        padding: 11px 0;
+      }
+      &:last-child {
+        max-width: 247px;
+        width: 100%;
+        @include v.sm {
+          max-width: 100%;
+        }
+      }
+      &:before {
+        content: "";
+        display: inline-block;
+        width: 6.5px;
+        height: 6.5px;
+        border-top: 1px solid v.$mainColor;
+        border-right: 1px solid v.$mainColor;
+        position: absolute;
+        top: 50%;
+        right: 14px;
+        transform: translateY(-50%) rotate(45deg);
+      }
+    }
+  }
+}

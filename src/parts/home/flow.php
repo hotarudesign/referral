@@ -18,8 +18,7 @@
                 <li class="circle__item">
                     <div class="circle__item__main jsCircleMain01">
                         <div class="circle__item__body jsCircleBody01">
-                            <h4 class="circle__item__body-ttl">エントリー</h4>
-                            <p class="circle__item__body-desc">弊社キャリア採用責任者へメール。</p>
+                            <h4 class="circle__item__body-ttl">エントリー</h4><p class="circle__item__body-desc">エントリーフォームから応募</p>
                         </div>
                         <div class="circle__item-icon">
                             <picture>

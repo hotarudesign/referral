@@ -4,8 +4,6 @@
 $function_files = [
     '/functions/file.php',
     '/functions/init.php',
-    '/functions/pagination.php',
-    '/functions/thumbnail.php',
 ];
 
 foreach ($function_files as $file) {

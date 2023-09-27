@@ -1,0 +1,131 @@
+.recruit {
+  padding: 36px 0 0;
+}
+.recruit .page-top {
+  height: 60vh;
+  background: url(../../images/webp/recruit_page-top.webp) no-repeat 0% 100%/cover;
+}
+@media not screen and (min-width: 576px) {
+  .recruit .page-top {
+    height: 30vh;
+  }
+}
+.recruit__container {
+  padding: 73.4px 0 130px;
+}
+@media not screen and (min-width: 576px) {
+  .recruit__container {
+    padding: 40px 0;
+  }
+}
+.recruit__txt-desc {
+  margin: 35.1px 0 0;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2;
+  color: #2e2e2e;
+}
+@media not screen and (min-width: 576px) {
+  .recruit__txt-desc {
+    font-size: 1.1rem;
+  }
+}
+.recruit .personal {
+  margin: 70px 0 0;
+}
+.recruit .personal-ttl {
+  font-weight: 500;
+  font-size: 2.8rem;
+}
+@media not screen and (min-width: 576px) {
+  .recruit .personal-ttl {
+    font-size: 1.7rem;
+  }
+}
+.recruit .personal-lead {
+  margin: 16px 0 0;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+@media not screen and (min-width: 576px) {
+  .recruit .personal-lead {
+    font-size: 1.1rem;
+  }
+}
+.recruit .personal__item {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+@media not screen and (min-width: 576px) {
+  .recruit .personal__item {
+    font-size: 1.1rem;
+  }
+}
+.recruit__occupation {
+  margin: 77px 0 0;
+}
+.recruit__occupation-ttl {
+  font-weight: 500;
+  font-size: 2.8rem;
+}
+@media not screen and (min-width: 576px) {
+  .recruit__occupation-ttl {
+    font-size: 1.7rem;
+  }
+}
+.recruit__occupation__list {
+  margin: 43.5px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.recruit__occupation__item {
+  max-width: 169px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-align: center;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px #e7e7e7;
+  position: relative;
+  transition: 0.5s;
+}
+@media not screen and (min-width: 576px) {
+  .recruit__occupation__item {
+    max-width: 100%;
+    font-size: 1.1rem;
+  }
+}
+.recruit__occupation__item:hover, .recruit__occupation__item:focus {
+  background: #2a3f51;
+  color: #fff;
+  transition: 0.5s;
+}
+.recruit__occupation__item a {
+  display: block;
+  padding: 11px 0;
+}
+.recruit__occupation__item:last-child {
+  max-width: 247px;
+  width: 100%;
+}
+@media not screen and (min-width: 576px) {
+  .recruit__occupation__item:last-child {
+    max-width: 100%;
+  }
+}
+.recruit__occupation__item:before {
+  content: "";
+  display: inline-block;
+  width: 6.5px;
+  height: 6.5px;
+  border-top: 1px solid #2a3f51;
+  border-right: 1px solid #2a3f51;
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  transform: translateY(-50%) rotate(45deg);
+}

@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Unbounded:wght@500&display=swap" rel="stylesheet">
-    <title>test_wp</title>
+    <title>カシワバラグループ リファラル採用特設ページ</title>
     <?php wp_head(); ?>
 </head>
 
@@ -33,7 +33,13 @@
                 );
                 ?>
             </nav>
-            <a href="https://thkd5375.talent-p.net/EntryFormMng/Entryform?url_token=b71d970ffcf54e6c9b2478287e7757e1" target="_blank" rel="noopener noreferrer" class="header__btn">エントリー</a>
+            <?php if (is_archive('recruit')) : ?>
+                <a href="https://thkd5375.talent-p.net/EntryFormMng/Entryform?url_token=b71d970ffcf54e6c9b2478287e7757e1" target="_blank" rel="noopener noreferrer" class="header__btn">エントリー</a>
+			            <?php  elseif (is_singular('recruit')) : ?>
+                <a href="https://thkd5375.talent-p.net/EntryFormMng/Entryform?url_token=b71d970ffcf54e6c9b2478287e7757e1" target="_blank" rel="noopener noreferrer" class="header__btn">エントリー</a>
+            <?php else : ?>
+                <a href="<?php echo esc_url(home_url('/recruit')); ?>" class="header__btn">エントリー</a>
+            <?php endif; ?>
             <button class="toggle-btn" id="toggleBtn"><span></span><span></span><span></span></button>
             <div class="slide-menu" id="slideMenu">
                 <div class="slide-menu__head">
